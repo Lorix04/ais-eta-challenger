@@ -4,6 +4,19 @@ End-to-end maritime ETA research project built from AIS position and voyage data
 
 > **Repository note:** raw company AIS files and the MMDEC Parquet files are intentionally not included. This repository contains derived research artifacts used for reproducibility. Keep the repository **private** unless the data owner explicitly authorizes public distribution.
 
+## At a glance
+
+| Item | Final state |
+|---|---|
+| Project status | **Final take-home submission ? M19 completed** |
+| Point model | **M16G ? Mixture of Experts** |
+| Uncertainty layer | **M16H + M18F selective ETA** |
+| Development validation | **Nested out-of-fold evaluation** |
+| External validation | **One-shot independent MMDEC holdout ? 500 MMSIs** |
+| Software validation | **250 / 250 tests passing on Windows / Python 3.13** |
+| Key finding | Stronger in-domain behaviour, with substantial degradation under cross-domain external validation |
+| Retuning policy | **No retuning on MMDEC after label reveal** |
+
 ## Project objective
 
 At a vessel's `Tracks.last_update`, predict the remaining time to the company-provided `Tracks.eta` reference using only information available at or before that decision time.
