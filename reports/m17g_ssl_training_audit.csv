@@ -1,0 +1,11 @@
+outer_fold,candidate,outer_train_mmsi,outer_valid_mmsi,ssl_pretraining_windows,ssl_pretraining_unique_mmsi,outer_valid_used_for_ssl_pretraining,loss_start,loss_end,objective
+0,moco_tcn64,308,78,2452,308,False,5.72270950485,3.73737827522,MoCo momentum-contrast InfoNCE
+0,masked_transformer_mae64,308,78,2452,308,False,0.200097552861,0.0302323158587,masked Transformer reconstruction (SmoothL1)
+1,moco_tcn64,309,77,2470,309,False,5.73974188407,3.7860796716,MoCo momentum-contrast InfoNCE
+1,masked_transformer_mae64,309,77,2470,309,False,0.22662826239,0.033007424097,masked Transformer reconstruction (SmoothL1)
+2,moco_tcn64,309,77,2461,309,False,5.73144954087,3.70324843349,MoCo momentum-contrast InfoNCE
+2,masked_transformer_mae64,309,77,2461,309,False,0.196459718436,0.0315541031747,masked Transformer reconstruction (SmoothL1)
+3,moco_tcn64,309,77,2460,309,False,5.73520186432,3.70691547665,MoCo momentum-contrast InfoNCE
+3,masked_transformer_mae64,309,77,2460,309,False,0.204663609332,0.026930857365,masked Transformer reconstruction (SmoothL1)
+4,moco_tcn64,309,77,2461,309,False,5.71245274782,3.66986647344,MoCo momentum-contrast InfoNCE
+4,masked_transformer_mae64,309,77,2461,309,False,0.19547559683,0.0306668986848,masked Transformer reconstruction (SmoothL1)

@@ -1,0 +1,13 @@
+{
+  "status": "M9_ALIGNMENT_APPLIED",
+  "company_target": "destination-port area entry",
+  "target_alignment": "conceptually_aligned_proxy_pending_exact_label_equivalence",
+  "remaining_target_questions": 2,
+  "m6_frozen_hashes_verified": 14,
+  "predictor_changed": false,
+  "final_holdout_reopened": false,
+  "pytest_passed": 72,
+  "m9_draft_submission_files": 105,
+  "m9_draft_submission_sha256": "51b2eafff18cc07d774ab52a384cd6affccb309badab611aab410006e8d1cacf",
+  "deterministic_package_hash_verified": true
+}

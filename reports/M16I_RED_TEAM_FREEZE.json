@@ -1,0 +1,38 @@
+{
+  "milestone": "M16I",
+  "version": "m16i-red-team-ablation-stress-v1-20260922",
+  "gate": "PASS_RED_TEAM_WITH_HEAVY_TAIL_CAVEAT",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "final_test_used": false,
+  "red_team_only_no_tuning": true,
+  "artifact_sha256": {
+    "M16I_REPORT.md": "4f9494e2d53b339af74805c3472ce8965b0e845fc949cb40a13d7f64977fbdd4",
+    "M16I_SUMMARY.json": "11f270a1dff71bc666fc80139f677b5ab1482028db0daad296b82e3bb4f55d92",
+    "m16i_ablation_metrics.csv": "694c874f5e48d3e70f4c63141be0bd5f5821dec0cd0816154917b03a27c01912",
+    "m16i_fold_stability.csv": "e0fb6cdcd60f1e37b42cdeaee2db3235c133e134c5f01f1382b0b02e0074f4c5",
+    "m16i_leave_one_fold_out.csv": "89e20b4055c2304f22d2ba6dcf91cf2e76997d7992ad6d2515bc1a26778dc21d",
+    "m16i_trimmed_stress.csv": "90c429e0327bcf4aed7bd5319c4fbba9890feabee5035c4a21baf232ad6a41a6",
+    "m16i_winsorized_stress.csv": "24092a121d17feefaebc82697b7ce7257866df592253dde6ab4f114c4012468c",
+    "m16i_bootstrap_gain.csv": "ea83863014d660e008b8c8fe9d5e57115758b9ac2591c44da7cf6e70e80e6ad4",
+    "m16i_destination_leave_one_out.csv": "b9c9e752f459a5cc71395cb3c0af60fa6b571afe5c8cdd1ee2bb9d3e36a3a4d6",
+    "m16i_error_concentration.csv": "c5ba82581da032f419d486a16d4df6ce44d1d07a6a489e69c8f7549d990e1f8f",
+    "m16i_subgroup_stress.csv": "e33e0a6e111263b4b3156c42e38582c257f993a214a253221327663501d53606",
+    "m16i_calibration_audit.csv": "5295b79fae9e0aa760f42922e2b8a8a4287dc9b8b03ae682ed3d454588a2d6ec",
+    "m16i_prediction_pathologies.csv": "3f84312d051c1d10bd3b24d9090e94cdf6c3582a11f9204c15489a97a819d303",
+    "m16i_row_audit.csv": "855baed166196b15f5fcc986f5ea57c55cf4e6da2d2df59917eb20b4b22ea748",
+    "m16i_ablation_comparison.png": "a0f48be11ccf43a29f40cf422c4ad4056a254f9577d456726bd9686ea1af6f52",
+    "m16i_fold_gain.png": "67d2fc26043867b6fe2fba5c8f7acd3bad8de9771854ba57f4d5b1701bb52fe1",
+    "m16i_bootstrap_gain.png": "78d1fe4c83df7b24a54241a10108a0e14385d563a58347a8b9b3bc1c3fe67da3"
+  },
+  "prior_freeze_sha256": {
+    "M16A_BENCHMARK_FREEZE.json": "2d3b1cdbe0e9efe170180aa4f55bdb00862f38a84f80406f7e8b7bf9f5fdbe1d",
+    "M16B_RESOLVER_FREEZE.json": "eff1bb3fc559d5d32a10004aaf8dddc082934103c9876ef6c397d003108e578c",
+    "M16C_HIERARCHICAL_PRIOR_FREEZE.json": "fc1c6e5ddd74ba5668456c5a057095b25212dcb746e8110ee1f0f544e0c7b62a",
+    "M16D_ROUTE_ANALOGUE_FREEZE.json": "fdaa9d2541f9d3285da00f136d4fca1cfdf43287cb80744bd00ffe25fbc2d99b",
+    "M16E_MARITIME_PHYSICS_FREEZE.json": "e2dc2164918518232d8e83bec6954f5ef8d29f0bb8be224f69ca4330d02b1f75",
+    "M16F_TABULAR_PANEL_FREEZE.json": "02f922a651bcfe5525e48723bd63e2dbc7cfeb9c5afb09171a3ac87960096072",
+    "M16G_MIXTURE_FREEZE.json": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "M16H_PROBABILISTIC_FREEZE.json": "79526e72d72f71167598622f179fc83d6f3b463336dcfc275f91a5899e6d834c"
+  }
+}

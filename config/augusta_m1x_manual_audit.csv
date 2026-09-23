@@ -1,0 +1,80 @@
+session_id,keep_for_port_call_truth,ground_truth_confidence,audited_event_type,audit_reason_code,audit_note
+AU-001,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-002,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-003,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-004,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-005,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-006,False,C,AMBIGUOUS_GATE_EVENT,no_confirmed_stop_within_session,Atlas review: gate crossing is not followed by a persistent stop within the reconstructed session; not retained as arrival truth.
+AU-007,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-008,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-009,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-010,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because confirmation window contains 42 min gap.
+AU-011,False,C,AMBIGUOUS_GATE_EVENT,no_confirmed_stop_within_session,Atlas review: gate crossing is not followed by a persistent stop within the reconstructed session; not retained as arrival truth.
+AU-012,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 3452 min and an observation gap of 3266 min; post-entry continuity is insufficient.
+AU-013,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because confirmation window contains 38 min gap.
+AU-014,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because confirmation window contains 22 min gap.
+AU-015,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 676 min and an observation gap of 544 min; post-entry continuity is insufficient.
+AU-016,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because Scirocco gate is a research proxy; outbound is unresolved; automatic candidate quality was C.
+AU-017,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-018,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 1528 min and an observation gap of 1451 min; post-entry continuity is insufficient.
+AU-019,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 2754 min and an observation gap of 575 min; post-entry continuity is insufficient.
+AU-020,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-021,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-022,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-023,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because Scirocco gate is a research proxy.
+AU-024,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because Scirocco gate is a research proxy.
+AU-025,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 3576 min and an observation gap of 1463 min; post-entry continuity is insufficient.
+AU-026,False,C,AMBIGUOUS_GATE_EVENT,no_confirmed_stop_within_session,Atlas review: gate crossing is not followed by a persistent stop within the reconstructed session; not retained as arrival truth.
+AU-027,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 764 min and an observation gap of 708 min; post-entry continuity is insufficient.
+AU-028,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 387 min and an observation gap of 355 min; post-entry continuity is insufficient.
+AU-029,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 469 min and an observation gap of 382 min; post-entry continuity is insufficient.
+AU-030,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because confirmation window contains 36 min gap.
+AU-031,False,C,AMBIGUOUS_GATE_EVENT,no_confirmed_stop_within_session,Atlas review: gate crossing is not followed by a persistent stop within the reconstructed session; not retained as arrival truth.
+AU-032,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-033,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-034,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end; automatic candidate quality was B.
+AU-035,False,C,AMBIGUOUS_GATE_EVENT,no_confirmed_stop_within_session,Atlas review: gate crossing is not followed by a persistent stop within the reconstructed session; not retained as arrival truth.
+AU-036,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-037,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 699 min and an observation gap of 623 min; post-entry continuity is insufficient.
+AU-038,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-039,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-040,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-041,False,C,AMBIGUOUS_GATE_EVENT,confirmation_requires_long_observation_gap,Atlas review: stop confirmation occurs only after 824 min and an observation gap of 674 min; post-entry continuity is insufficient.
+AU-042,False,C,AMBIGUOUS_GATE_EVENT,no_confirmed_stop_within_session,Atlas review: gate crossing is not followed by a persistent stop within the reconstructed session; not retained as arrival truth.
+AU-043,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-044,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-045,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-046,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-047,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-048,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because confirmation window contains 87 min gap.
+AU-049,False,C,AMBIGUOUS_GATE_EVENT,unnamed_sparse_unresolved_confirmation,"Atlas review: unnamed vessel, unresolved outbound and multiple gaps before confirmation make the candidate too ambiguous for ground truth."
+AU-050,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-051,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-052,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-053,False,C,AMBIGUOUS_GATE_EVENT,no_confirmed_stop_within_session,Atlas review: gate crossing is not followed by a persistent stop within the reconstructed session; not retained as arrival truth.
+AU-054,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-055,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-056,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-057,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is unresolved; automatic candidate quality was C.
+AU-058,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-059,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-060,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-061,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end; confirmation window contains 11 min gap.
+AU-062,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-063,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-064,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-065,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is unresolved; confirmation window contains 15 min gap; automatic candidate quality was C.
+AU-066,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because confirmation window contains 11 min gap.
+AU-067,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-068,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-069,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is unresolved; automatic candidate quality was C.
+AU-070,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is unresolved; automatic candidate quality was C.
+AU-071,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-072,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is unresolved; automatic candidate quality was C.
+AU-073,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-074,True,A,VALIDATED_PORT_ENTRANCE,coherent_entry_prompt_stop,Atlas review: coherent research-gate entry followed by sufficiently contiguous inner-Porto-Megarese stop confirmation.
+AU-075,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is unresolved; confirmation window contains 20 min gap; automatic candidate quality was C.
+AU-076,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-077,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.
+AU-078,False,C,AMBIGUOUS_GATE_EVENT,no_confirmed_stop_within_session,Atlas review: gate crossing is not followed by a persistent stop within the reconstructed session; not retained as arrival truth.
+AU-079,True,B,VALIDATED_PORT_ENTRANCE,coherent_entry_with_caveat,Atlas review: entry and stop confirmation are credible; confidence downgraded because outbound is right-censored at dataset end.

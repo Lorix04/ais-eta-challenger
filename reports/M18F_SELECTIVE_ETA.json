@@ -1,0 +1,62 @@
+{
+  "milestone": "M18F",
+  "version": "m18f-uncertainty-selective-eta-v1-20260923",
+  "gate": "PASS_SELECTIVE_ETA_ADVISORY_LAYER",
+  "scope": {
+    "development_population": 386,
+    "blocked_old_final_population": 53,
+    "fresh_holdout_opened": false,
+    "old_final_used": false,
+    "m16g_modified": false,
+    "m16h_modified": false,
+    "target_relabeling": false,
+    "strict_rows_deleted": false,
+    "selection_uses_validation_target": false,
+    "selection_conditional_conformal_guarantee_claimed": false
+  },
+  "method": {
+    "selection_score": "frozen M16H predicted_abs_error_h",
+    "development_evaluation": "for each M16A outer fold, threshold is a quantile of cross-fitted M16H risk scores from outer-train owners only; applied once to outer-valid rows",
+    "coverage_targets": [
+      1.0,
+      0.9,
+      0.8,
+      0.7,
+      0.6,
+      0.5
+    ],
+    "balanced_target_coverage": 0.8,
+    "fresh_holdout_policy": "freeze a development-derived uncertainty threshold before one-time holdout opening; no threshold tuning on holdout labels",
+    "interval_claim": "M16H central interval coverage after selection is empirical audit only; no selection-conditional conformal guarantee is claimed"
+  },
+  "balanced_policy": {
+    "policy_id": "BALANCED_80",
+    "target_coverage": 0.8,
+    "point_prediction_source": "frozen_M16G",
+    "interval_source": "frozen_M16H",
+    "auto_action": "AUTO_ETA_WITH_UNCERTAINTY",
+    "defer_action": "DEFER_LOW_CONFIDENCE",
+    "realized_development_coverage": 0.7875647668393783,
+    "retained_rows": 304,
+    "deferred_rows": 82,
+    "full_mae_h": 185.88269651558392,
+    "retained_mae_h": 108.69616975091472,
+    "mae_reduction_fraction": 0.4152432055890586,
+    "retained_medae_h": 12.9925135031,
+    "retained_p90_ae_h": 133.18204130199993,
+    "retained_abs_error_share": 0.46053384844799533,
+    "retained_empirical_interval_coverage": 0.8421052631578947,
+    "retained_mean_interval_width_h": 100.32541355008141,
+    "near_term_retention_fraction": 0.9139784946236559,
+    "near_term_retained_mae_h": 14.212996008624824,
+    "outer_fold_mae_improvements": 5,
+    "outer_fold_count": 5,
+    "frozen_pre_holdout_risk_threshold_h": 61.116040125
+  },
+  "interpretation": {
+    "selectivity_is_model_improvement": false,
+    "reason": "M18F improves reliability of automatic output by deferring uncertain rows; it does not lower error on the same complete population and does not replace M16G.",
+    "near_term_slice_is_target_derived_diagnostic_only": true,
+    "balanced_policy_is_advisory_until_fresh_holdout": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "blocked_old_final_rows": 53,
+  "claim": "Development-only latent declared-ETA noise/regime benchmark; runtime gating uses target-free features only.",
+  "development_rows": 386,
+  "final_test_used_for_selection": false,
+  "fold_wins_vs_m16g": 0,
+  "gain_h_vs_m16g": 0.0,
+  "gate": "NO_M17F_PROMOTION",
+  "latent_regime_training_uses_target_residuals": true,
+  "m16g_frozen_mae_h": 185.88269651558392,
+  "m16g_reconstructed_nested": true,
+  "m17f_mae_h": 185.88269651558392,
+  "m17f_medae_h": 19.3415972222,
+  "m17f_p90_ae_h": 290.6801288979,
+  "max_single_fold_regression_h": 0,
+  "milestone": "M17F",
+  "p90_ratio_vs_m16g": 1.0,
+  "promotion_gate": {
+    "max_p90_ratio": 1.02,
+    "max_single_fold_regression_h": 15.0,
+    "max_trim95_regression_h": 0.0,
+    "min_fold_wins": 3,
+    "min_mae_gain_h": 1.0
+  },
+  "selected_candidate_by_outer_fold": {
+    "0": "always_m16g",
+    "1": "always_m16g",
+    "2": "always_m16g",
+    "3": "always_m16g",
+    "4": "always_m16g"
+  },
+  "target_derived_runtime_features_used": false,
+  "trim95_m16g_mae_h": 64.68891062866584,
+  "trim95_m17f_mae_h": 64.68891062866584,
+  "version": "m17f-latent-target-noise-v1-20260922"
+}

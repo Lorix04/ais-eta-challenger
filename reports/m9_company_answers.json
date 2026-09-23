@@ -1,0 +1,38 @@
+{
+  "received_at": "2026-09-21",
+  "target": {
+    "company_definition": "vessel reaches/enters the area of the destination port",
+    "alignment_with_current_research_gate": "conceptually_aligned_proxy",
+    "exact_equivalence_confirmed": false,
+    "remaining_questions": [
+      "ground_truth_source",
+      "port_area_perimeter_or_polygon"
+    ]
+  },
+  "data_semantics": {
+    "positions": "historical AIS observations over time for each vessel",
+    "tracks": "most recent available vessel state",
+    "recorded_at": "timestamp associated with each AIS observation in Positions",
+    "recorded_at_upstream_semantics": "unknown"
+  },
+  "voyage_fields": {
+    "historical_destination_in_positions": true,
+    "historical_eta_in_positions": false,
+    "eta_in_tracks_latest_state": true
+  },
+  "additional_history_available_for_exercise": false,
+  "existing_model": {
+    "developed_by_company": false,
+    "input_information_set_known": false
+  },
+  "business_evaluation": {
+    "specific_horizon_supplied": false,
+    "specific_metric_supplied": false,
+    "stated_objective": "ETA to arrival at destination port"
+  },
+  "m9_policy": {
+    "predictor_changed": false,
+    "final_holdout_reopened": false,
+    "historical_m6_metrics_relabelled_as_official_company_target": false
+  }
+}

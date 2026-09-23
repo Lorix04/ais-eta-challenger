@@ -1,0 +1,24 @@
+{
+  "milestone": "M16C",
+  "status": "FOLD_SAFE_HIERARCHICAL_PRIOR_FROZEN",
+  "version": "m16c-hierarchical-prior-v1-20260921",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "selection_population_rule": "M10 train+calibration only; 53-row old final hard-blocked",
+  "outer_fold_source": "M16A frozen outer folds",
+  "inner_selection_only": true,
+  "final_test_used_for_selection": false,
+  "candidate_config_count": 36,
+  "primary_metric": "mae_h",
+  "gate": "PASS_COMPONENT_NOT_STANDALONE",
+  "artifact_sha256": {
+    "m16c_oof_predictions.csv": "d959c44b9f460d0914f57d0bc93dc1854d3507479ba433f092c9067847f2148b",
+    "m16c_inner_search.csv": "b9ce5636457f3ca8298f21f05adf4e41313750a8778c21c98f81ca4e4e645e8c",
+    "m16c_outer_selected_configs.csv": "72c7066d05324d21b30c10415bec2a887b1b35565961f7db50688a298ab8a674",
+    "m16c_model_metrics.csv": "e2d0376e5657bad998640e0acb79e820adf1f465b80b2d8fbf30f4ccea4166d5",
+    "m16c_fold_metrics.csv": "73d4d1d8a698c281c595cb647d48847a93b797543e4137f49fb668d2c0fa95de",
+    "m16c_fallback_summary.csv": "61f4e5120951e43910f9c74108b1944331ff5f6735c7a4cce5948f52faa1399c",
+    "M16C_SUMMARY.json": "2fc0343ab47519a744edc0e7d19ae8fcc9077c868d54fd087f774c5ac903bda2",
+    "m16c_prior_comparison.png": "a621465e85e7035f6b3f358662bea363c02d9e7ffe6605d72744a7c5a8b66e06"
+  }
+}

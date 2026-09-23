@@ -1,0 +1,6 @@
+outer_fold,selected_candidate_id,m16g_meta_id,m16g_expected_meta_id,m16g_rebuild_max_abs_diff_h,outer_train_n,outer_valid_n,selected_on_inner_only,diagnostic
+0,always_m16g,rf_hard_gate,rf_hard_gate,0.0,308,78,True,"{""n_regimes"": 1, ""regime_locs_h"": [0.0]}"
+1,always_m16g,median_blend,median_blend,4.999947122996673e-10,309,77,True,"{""n_regimes"": 1, ""regime_locs_h"": [0.0]}"
+2,always_m16g,extra_trees_hard_gate,extra_trees_hard_gate,0.0,309,77,True,"{""n_regimes"": 1, ""regime_locs_h"": [0.0]}"
+3,always_m16g,extra_trees_hard_gate,extra_trees_hard_gate,0.0,309,77,True,"{""n_regimes"": 1, ""regime_locs_h"": [0.0]}"
+4,always_m16g,hist_gb_hard_gate,hist_gb_hard_gate,0.0,309,77,True,"{""n_regimes"": 1, ""regime_locs_h"": [0.0]}"

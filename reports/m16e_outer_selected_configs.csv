@@ -1,0 +1,6 @@
+outer_fold,selected_config_id,speed_window_min,distance_mode,correction,inner_best_mae_h,inner_best_p90_ae_h,inner_best_medae_h,inner_eligible_rows,outer_eligible_rows,selected_on_inner_only
+0,sog180__geodesic__corr_destination_residual,180,geodesic,destination_residual,133.564792718,36.7495596706,2.73515045907,92,23,True
+1,sog180__geodesic__corr_global_residual,180,geodesic,global_residual,150.980332475,49.5961417186,2.76443704156,96,19,True
+2,sog180__geodesic__corr_destination_residual,180,geodesic,destination_residual,176.444323535,68.4208696039,3.30897203358,92,23,True
+3,sog180__geodesic__corr_destination_residual,180,geodesic,destination_residual,212.246780793,656.171306924,3.09585194499,87,28,True
+4,sog180__geodesic__corr_destination_residual,180,geodesic,destination_residual,138.246166487,64.6990365803,2.90520712367,93,22,True

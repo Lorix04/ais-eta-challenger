@@ -1,0 +1,36 @@
+{
+  "current_phase": "M19_DONE_EXTERNAL_MMDEC_ONE_SHOT_NO_RETUNING",
+  "excluded": [
+    "raw company AIS inputs",
+    "MMDEC Dataset_AIS_POS.parquet and Dataset_AIS_SPEC.parquet",
+    "internal evidence/ screenshot-diff-test transcript history",
+    "personalized email/call preparation documents",
+    "local caches, virtual environments and logs"
+  ],
+  "external_result": {
+    "full_mae_h": 550.4090836774562,
+    "future_0_7d_posthoc_mae_h": 38.35989830960275,
+    "mmdec_spent_no_retuning": true,
+    "rows": 500
+  },
+  "package": "ais_eta_m19_github_ready",
+  "portability_patch": "reports/M19_PORTABILITY_PATCH.json",
+  "purpose": "Clean GitHub-ready private technical-review repository",
+  "recommended_visibility": "private",
+  "retained_for_reproducibility": [
+    "source code, scripts and tests",
+    "frozen reports and manifests",
+    "model artifacts",
+    "compact derived artifacts required by verifier tests",
+    "two small frozen historical submission ZIPs under dist/"
+  ],
+  "source_archive": "ais_eta_m19_external_complete.zip",
+  "source_archive_sha256": "128263a3605be43597423539f1397bac0d6e6bfe73b42fbc8e5c11c1edf3a2a2",
+  "validation": {
+    "compileall": "PASS",
+    "m18g1_verifier": "PASS",
+    "m18g_verifier": "PASS",
+    "m19_verifier": "PASS",
+    "pytest": "250 passed"
+  }
+}

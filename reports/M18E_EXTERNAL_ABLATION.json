@@ -1,0 +1,48 @@
+{
+  "milestone": "M18E",
+  "version": "m18e-external-information-ablation-lab-v1-20260923",
+  "decision": "NO_NEW_EXTERNAL_PROMOTION__LAB_AND_BLOCKERS_FROZEN",
+  "scope": {
+    "development_population": 386,
+    "blocked_old_final_population": 53,
+    "fresh_holdout_opened": false,
+    "old_final_used": false,
+    "m16g_modified": false,
+    "m16h_modified": false,
+    "target_relabeling": false,
+    "strict_rows_deleted": false,
+    "new_external_model_promoted": false
+  },
+  "source_summary": {
+    "source_count": 6,
+    "run_retrospective": 1,
+    "ready_new_data_pinned": 0,
+    "blocked_dataset_not_pinned": 3,
+    "blocked_no_historical_decision_time_data": 2
+  },
+  "retrospective_findings": {
+    "strict_destination_canonicalization_mae_gain_h": -6.287843983862729,
+    "strict_destination_canonicalization_p90_gain_h": 17.113263888649954,
+    "strict_destination_canonicalization_ci95_h": [
+      -32.3904933253925,
+      17.274879920507118
+    ],
+    "near_term_physics_component_rows": 101,
+    "near_term_physics_component_mae_gain_h": 6.726336802704064,
+    "near_term_physics_component_win_fraction": 0.7227722772277227,
+    "near_term_physics_component_ci95_h": [
+      4.728151102043472,
+      8.923639002632683
+    ]
+  },
+  "policy": {
+    "external_source_requires_local_pinned_artifact": true,
+    "external_source_requires_decision_time_availability": true,
+    "blocked_sources_are_treated_as_zero_gain": false,
+    "target_derived_slices_are_diagnostic_only": true,
+    "historical_component_ablation_is_new_model_promotion": false,
+    "moving_web_source_may_be_partially_scraped_into_model": false,
+    "reanalysis_may_substitute_for_operational_forecast_without_warning": false
+  },
+  "next_action": "Acquire and pin one genuinely new decision-time-safe source artifact before any M18E predictive promotion. Highest-priority candidates remain complete destination/port-intent reference and reproducible navigable-route data; do not bundle blocked weather/port-ops sources into a synthetic mega-ablation."
+}

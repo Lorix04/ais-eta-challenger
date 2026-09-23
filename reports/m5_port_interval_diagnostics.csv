@@ -1,0 +1,3 @@
+port,calibration_calls,port_specific_conformal_order_k,port_specific_q_h,uses_max_calibration_score,temporal_high_rows,temporal_high_calls,pooled_m4_half_width_h,pooled_row_coverage,pooled_trajectory_coverage,port_specific_row_coverage_diagnostic,port_specific_trajectory_coverage_diagnostic,port_specific_interval_status
+AUGUSTA,16,16,14.79956318967619,True,132,14,2.485228427881811,1.0,1.0,1.0,1.0,DIAGNOSTIC_ONLY_SMALL_N
+CATANIA,8,8,0.9506581113684184,True,10,2,2.485228427881811,1.0,1.0,1.0,1.0,DIAGNOSTIC_ONLY_SMALL_N

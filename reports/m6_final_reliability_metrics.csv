@@ -1,0 +1,3 @@
+reliability_tier,rows,calls,raw_mae_under24_h,stabilized_mae_under24_h
+HIGH,120,12,0.6265634702026813,0.681128392534386
+MEDIUM,31,5,1.281778331645427,1.1929508174083332

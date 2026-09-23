@@ -1,0 +1,8 @@
+stage,label,mae_h,medae_h,p90_ae_h,role
+M16A,Destination median,202.97087831,22.2663888889,330.815,baseline
+M16A,Current CatBoost,206.142298577,25.9396850729,325.513566541,baseline
+M16C,Hierarchical prior,202.560789332,25.16375,339.874668632,expert
+M16D,Route analogue,194.982297784,22.3333333333,292.90125,expert
+M16E,Physics-gate + route,192.925572125,19.0806302075,292.90125,best_single
+M16F,HistGradientBoosting,197.276999488,27.1590292026,292.836972902,expert
+M16G,Nested MoE,185.882696516,19.3415972222,290.680128898,challenger_point

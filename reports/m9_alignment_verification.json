@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "frozen_hashes_checked": 14,
+  "predictor_changed": false,
+  "final_holdout_reopened": false,
+  "target_alignment": "conceptually_aligned_proxy_pending_ground_truth_and_boundary",
+  "remaining_target_questions": 2,
+  "final_route_mae_min_preserved": 36.450886335219145,
+  "final_geodesic_mae_min_preserved": 37.74577189973942
+}

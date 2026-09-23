@@ -1,0 +1,84 @@
+{
+  "milestone": "M18G",
+  "version": "m18g-frozen-external-promotion-gate-v1-20260923",
+  "status": "EXTERNAL_PROMOTION_GATE_FROZEN__HOLDOUT_REMAINS_SEALED",
+  "scope": {
+    "development_population": 386,
+    "blocked_old_final_population": 53,
+    "fresh_holdout_opened": false,
+    "holdout_labels_observed": false,
+    "development_reused_for_new_model_selection": false,
+    "post_holdout_retuning_allowed": false,
+    "one_time_evaluation_executed": false
+  },
+  "opening_readiness": {
+    "ready_now": false,
+    "blockers": [
+      "fresh external holdout not supplied",
+      "blind prediction ledger not yet generated/sealed",
+      "no point candidate registered before labels",
+      "no full-development M16G/M16H fresh-row scoring bundle registered"
+    ],
+    "important_note": "The evaluation gate is executable now, but holdout opening is deliberately blocked until a pre-label scoring bundle and sealed prediction ledger exist."
+  },
+  "blind_opening_protocol": [
+    "1_freeze_holdout_schema_provenance_and_source_hashes_without_labels",
+    "2_register_baseline_and_optional_candidate_scoring_bundle_hashes_before_labels",
+    "3_generate_prediction_risk_interval_and_prelabel_slice_ledger_without_target_columns",
+    "4_assert_zero_exact_sample_key_overlap_with_439_original_supervised_rows",
+    "5_sha256_seal_prediction_ledger_and_opening_manifest",
+    "6_only_then_reveal_target_tte_h_labels",
+    "7_run_scripts/109_m18g_evaluate_external_holdout.py_once",
+    "8_freeze_result_no_retuning_on_same_holdout"
+  ],
+  "point_model_gate": {
+    "baseline": "registered full-development operational form of frozen M16G",
+    "candidate": "must be registered and hashed before label reveal; currently UNREGISTERED",
+    "primary_metric": "MAE_h",
+    "secondary_metrics": [
+      "MedAE_h",
+      "RMSE_h",
+      "P90_absolute_error_h",
+      "mean_signed_error_h"
+    ],
+    "paired_bootstrap_unit": "sample/owner row",
+    "paired_bootstrap_reps": 10000,
+    "paired_bootstrap_seed": 18023,
+    "primary_mae_gain_must_be_positive": true,
+    "paired_bootstrap_ci95_lower_bound_must_exceed_h": 0.0,
+    "max_p90_ratio": 1.02,
+    "critical_slice_columns": [
+      "slice_vessel_seen",
+      "slice_confidence_tier",
+      "slice_physics_eligible",
+      "slice_destination_resolved"
+    ],
+    "critical_slice_min_n": 20,
+    "max_critical_slice_regression_ratio": 1.1,
+    "slice_rule": "Only prediction-time/pre-label slices are gating slices; target-derived slices remain diagnostics only after the decision."
+  },
+  "selective_eta_gate": {
+    "candidate": "M18F_BALANCED_80",
+    "point_prediction": "same registered M16G prediction",
+    "uncertainty": "same registered M16H risk/interval",
+    "frozen_risk_threshold_h": 61.116040125,
+    "realized_coverage_min": 0.7,
+    "realized_coverage_max": 0.9,
+    "retained_mae_must_be_below_full_mae": true,
+    "deferred_mae_must_exceed_retained_mae": true,
+    "risk_abs_error_spearman_must_be_positive": true,
+    "retained_empirical_interval_coverage_min": 0.78,
+    "selection_conditional_conformal_guarantee": false
+  },
+  "failure_policy": {
+    "point_gate_failure": "KEEP_FROZEN_M16G; do not tune using this holdout",
+    "selective_gate_failure": "M18F remains development-only/advisory; do not retune threshold on this holdout",
+    "next_attempt_after_failure": "Any revised model/policy requires a different future external cohort."
+  },
+  "original_supervised_row_exclusion": {
+    "forbidden_key_file": "reports/m18g_forbidden_sample_keys.csv",
+    "rows": 439,
+    "old_final_rows_in_forbidden_set": 53,
+    "key_definition": "SHA256(MMSI|decision_time_UTC)"
+  }
+}

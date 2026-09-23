@@ -1,0 +1,31 @@
+{
+  "artifact_sha256": {
+    "M17G_REPORT.md": "37d4a8fbd3d3f0c1c261565444905d28b295d69341bd01ca483fe6fd6deddbfb",
+    "M17G_SUMMARY.json": "dd470d368f5003791120d3cda90565278cda096f0195e5f5425c9062910751e3",
+    "m17g_candidate_summary.csv": "d9b7ed6ddc07e0bfce405bdd0f5ae36ad4c823016dcc1037905cac99d26cfed5",
+    "m17g_encoder_comparison.png": "898d3ff69a01f052313938e8992e9c5739e5fbb8048293b9f26a0d0e17436012",
+    "m17g_fold_comparison.csv": "bbe17a20c8a529d211f8ea890d7e92261816f3125171184665f5e71eb8cfd637",
+    "m17g_fold_embeddings.npz": "2a0f1c1d57932a963a290324c4284f08e3dbdcdc0e618ca001e4bf4c9310a4f2",
+    "m17g_model_metrics.csv": "a49fe2ba0d40f05c1b0c6005cfd6e59f72797e6adce2d879502e5185860bcf95",
+    "m17g_neighbour_details.csv": "0008832f562eec077d4b6094bb2b489a10dc428e5eaedbe68aac28152b40963a",
+    "m17g_oof_predictions.csv": "0c7b2351d4389273e8d8fe71e7653e272cde9de44e4e34a7f5bb6d5d7c2c2dab",
+    "m17g_pretraining_window_audit.csv": "41aa7737fd1c82e04b351641f98d43f7748c154e59b7b4367fab77fb04c76491",
+    "m17g_ssl_convergence.png": "82a625c9cf8f6b0597bb3fdc07a2856a36c38931dfdb41672384958d2a5046d6",
+    "m17g_ssl_training_audit.csv": "26a9f9123f50f7771181693570cb10f5b485f907b1281771a31d00dd66aca3bb"
+  },
+  "blocked_old_final_population": 53,
+  "development_population": 386,
+  "final_test_used_for_selection": false,
+  "gate": "PASS_STRONGER_SSL_ENCODER_COMPONENT",
+  "immutable_inputs": {
+    "m14_submission": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c",
+    "m16g_freeze": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "m16j_freeze": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b",
+    "m17a_freeze": "2f74f3e59491d119a1d2139b2e79fd402e180ac3c07006cfff5e56df4dbde24a",
+    "m17f_freeze": "eeda48f7c3fe8f987395973a0e2f1d7d606d24c8118e5b2ccd7e051cd68d12ed"
+  },
+  "milestone": "M17G",
+  "outer_valid_used_for_ssl_pretraining": false,
+  "selected_candidate": "moco_tcn64",
+  "version": "m17g-stronger-ssl-v1-20260922"
+}

@@ -1,0 +1,47 @@
+{
+  "tracks_rows_total": 1196,
+  "ship_tracks": 1146,
+  "ship_eta_nonnull": 449,
+  "supervised_parseable_ship_eta_rows": 439,
+  "supervised_unique_mmsi": 439,
+  "one_row_per_mmsi": true,
+  "status_counts": {
+    "PAST_GT24H": 51,
+    "PAST_1_24H": 10,
+    "PAST_LT1H": 3,
+    "FUTURE_0_7D": 319,
+    "FUTURE_7_14D": 31,
+    "FUTURE_14_30D": 17,
+    "FUTURE_GT30D": 8
+  },
+  "split_counts": {
+    "train": 321,
+    "calibration": 65,
+    "final_test": 53
+  },
+  "future_reference_rows": 375,
+  "past_reference_rows": 64,
+  "target_tte_h_summary": {
+    "count": 439.0,
+    "mean": 10.978075803594026,
+    "std": 672.7788013399794,
+    "min": -3742.032222222222,
+    "1%": -2521.62585,
+    "5%": -600.4433888888888,
+    "10%": -79.83977777777778,
+    "25%": 14.114166666666666,
+    "50%": 48.32972222222222,
+    "75%": 82.01583333333333,
+    "90%": 236.88827777777763,
+    "95%": 368.9082222222221,
+    "99%": 2692.5908444444467,
+    "max": 4084.7630555555556
+  },
+  "median_position_age_min": 0.55,
+  "p95_position_age_min": 174.74999999999997,
+  "rows_without_history": 0,
+  "target_is_feature": false,
+  "eta_reference_interpretation": "company exercise reference label; not observed ATA",
+  "split_policy": "deterministic SHA-256 hash of MMSI only, 70/15/15",
+  "derived_file": "data/derived/m10_reference_rows.pkl.gz"
+}

@@ -1,0 +1,34 @@
+{
+  "candidate_sessions": 61,
+  "validated_port_call_entries": 51,
+  "excluded_ambiguous_or_non_call": 10,
+  "validated_unique_vessels": 28,
+  "ground_truth_confidence": {
+    "A": 37,
+    "B": 14
+  },
+  "primary_eta_eligible_calls": 28,
+  "primary_eta_unique_vessels": 13,
+  "primary_eta_roles": {
+    "CARGO": 24,
+    "PASSENGER": 1,
+    "OFFSHORE_SUPPLY": 1,
+    "SURVEY_OFFSHORE": 1,
+    "TANKER": 1
+  },
+  "right_censored_validated_entries": 5,
+  "unresolved_missing_outbound_validated_entries": 7,
+  "destination_support_fraction_validated": 0.6862745098039216,
+  "median_ground_truth_uncertainty_s": 61.0,
+  "p95_ground_truth_uncertainty_s": 62.0,
+  "sparse_validated_sessions": 5,
+  "audit_reason_counts": {
+    "coherent_entry_stop_exit": 34,
+    "coherent_entry_missing_outbound": 7,
+    "coherent_entry_sparse_session": 5,
+    "coherent_entry_stop_right_censored": 5,
+    "no_confirmed_port_stop": 4,
+    "insufficient_contiguous_confirmation": 3,
+    "brief_gate_excursion_no_stop": 3
+  }
+}

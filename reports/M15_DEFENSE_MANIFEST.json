@@ -1,0 +1,48 @@
+{
+  "status": "M15_INTERVIEW_TECHNICAL_DEFENSE_READY",
+  "scope": "internal post-freeze preparation only; no modelling or submission rebuild",
+  "primary_benchmark": {
+    "reference_rows": 439,
+    "split": {
+      "train": 321,
+      "calibration": 65,
+      "final_test": 53
+    },
+    "model": "catboost_current_snapshot",
+    "tree_count": 47,
+    "feature_count": 14,
+    "final_mae_h": 312.01882325980154,
+    "final_medae_h": 25.330220729072487,
+    "final_p90_abs_error_h": 560.4344131864802
+  },
+  "diagnostic_facts": {
+    "past_reference_rows": 64,
+    "future_gt7d_rows": 56,
+    "top5_final_abs_error_share": 0.791171433729623,
+    "future_0_7d_final_rows": 40,
+    "future_0_7d_same_model_mae_h": 28.569403891759038,
+    "top_single_feature": "destination_norm",
+    "strict_calibration_history_delta_mae_h": 6.384666247242706
+  },
+  "immutable_hashes": {
+    "m14_final_zip_sha256": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c",
+    "m14_final_manifest_sha256": "a3c60aa78adeef952776dcd4425a44fba1f39b3f8d2fce0d8b5a10f7e1dcb172",
+    "m14_final_sha_file_sha256": "1cc5baa04472fa2f3911287a0ef848e395085d1e600d0088a3ab8959714c9c23",
+    "m10_model_sha256": "efbb86375751e901c48c2f5724514828a10f9eb8ff08ffaabf2d875e369ef86a",
+    "m10_final_predictions_sha256": "fc6334d82f0b3c382e40805dc1a325163001a363ff6a6329da33160734011ee1",
+    "m6_freeze_sha256": "b551c12da6d05fbea22c365f0b2167879669d948c4d790d46ccd28a9dc8e17de"
+  },
+  "blocked_claims": [
+    "external_model_superiority",
+    "tracks_eta_is_observed_ata",
+    "unseen_port_generalization",
+    "berth_or_all_fast_readiness",
+    "safety_critical_navigation_readiness"
+  ],
+  "authoritative_fact_checks": [
+    "USCG NAVCEN AIS Class A Message 5",
+    "IMO MSC.74(69)",
+    "CatBoost SHAP documentation",
+    "Reproducible Builds cryptographic checksums"
+  ]
+}

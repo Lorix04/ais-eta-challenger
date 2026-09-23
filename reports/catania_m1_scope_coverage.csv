@@ -1,0 +1,4 @@
+scope,decision_points,calls_covered,unique_vessels,median_true_tta_h,max_true_tta_h,calls_<6h,calls_6-12h,calls_12-24h,calls_24-48h,calls_48-72h,calls_>72h
+scope_conditional_target_known,534,17,12,73.1823611111111,161.8073611111111,16,1,4,3,2,3
+scope_declared_destination,86,17,12,2.285555555555556,103.85319444444444,16,1,2,1,0,1
+scope_inbound_approach,80,16,12,2.2011111111111115,154.0573611111111,16,0,0,2,1,1

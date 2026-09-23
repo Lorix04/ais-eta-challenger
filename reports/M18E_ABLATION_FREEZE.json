@@ -1,0 +1,21 @@
+{
+  "milestone": "M18E",
+  "status": "EXTERNAL_ABLATION_LAB_FROZEN_NO_NEW_PROMOTION",
+  "version": "m18e-external-information-ablation-lab-v1-20260923",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "fresh_holdout_opened": false,
+  "model_change": false,
+  "new_external_model_promoted": false,
+  "m18a_baseline_freeze_sha256": "ea9219067beb818118a1895605069f28a8ee5023b807ca905b99f215fc2b8835",
+  "m18b_validation_freeze_sha256": "6c61f825ce2105577517dce9ee0422ece346a488eac9e9b0cb6ab25a409fbfb8",
+  "m18c_audit_freeze_sha256": "e2ede157d8d280560aabb16ae66820ae4ae3b446440c8d4c27f2b1272486dd8a",
+  "m18d_attribution_freeze_sha256": "a8778ee83a62e9f469629c13fc99c4ab76939c632f64345254971eb810a31dd8",
+  "m16g_oof_sha256": "cd8128d27e3a3d4232ff1758b78f6b48e3f14238dee272f9192ef74aca8af684",
+  "artifact_sha256": {
+    "reports/M18E_EXTERNAL_ABLATION.json": "da16892a783281e9488fdbd8d007865d585828f43d589964743b73b22575b51b",
+    "reports/m18e_ablation_results.csv": "277f0f52866b4a19f94c16a8da62fd0de773b1bd1bbf7ec37f5fe5774699abd5",
+    "reports/m18e_external_source_registry.csv": "f45b8f98ab964fac60bde7b63d4d1ccdfc276f4b0b53c039ff262842e255a276",
+    "docs/M18E_EXTERNAL_ABLATION_POLICY.md": "d62b67fe647b489ed876558b4aaf557af5e59f9fa08dbed4a1bd31b0bcc50217"
+  }
+}

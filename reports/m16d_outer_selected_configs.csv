@@ -1,0 +1,6 @@
+outer_fold,selected_config_id,inner_mae_h,inner_p90_ae_h,inner_medae_h
+0,geo_kin_6h__destination__k9,193.300648449,275.704305556,21.7301388889
+1,geo_kin_6h__destination__k9,192.729626034,336.706666667,21.7691666667
+2,geo_kin_3h__global__k9,190.219417476,301.2695,25.5230555556
+3,geo_kin_3h__destination__k9,225.239623337,358.360944444,26.0972222222
+4,geo_kin_3h__destination__k5,161.369005753,249.635944444,23.7794444444

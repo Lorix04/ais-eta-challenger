@@ -1,0 +1,5 @@
+horizon,rows,calls,unique_vessels
+<=6h,149,13,12
+<=12h,151,13,12
+<=24h,151,13,12
+>24h,0,0,0

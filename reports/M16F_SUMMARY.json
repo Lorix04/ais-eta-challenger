@@ -1,0 +1,31 @@
+{
+  "milestone": "M16F",
+  "version": "m16f-tabular-panel-v1-20260921",
+  "gate": "PASS_TABULAR_COMPLEMENT_FOR_M16G",
+  "development_rows": 386,
+  "blocked_old_final_rows": 53,
+  "families": [
+    "catboost",
+    "extra_trees",
+    "hist_gb",
+    "random_forest",
+    "svr"
+  ],
+  "candidate_config_count": 10,
+  "best_family": "hist_gb",
+  "best_model": "m16f_hist_gb",
+  "best_mae_h": 197.27699948763032,
+  "best_medae_h": 27.159029202572228,
+  "best_p90_ae_h": 292.8369729022889,
+  "m16a_raw_destination_mae_h": 202.9708783102998,
+  "m16a_current_catboost_mae_h": 206.14229857747853,
+  "m16d_route_mae_h": 194.9822977835073,
+  "gain_h_vs_m16a_current_catboost": 8.865299089848207,
+  "gain_h_vs_m16a_raw_destination": 5.69387882266949,
+  "gain_h_vs_m16d_route": -2.294701704123014,
+  "fold_wins_vs_m16a_current_catboost": 5,
+  "fold_wins_vs_m16d_route": 3,
+  "final_test_used_for_selection": false,
+  "expert_predictions_used_as_features": false,
+  "claim": "Development-only nested OOF tabular family comparison; old final remains blocked and no frozen submission is reopened."
+}

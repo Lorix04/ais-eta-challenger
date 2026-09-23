@@ -1,0 +1,7 @@
+scope,baseline,horizon_band,prediction_points,calls_covered,voyage_balanced_mae_h,voyage_balanced_median_ae_h,voyage_balanced_p90_ae_h
+scope_inbound_approach,pred_b2_geodesic_median30_sog_floor_h,<6h,55,16,0.2013949707186173,0.09737054348746393,0.4314066053834109
+scope_inbound_approach,pred_b2_geodesic_median30_sog_floor_h,6-12h,0,0,,,
+scope_inbound_approach,pred_b2_geodesic_median30_sog_floor_h,12-24h,0,0,,,
+scope_inbound_approach,pred_b2_geodesic_median30_sog_floor_h,24-48h,7,2,25.20506371522261,25.632964940734222,27.526383189823246
+scope_inbound_approach,pred_b2_geodesic_median30_sog_floor_h,48-72h,5,1,58.25881874506062,62.56122332607741,66.06145402315792
+scope_inbound_approach,pred_b2_geodesic_median30_sog_floor_h,>72h,13,1,143.41416875578508,146.14544240144323,151.40557260348922

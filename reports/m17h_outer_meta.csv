@@ -1,0 +1,6 @@
+outer_fold,selected_meta_id,meta_strategy_frozen_from_m16g,outer_train_n,outer_valid_n,inner_folds,m17g_regenerated_inner_oof,meta_candidate_reselected
+0,rf_hard_gate,True,308,78,4,True,False
+1,median_blend,True,309,77,4,True,False
+2,extra_trees_hard_gate,True,309,77,4,True,False
+3,extra_trees_hard_gate,True,309,77,4,True,False
+4,hist_gb_hard_gate,True,309,77,4,True,False

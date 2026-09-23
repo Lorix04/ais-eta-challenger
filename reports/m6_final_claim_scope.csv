@@ -1,0 +1,12 @@
+claim,status,evidence
+Frozen route-kNN improves <=24h over geodesic on the locked final scorable set,SMALL_POSITIVE_FINAL_EFFECT_NOT_STATISTICALLY_RESOLVED,"13 scorable calls; 3.4% MAE gain; paired bootstrap 95% CI [-2.5,4.7] min includes 0"
+Frozen route-kNN improves final Catania approach ETA,POSITIVE_BUT_UNDERPOWERED,3 calls; 48.9% gain
+Frozen route-kNN improves final Augusta approach ETA,NEUTRAL_FINAL_RESULT,10 calls; 0.1% gain; bootstrap CI spans 0
+Frozen model covers every locked final call,FALSE_UNDER_FROZEN_OPERATIONAL_SCOPE,16 locked calls opened; 13 had causal inbound-approach rows; 3 Catania calls had none
+HIGH reliability identifies a lower-error regime,SUPPORTED_SMALL_FINAL_SAMPLE,"HIGH 12 calls, raw <=24h MAE 37.6 min; MEDIUM 5 calls, 76.9 min"
+Frozen 90% simultaneous HIGH-reliability interval transfers to final holdout,SUPPORTED_SMALL_FINAL_SAMPLE,12 calls; whole-call coverage 91.7%; row coverage 89.2%
+Causal ETA stabilizer improves final point accuracy,NOT_SUPPORTED_FINAL,raw <=24h 36.5 min vs stabilized 38.7 min; kept only as optional jitter-reduction layer
+Causal ETA stabilizer reduces final ETA jitter,SUPPORTED_SMALL_FINAL_SAMPLE,P90 revision 27.4 -> 16.3 min
+Final test establishes >24h performance,NOT_ESTABLISHED,0 final calls with >24h frozen-scope predictions
+Model beats reported AIS ETA,NOT_ESTABLISHED,0 reported-ETA snapshots aligned within 60 min; closest 128.7 min
+Model generalizes to unseen ports / berth / all-fast,NOT_ESTABLISHED,M5 scope boundary remains unchanged

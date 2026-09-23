@@ -1,0 +1,6 @@
+outer_fold,selected_router_id,m16g_meta_id,m16g_expected_meta_id,m16g_rebuild_max_abs_diff_h,outer_train_n,outer_valid_n,selected_on_inner_only
+0,always_m16g,rf_hard_gate,rf_hard_gate,0,308,78,True
+1,logit_c100_t080,median_blend,median_blend,4.999947123e-10,309,77,True
+2,logit_c005_t070,extra_trees_hard_gate,extra_trees_hard_gate,0,309,77,True
+3,always_m16g,extra_trees_hard_gate,extra_trees_hard_gate,0,309,77,True
+4,logit_c100_t080,hist_gb_hard_gate,hist_gb_hard_gate,0,309,77,True

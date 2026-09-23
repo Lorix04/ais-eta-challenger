@@ -1,0 +1,31 @@
+{
+  "milestone": "M18G",
+  "version": "m18g-frozen-external-promotion-gate-v1-20260923",
+  "status": "FROZEN_EXTERNAL_GATE_HOLDOUT_SEALED",
+  "fresh_holdout_opened": false,
+  "holdout_labels_observed": false,
+  "one_time_evaluation_executed": false,
+  "opening_ready_now": false,
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "m18a_freeze_sha256": "ea9219067beb818118a1895605069f28a8ee5023b807ca905b99f215fc2b8835",
+  "m18b_freeze_sha256": "6c61f825ce2105577517dce9ee0422ece346a488eac9e9b0cb6ab25a409fbfb8",
+  "m18c_freeze_sha256": "e2ede157d8d280560aabb16ae66820ae4ae3b446440c8d4c27f2b1272486dd8a",
+  "m18d_freeze_sha256": "a8778ee83a62e9f469629c13fc99c4ab76939c632f64345254971eb810a31dd8",
+  "m18e_freeze_sha256": "aedb57421bbc628c3d93db874c38f38ababc4cc007fdb8bc89704fcf1586761a",
+  "m18f_freeze_sha256": "b49f862e4917ee189239ad045c85842b8583ec9cf32f69c553e1799a4663ae53",
+  "m16g_oof_sha256": "cd8128d27e3a3d4232ff1758b78f6b48e3f14238dee272f9192ef74aca8af684",
+  "m16h_oof_intervals_sha256": "c6e1083db4e593fe879c4bb2be00763979d424f7673d96e388f2196b9948c52d",
+  "artifact_sha256": {
+    "reports/M18G_EXTERNAL_PROMOTION_GATE.json": "1854be438876b65a828dbfff400ab511f39bdc8ad8cfe2471abd9663bc423d08",
+    "reports/M18G_OPENING_MANIFEST_TEMPLATE.json": "e385883278eab6366954cf47442c70ab5c34439db33939bc75080316d0d19bf6",
+    "reports/m18g_candidate_registry.csv": "81c8e9abbc76864ec20e61bf7953172c2e768325652cbaa3599f7bc26a1993c0",
+    "reports/m18g_opening_readiness_checklist.csv": "a6129a18813b666487599b414d0837c3cb77be94b719b8c6ff270f9f216b2a92",
+    "reports/m18g_forbidden_sample_keys.csv": "426dd21feb8cc12092c48c923cb0873ac40653bc62a6550343413085cd470531",
+    "reports/m18g_external_prediction_ledger_template.csv": "469a19b282bce74caff1e774aa997e05721138ba490f75bb384a60ea18b6bf62",
+    "reports/m18g_external_label_ledger_template.csv": "3919783f8ddc2b965152ef6f86396352d418eaa09983e1f33ca9d5a5c04fea9b",
+    "docs/M18G_EXTERNAL_PROMOTION_GATE.md": "e80a8c28f464b88b5756fb5bade414ef65097c80e223e00b4311eaa22a80bd8b",
+    "reports/M18G_REPORT.md": "8bc7897fd73d175d98ba9e5442215c9cd9f657814744abc7946648db71a8fc15",
+    "scripts/109_m18g_evaluate_external_holdout.py": "f05e2c070940e24dbcb841eb36572f41448c8ef969dfba82d077affd15c6aa48"
+  }
+}

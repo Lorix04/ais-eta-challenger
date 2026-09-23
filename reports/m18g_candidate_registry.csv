@@ -1,0 +1,3 @@
+track,candidate_id,policy_status,external_opening_allowed_now,reason
+POINT_MODEL,UNREGISTERED,BLOCKED_PRE_LABEL_REGISTRATION_REQUIRED,False,M18E promoted no new external point model; any future candidate must be registered and hashed before holdout labels are observed.
+SELECTIVE_ETA_LAYER,M18F_BALANCED_80,POLICY_FROZEN_SCORING_BUNDLE_STILL_REQUIRED,False,"Risk threshold and policy are frozen, but a fresh-row full-development M16G/M16H scoring bundle has not been registered in this repository."

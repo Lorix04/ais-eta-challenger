@@ -1,0 +1,166 @@
+{
+  "freeze_version": 2,
+  "freeze_parent_git_commit": "2b450b9b61eaca0a10cb0fe00f4604f77ab9ff78",
+  "frozen_before_final_scoring": true,
+  "locked_final_call_count": 16,
+  "locked_final_call_ids": [
+    "CT-052",
+    "CT-054",
+    "AU-068",
+    "AU-069",
+    "AU-070",
+    "CT-055",
+    "AU-071",
+    "CT-057",
+    "AU-073",
+    "AU-074",
+    "AU-075",
+    "AU-076",
+    "AU-077",
+    "CT-060",
+    "CT-061",
+    "AU-079"
+  ],
+  "locked_final_by_port": {
+    "AUGUSTA": 10,
+    "CATANIA": 6
+  },
+  "design": {
+    "point_model": "M2 route-kNN remaining distance / max(robust trailing 30m median SOG, 1 kn)",
+    "geodesic_baseline": "geodesic remaining distance / max(robust trailing 30m median SOG, 1 kn)",
+    "m2_config": {
+      "augusta_final_chronological_calls": 10,
+      "temporal_folds": 3,
+      "catania_warmup_calls": 8,
+      "augusta_warmup_calls": 15,
+      "max_route_radius_km": 120.0,
+      "max_ring_crossing_gap_s": 600.0,
+      "min_level_support_calls": 3,
+      "min_family_calls": 4,
+      "knn_k": 3,
+      "speed_floor_kn": 1.0,
+      "prototype_levels_km": [
+        120.0,
+        100.0,
+        80.0,
+        60.0,
+        40.0,
+        30.0,
+        20.0,
+        15.0,
+        10.0,
+        7.5,
+        5.0,
+        3.0,
+        2.0,
+        1.0,
+        0.5
+      ],
+      "knn_levels_km": [
+        120.0,
+        110.0,
+        100.0,
+        90.0,
+        80.0,
+        70.0,
+        60.0,
+        50.0,
+        40.0,
+        35.0,
+        30.0,
+        25.0,
+        20.0,
+        15.0,
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.5
+      ]
+    },
+    "reliability": {
+      "max_supported_pred_h": 24.0,
+      "max_route_cross_track_km": 5.0,
+      "max_provider_age_s": 90.0,
+      "min_robust_speed_kn": 1.0,
+      "requires_destination_support": true
+    },
+    "uncertainty": {
+      "confidence_level": 0.9,
+      "simultaneous_call_level_half_width_h": 2.485228427881811,
+      "emit_only_for_reliability_tier": "HIGH"
+    },
+    "stability": {
+      "method": "causal EWMA on absolute predicted arrival timestamp",
+      "alpha": 0.4,
+      "reset_gap_h": 2.0
+    },
+    "primary_final_metric": "voyage-balanced MAE <=24 h",
+    "primary_final_scope": "scope_inbound_approach rows from the precomputed 15-minute causal decision panels",
+    "final_test_rule": "score 16 locked chronological calls exactly once; no predictor/threshold/config change afterward"
+  },
+  "claim_scope_before_final": [
+    {
+      "claim": "Retained route-kNN improves <=24h ETA versus geodesic within Catania OOF",
+      "status": "SUPPORTED_DEVELOPMENT_OOF",
+      "evidence": "10 calls; improvement 26.3%"
+    },
+    {
+      "claim": "Retained route-kNN improves <=24h ETA versus geodesic within Augusta OOF",
+      "status": "SUPPORTED_DEVELOPMENT_OOF",
+      "evidence": "30 calls; improvement 10.4%"
+    },
+    {
+      "claim": "M4 pooled HIGH-reliability interval transfers to later Augusta calls",
+      "status": "SUPPORTED_SMALL_TEMPORAL_SAMPLE",
+      "evidence": "14 calls; whole-call coverage 100.0%"
+    },
+    {
+      "claim": "M4 pooled HIGH-reliability interval transfers to later Catania calls",
+      "status": "UNDERPOWERED",
+      "evidence": "only 2 later HIGH-reliability calls"
+    },
+    {
+      "claim": "Model generalizes to an unseen port",
+      "status": "NOT_ESTABLISHED",
+      "evidence": "retained route model is port/gate-specific; no scientifically valid leave-one-port-out route geometry"
+    },
+    {
+      "claim": "Model generalizes across Augusta entrances",
+      "status": "NOT_ESTABLISHED",
+      "evidence": "primary ETA cohort contains Levante only; Scirocco has no ETA-eligible calls"
+    },
+    {
+      "claim": "Model generalizes to Siracusa/Santa Panagia",
+      "status": "NOT_ESTABLISHED",
+      "evidence": "authoritative geometry/ground truth intentionally not promoted beyond exploratory status"
+    },
+    {
+      "claim": "Locked final chronological holdout performance",
+      "status": "NOT_YET_EVALUATED",
+      "evidence": "16 final calls remain untouched until M6"
+    }
+  ],
+  "sha256": {
+    "src/ais_eta/m2.py": "b2e8e590b01fe3bd74f91f3447b42ea9a7b92b5c009a8cf5ee268862dd4184cd",
+    "src/ais_eta/m4.py": "facc3cbc5948c153fe6697a4742c73d7722ee53dfc6c377de068b0560e233d86",
+    "src/ais_eta/m6.py": "2eeaa72ada6444e38125866cc070c81ffc6addce91fb3383df00e2b1843a2475",
+    "scripts/33_m6_final_eval.py": "047fa776d3acb1df0f3d8aa71a509c48ecced677a3aa792469b704710c754eec",
+    "reports/m2_call_splits.csv": "922e87970578a212ad6755bc43e1963de4a6036b4153c555c531aff5b5487a62",
+    "reports/m2_oof_route_predictions.csv": "05b9fff1cbac11f81aab02d8862206cb119da71759e4978c18e46fff8fa9b868",
+    "reports/m4_summary.json": "f8b17ea645d7eb9b9212a578a68d3a304726b7c3d82045f8b18a7eaaa9a1e64f",
+    "reports/m4_calibration_call_scores.csv": "2e0664d1efcfad5d17ec485c33b0697234f240ba8b2643ffb5a0a0633ac221b2",
+    "reports/m5_claim_scope.csv": "b975faf597c9686fe2485a99ab1321cb1fd8e9661c2ffb2b7692f6b48a98c64f",
+    "reports/catania_m1_decision_panel.csv": "457dd1308e01e43205da53317d77b1862ce60251f7ea369f798aa2d529965f94",
+    "reports/augusta_m1x_decision_panel.csv": "186e441831500bcb7af0682f1b17e7b0525c82e2a4ca83e7f49d1b6574d912a4",
+    "reports/catania_m0e_eta_primary_cohort.csv": "ad8943e5dd296f0a31fb7e44178b974491a706138c7bac219f05fbae2f788c70",
+    "reports/augusta_m1x_eta_primary_cohort.csv": "314650a7efde9a7af58a44b7efadaeafc879a89d426b0ee1ec2939f3eeca5937",
+    "data/derived/m0c_ship_states.pkl.gz": "7ba9cede9743a9b84f2d7067516d5a0cb918ddac0cb0b1ec68c0c917d2089060"
+  },
+  "post_open_rule": "No changes to M2/M4 predictor, route fitting, reliability thresholds, interval width, smoothing alpha, target, primary metric or final cohort may be made in response to final-holdout results."
+}

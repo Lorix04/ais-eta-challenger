@@ -1,0 +1,54 @@
+{
+  "all_row_win_share_vs_m16g": 0.3601036269430052,
+  "base_experts": [
+    "prior",
+    "route",
+    "physics_gate",
+    "tabular",
+    "learned_retrieval",
+    "corridor_graph_gate"
+  ],
+  "blocked_old_final_rows": 53,
+  "changed_row_win_share_vs_m16g": 0.4557377049180328,
+  "claim": "Development-only nested OOF extension; M16G/M17A/M17C frozen and old final remains blocked.",
+  "development_rows": 386,
+  "final_test_used_for_selection": false,
+  "fold_wins_vs_m16g": 2,
+  "gain_h_vs_m16g": -10.316832646462899,
+  "gate": "NO_M17D_PROMOTION",
+  "inner_folds": 3,
+  "m16g_frozen_mae_h": 185.88269651558392,
+  "m17a_regenerated_inner_oof": true,
+  "m17c_regenerated_inner_oof": true,
+  "m17d_mae_h": 196.19952916204682,
+  "m17d_medae_h": 19.645516090750004,
+  "m17d_p90_ae_h": 301.16611404220004,
+  "meta_candidates": [
+    "median_blend",
+    "mean_blend",
+    "nnls_convex",
+    "rf_hard_gate",
+    "extra_trees_hard_gate",
+    "hist_gb_hard_gate",
+    "logit_soft_gate"
+  ],
+  "milestone": "M17D",
+  "outer_folds": 5,
+  "p90_ratio_vs_m16g": 1.0360739661980238,
+  "promotion_gate": {
+    "max_p90_ratio": 1.05,
+    "min_changed_row_win_share": 0.5,
+    "min_fold_wins": 3,
+    "min_mae_gain_h": 1.0
+  },
+  "selected_meta_by_outer_fold": {
+    "0": "logit_soft_gate",
+    "1": "hist_gb_hard_gate",
+    "2": "extra_trees_hard_gate",
+    "3": "hist_gb_hard_gate",
+    "4": "logit_soft_gate"
+  },
+  "target_derived_gating_features_used": false,
+  "tie_share_vs_m16g": 0.20984455958549222,
+  "version": "m17d-extended-mixture-of-experts-v1-20260922"
+}

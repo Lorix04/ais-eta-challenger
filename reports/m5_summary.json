@@ -1,0 +1,122 @@
+{
+  "status": "M5_GO_M6_SCOPE_LIMITED",
+  "passed": true,
+  "retained_model": "M2 port-specific train-only route-kNN distance / robust trailing speed + M4 reliability/stability",
+  "m5_design": "stress-test existing cross-fitted OOF and later M4 temporal-evaluation predictions; no refit and no locked-final scoring",
+  "oof_calls": 40,
+  "oof_unique_vessels": 33,
+  "locked_final_calls_scored": 0,
+  "port_route_under24": {
+    "AUGUSTA": {
+      "calls": 30,
+      "geodesic_mae_min": 42.15854825922475,
+      "route_mae_min": 37.778950677671865,
+      "route_improvement_fraction": 0.10388397519344328,
+      "paired_gain_ci95_min": [
+        -1.9253280116664861,
+        10.735769499376216
+      ],
+      "route_better_call_fraction": 0.6
+    },
+    "CATANIA": {
+      "calls": 10,
+      "geodesic_mae_min": 13.572759468619493,
+      "route_mae_min": 10.000682272293755,
+      "route_improvement_fraction": 0.26317987912365615,
+      "paired_gain_ci95_min": [
+        0.6048627179855369,
+        7.112022162299472
+      ],
+      "route_better_call_fraction": 0.8
+    }
+  },
+  "cold_vessel_under24": {
+    "AUGUSTA": {
+      "calls": 22,
+      "geodesic_mae_min": 40.74417289184419,
+      "route_mae_min": 32.58639998692749,
+      "route_improvement_fraction": 0.20021937680687707
+    },
+    "CATANIA": {
+      "calls": 6,
+      "geodesic_mae_min": 14.63595222674611,
+      "route_mae_min": 11.307577721292617,
+      "route_improvement_fraction": 0.22741086154757573
+    }
+  },
+  "temporal_eval_port_counts": {
+    "AUGUSTA": 14,
+    "CATANIA": 2
+  },
+  "interval_diagnostics": [
+    {
+      "port": "AUGUSTA",
+      "calibration_calls": 16,
+      "port_specific_conformal_order_k": 16,
+      "port_specific_q_h": 14.79956318967619,
+      "uses_max_calibration_score": true,
+      "temporal_high_rows": 132,
+      "temporal_high_calls": 14,
+      "pooled_m4_half_width_h": 2.485228427881811,
+      "pooled_row_coverage": 1.0,
+      "pooled_trajectory_coverage": 1.0,
+      "port_specific_row_coverage_diagnostic": 1.0,
+      "port_specific_trajectory_coverage_diagnostic": 1.0,
+      "port_specific_interval_status": "DIAGNOSTIC_ONLY_SMALL_N"
+    },
+    {
+      "port": "CATANIA",
+      "calibration_calls": 8,
+      "port_specific_conformal_order_k": 8,
+      "port_specific_q_h": 0.9506581113684184,
+      "uses_max_calibration_score": true,
+      "temporal_high_rows": 10,
+      "temporal_high_calls": 2,
+      "pooled_m4_half_width_h": 2.485228427881811,
+      "pooled_row_coverage": 1.0,
+      "pooled_trajectory_coverage": 1.0,
+      "port_specific_row_coverage_diagnostic": 1.0,
+      "port_specific_trajectory_coverage_diagnostic": 1.0,
+      "port_specific_interval_status": "DIAGNOSTIC_ONLY_SMALL_N"
+    }
+  ],
+  "route_family_warnings": [
+    {
+      "type": "ROUTE_FAMILY_DEGRADATION",
+      "port": "AUGUSTA",
+      "route_family": "E",
+      "calls": 10,
+      "route_improvement_fraction": -0.12569616421568175
+    }
+  ],
+  "entrance_generalization": [
+    {
+      "port": "CATANIA",
+      "entrance": "CATANIA_RESEARCH_GATE",
+      "audited_candidates": 61,
+      "validated_calls": 51,
+      "eta_eligible_calls": 28,
+      "m5_status": "SINGLE_RESEARCH_GATE_ONLY"
+    },
+    {
+      "port": "AUGUSTA",
+      "entrance": "LEVANTE",
+      "audited_candidates": 75,
+      "validated_calls": 57,
+      "eta_eligible_calls": 55,
+      "m5_status": "SUPPORTED_FOR_ETA"
+    },
+    {
+      "port": "AUGUSTA",
+      "entrance": "SCIROCCO",
+      "audited_candidates": 4,
+      "validated_calls": 3,
+      "eta_eligible_calls": 0,
+      "m5_status": "NOT_SUPPORTED_FOR_ETA_GENERALIZATION"
+    }
+  ],
+  "unseen_port_generalization": "NOT_ESTABLISHED",
+  "leave_one_port_out_attempted": false,
+  "claim_scope_file": "reports/m5_claim_scope.csv",
+  "next": "M6 final take-home deliverable and one-time locked chronological evaluation under frozen M2/M4 design"
+}

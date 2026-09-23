@@ -1,0 +1,6 @@
+outer_fold,outer_valid_mmsi,blocked_old_final_mmsi,available_transition_events,available_transition_owners,earliest_transition_at,latest_transition_at,outer_valid_owner_overlap,old_final_owner_overlap
+0,78,53,5825,807,2026-04-03T10:47:42,2026-04-16T12:41:52,0,0
+1,77,53,5897,809,2026-04-03T10:47:42,2026-04-16T12:41:52,0,0
+2,77,53,5709,808,2026-04-03T10:50:44,2026-04-16T12:41:52,0,0
+3,77,53,5852,811,2026-04-03T10:47:42,2026-04-16T12:41:52,0,0
+4,77,53,5758,811,2026-04-03T10:47:42,2026-04-16T12:36:47,0,0

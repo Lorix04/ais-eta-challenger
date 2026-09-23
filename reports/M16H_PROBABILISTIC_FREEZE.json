@@ -1,0 +1,37 @@
+{
+  "milestone": "M16H",
+  "version": "m16h-probabilistic-eta-confidence-v1-20260921",
+  "gate": "PASS_PROBABILISTIC_CALIBRATION_CONFIDENCE",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "final_test_used_for_calibration": false,
+  "p50_is_frozen_m16g": true,
+  "error_risk_cross_fitted_inside_outer_train": true,
+  "interval_candidate_selected_on_inner_only": true,
+  "target_derived_confidence_features_used": false,
+  "nominal_marginal_coverage": 0.8,
+  "artifact_sha256": {
+    "M16H_REPORT.md": "9d2f88b621232d31283a50ad18fe060b6d0de3abd92db5ea763e232491f0bc51",
+    "M16H_SUMMARY.json": "abfdb2ca99e3e9b0d3097566ffb029577ac285e7747b9cd222c14396e9306d0f",
+    "m16h_oof_intervals.csv": "c6e1083db4e593fe879c4bb2be00763979d424f7673d96e388f2196b9948c52d",
+    "m16h_inner_interval_search.csv": "ad5ad933723412acc1541fc476c63eb0064a76e7cfa6058bdf1f2b6e474a8c41",
+    "m16h_outer_selected_interval.csv": "d79d7452a2823718db5c6bb3da8c59e6e83ff557d853ab3e97d039875c7e5d2f",
+    "m16h_fold_metrics.csv": "17f17e4fc4e10290b67f0aa3e94b4cf30ad85c3bd148a2d7c88bffc28556bdca",
+    "m16h_confidence_metrics.csv": "1c14220e24c3fadac5d67a6f5dd26badd8559d94867872f62f0011c1582729ca",
+    "m16h_regime_metrics.csv": "eb989b9cc9f207d105f7eff0fe463346950413e031cf186e75162ca71383f03e",
+    "m16h_confidence_coverage.png": "b8e0882df9aa88a112288e6197e5f4c610f4cea6834cd4ddeda8e086d9d4e3ca",
+    "m16h_confidence_width.png": "c6008ec2224281c2262bfc564c456a87b7a7d691ae33d21e0c27b3210263f10a"
+  },
+  "prior_freeze_sha256": {
+    "M14_FINAL_FREEZE.json": "f287ebd804745a33a2ab14ee836896d5cc19ee67a42b100e6c472f4730bd7cd1",
+    "M10_FREEZE.json": "0b9970550ab4bc08f77fccfbac0f299cc8e87b8be57b8fa09868590e539d89ba",
+    "M6_FREEZE.json": "b551c12da6d05fbea22c365f0b2167879669d948c4d790d46ccd28a9dc8e17de",
+    "M16A_BENCHMARK_FREEZE.json": "2d3b1cdbe0e9efe170180aa4f55bdb00862f38a84f80406f7e8b7bf9f5fdbe1d",
+    "M16B_RESOLVER_FREEZE.json": "eff1bb3fc559d5d32a10004aaf8dddc082934103c9876ef6c397d003108e578c",
+    "M16C_HIERARCHICAL_PRIOR_FREEZE.json": "fc1c6e5ddd74ba5668456c5a057095b25212dcb746e8110ee1f0f544e0c7b62a",
+    "M16D_ROUTE_ANALOGUE_FREEZE.json": "fdaa9d2541f9d3285da00f136d4fca1cfdf43287cb80744bd00ffe25fbc2d99b",
+    "M16E_MARITIME_PHYSICS_FREEZE.json": "e2dc2164918518232d8e83bec6954f5ef8d29f0bb8be224f69ca4330d02b1f75",
+    "M16F_TABULAR_PANEL_FREEZE.json": "02f922a651bcfe5525e48723bd63e2dbc7cfeb9c5afb09171a3ac87960096072",
+    "M16G_MIXTURE_FREEZE.json": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d"
+  }
+}

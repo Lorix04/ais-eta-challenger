@@ -1,0 +1,58 @@
+{
+  "status": "M5_GO_M6_SCOPE_LIMITED",
+  "passed": true,
+  "port_checks": [
+    {
+      "port": "AUGUSTA",
+      "calls": 30,
+      "passed": true,
+      "route_improvement_fraction": 0.10388397519344328
+    },
+    {
+      "port": "CATANIA",
+      "calls": 10,
+      "passed": true,
+      "route_improvement_fraction": 0.26317987912365615
+    }
+  ],
+  "cold_vessel_checks": [
+    {
+      "port": "AUGUSTA",
+      "calls": 22,
+      "passed": true,
+      "route_improvement_fraction": 0.20021937680687707
+    },
+    {
+      "port": "CATANIA",
+      "calls": 6,
+      "passed": true,
+      "route_improvement_fraction": 0.22741086154757573
+    }
+  ],
+  "interval_checks": [
+    {
+      "port": "AUGUSTA",
+      "calls": 14,
+      "passed": true,
+      "pooled_trajectory_coverage": 1.0
+    }
+  ],
+  "warnings": [
+    {
+      "type": "ROUTE_FAMILY_DEGRADATION",
+      "port": "AUGUSTA",
+      "route_family": "E",
+      "calls": 10,
+      "route_improvement_fraction": -0.12569616421568175
+    },
+    {
+      "type": "SEEN_VESSEL_SUBGROUP_DEGRADATION",
+      "port": "AUGUSTA",
+      "calls": 8,
+      "route_improvement_fraction": -0.13052410632294764
+    }
+  ],
+  "unseen_port_generalization": "NOT_ESTABLISHED",
+  "locked_final_calls_scored": 0,
+  "leave_one_port_out": "NOT_SCIENTIFICALLY_MEANINGFUL_FOR_RETAINED_ROUTE_MODEL"
+}

@@ -1,0 +1,65 @@
+{
+  "milestone": "M16A",
+  "status": "OOF_BENCHMARK_RECONSTRUCTED",
+  "development_rows": 386,
+  "blocked_old_final_rows": 53,
+  "outer_folds": 5,
+  "pooled_metrics": {
+    "train_destination_median": {
+      "n": 386,
+      "mae_h": 202.97087831030512,
+      "medae_h": 22.266388888888894,
+      "rmse_h": 663.9072505639248,
+      "p90_ae_h": 330.815,
+      "p95_ae_h": 757.7502777777778,
+      "within_24h": 0.5155440414507773,
+      "within_48h": 0.7150259067357513,
+      "within_72h": 0.7642487046632125,
+      "prediction_min_h": -3742.032222222222,
+      "prediction_max_h": 334.89,
+      "nonfinite_prediction_count": 0,
+      "abs_gt_1y_prediction_count": 0
+    },
+    "catboost_current_snapshot": {
+      "n": 386,
+      "mae_h": 206.1422985774773,
+      "medae_h": 25.939685072917342,
+      "rmse_h": 641.5282680913405,
+      "p90_ae_h": 325.51356654128256,
+      "p95_ae_h": 818.2631307579975,
+      "within_24h": 0.47150259067357514,
+      "within_48h": 0.6528497409326425,
+      "within_72h": 0.7331606217616581,
+      "prediction_min_h": -488.4850981130862,
+      "prediction_max_h": 124.87549004824977,
+      "nonfinite_prediction_count": 0,
+      "abs_gt_1y_prediction_count": 0
+    },
+    "global_train_median": {
+      "n": 386,
+      "mae_h": 213.66413716177317,
+      "medae_h": 34.47902777777777,
+      "rmse_h": 643.8586044070007,
+      "p90_ae_h": 342.4636111111111,
+      "p95_ae_h": 825.0397222222223,
+      "within_24h": 0.3626943005181347,
+      "within_48h": 0.6735751295336787,
+      "within_72h": 0.7461139896373057,
+      "prediction_min_h": 46.69861111111111,
+      "prediction_max_h": 50.83361111111111,
+      "nonfinite_prediction_count": 0,
+      "abs_gt_1y_prediction_count": 0
+    }
+  },
+  "catboost_chosen_trees_by_fold": {
+    "0": 51,
+    "1": 36,
+    "2": 58,
+    "3": 31,
+    "4": 77
+  },
+  "catboost_fold_wins_vs_global": 4,
+  "catboost_fold_wins_vs_destination": 1,
+  "final_test_used_for_selection": false,
+  "claim": "Development-only OOF baseline reconstruction; not a new untouched final-test result."
+}

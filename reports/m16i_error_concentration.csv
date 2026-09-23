@@ -1,0 +1,16 @@
+measure,top_k,share
+m16g_abs_error,1,0.0592811272197
+m16g_abs_error,5,0.266838298647
+m16g_abs_error,10,0.453872743115
+m16g_abs_error,20,0.683331840855
+m16g_abs_error,39,0.811946176727
+best_single_abs_error,1,0.0571170304626
+best_single_abs_error,5,0.257631911182
+best_single_abs_error,10,0.435637449665
+best_single_abs_error,20,0.674054662101
+best_single_abs_error,39,0.804747214878
+positive_gain,1,0.353985238484
+positive_gain,3,0.45190009651
+positive_gain,5,0.510272422656
+positive_gain,10,0.625745246731
+positive_gain,20,0.756584608526

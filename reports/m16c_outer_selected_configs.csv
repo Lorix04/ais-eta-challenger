@@ -1,0 +1,6 @@
+outer_fold,outer_train_n,outer_valid_n,selected_config_id,hierarchy,min_support,shrinkage_alpha,clip_quantile,selected_on_inner_only,inner_folds,inner_best_mae_h,inner_best_p90_ae_h
+0,308,78,full__n2__a10__clip_none,full,2,10,,True,4,209.827113916,389.865667476
+1,309,77,dest_ship__n2__a10__clip_none,dest_ship,2,10,,True,4,201.778543945,327.715404762
+2,309,77,full__n3__a20__clip_q0.05,full,3,20,0.05,True,4,191.304297945,318.800508534
+3,309,77,full__n2__a10__clip_none,full,2,10,,True,4,232.329560851,490.440590916
+4,309,77,full__n2__a10__clip_q0.025,full,2,10,0.025,True,4,161.719355035,254.119337306

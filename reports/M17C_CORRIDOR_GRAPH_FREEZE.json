@@ -1,0 +1,65 @@
+{
+  "artifact_sha256": {
+    "M17C_SUMMARY.json": "d5e018db7724af3533f61f2a5fedca4d7efb1445e04a8a3cbcad185cc9a6a7d7",
+    "m17c_fold_metrics.csv": "e85cc4e56d899982dd2367ebe9f8b51f922e21762e810fd8ff5ba62d27795992",
+    "m17c_graph_build_audit.csv": "88828fb7c5705a708d84a62a3a823218e06b8e0cddf8f2cb547dc69e5a83973a",
+    "m17c_model_metrics.csv": "addb047799ac8f1225efe65bff468064054e6f736feed9f3ea34f9528c104645",
+    "m17c_oof_predictions.csv": "72b547ac1509f6cacff3819b54bd8e2996d241920e16a7c06e93d2a97ce9ec27",
+    "m17c_path_edges.csv": "c2baa0980a4cf2daa492fa476409b9740a8713fd720cfc1f8c0009a568bdcfa8",
+    "m17c_physics_comparison.png": "07cf323394c59223475a81b9e1ffb0cabff9cdc346bd482456ab28db23e23179",
+    "m17c_reference_status_diagnostic.csv": "9f4a2d776c6d3eb5c32959a19086c97ab5ed631939a8f8a7c2ef6017edee9171",
+    "m17c_scored_corridor_map.png": "3562989665a3f9add7ead3887ea2022d8755ccd9920f9b73175034bc05117c0c",
+    "m17c_transition_audit.csv": "c551528a189a309dea8e2d6ca6941e0424e9717c8222498ecf9959c0865226c2"
+  },
+  "decision": "PASS_CORRIDOR_SIGNAL_COMPONENT",
+  "immutable_inputs": {
+    "m16a_manifest": "a33e80fcd0efb62bf6aefd61eed460013d04849355a721941f1bc1c8ddbf894d",
+    "m16e_predictions": "0b07c791b7bd9b9a1555416a1c02960ad18b0800b000a7241fb038912cea1b26",
+    "m16j_freeze": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b",
+    "m17a_freeze": "2f74f3e59491d119a1d2139b2e79fd402e180ac3c07006cfff5e56df4dbde24a",
+    "m17b_freeze": "a33c07546b10d9ac294eb3899b124cfbfa7462bfe4fcafbf27d4fc18b675c6ca"
+  },
+  "protocol": {
+    "development_only": true,
+    "directed_grid_resolution_deg": 0.2,
+    "edge_speed_hierarchy": [
+      "edge_type_time",
+      "edge_type",
+      "edge_time",
+      "edge_global"
+    ],
+    "old_final_hard_blocked": true,
+    "outer_valid_owner_blocked_from_graph": true,
+    "per_query_timestamp_cutoff": true,
+    "target_free_graph": true
+  },
+  "summary": {
+    "development_rows": 386,
+    "final_test_used_for_selection": false,
+    "future_events_used_for_query_graph": false,
+    "gate": "PASS_CORRIDOR_SIGNAL_COMPONENT",
+    "graph_gate_fold_wins_vs_m16e_hard_gate": 3,
+    "graph_gate_gain_h_vs_m16e_hard_gate": 0.01444500746086419,
+    "graph_paired_win_share_vs_physics": 0.6,
+    "graph_supported_gain_h_vs_physics": 0.22303091519563623,
+    "graph_supported_mae_h": 410.4747802100438,
+    "graph_supported_rows": 25,
+    "graph_supported_share_of_physics_eligible": 0.21739130434782608,
+    "grid_resolution_deg": 0.2,
+    "m16e_hard_gate_all_dev_mae_h": 192.9255721249816,
+    "m17c_graph_gate_all_dev_mae_h": 192.91112711752075,
+    "max_snap_nm": 40.0,
+    "mean_contextual_edge_share": 0.4213246753246753,
+    "mean_destination_snap_nm": 29.836577186459934,
+    "mean_path_edges": 3.44,
+    "old_final_rows_hard_blocked": 53,
+    "outer_valid_owners_used_for_graph": false,
+    "physics_eligible_rows": 115,
+    "physics_same_rows_mae_h": 410.6978111252394,
+    "raw_transition_events_after_final_block": 6531,
+    "target_used_for_graph_topology_or_edge_weight": false,
+    "transition_unique_mmsi": 883,
+    "version": "m17c-sicily-historical-corridor-graph-v1-20260922"
+  },
+  "version": "m17c-sicily-historical-corridor-graph-v1-20260922"
+}

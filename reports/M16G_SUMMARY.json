@@ -1,0 +1,46 @@
+{
+  "milestone": "M16G",
+  "version": "m16g-mixture-of-experts-v1-20260921",
+  "gate": "PASS_MOE_STABLE_GAIN",
+  "development_rows": 386,
+  "blocked_old_final_rows": 53,
+  "final_test_used_for_selection": false,
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "base_experts": [
+    "prior",
+    "route",
+    "physics_gate",
+    "tabular"
+  ],
+  "meta_candidates": [
+    "median_blend",
+    "mean_blend",
+    "nnls_convex",
+    "rf_hard_gate",
+    "extra_trees_hard_gate",
+    "hist_gb_hard_gate",
+    "logit_soft_gate"
+  ],
+  "base_predictions_for_meta_training": "regenerated inner-OOF inside each outer-train; no in-sample base prediction is used to fit meta learner",
+  "outer_validation_base_predictions": "frozen M16C/D/E/F OOF predictions for the corresponding M16A outer fold",
+  "target_derived_gating_features_used": false,
+  "selected_meta_by_outer_fold": {
+    "0": "rf_hard_gate",
+    "1": "median_blend",
+    "2": "extra_trees_hard_gate",
+    "3": "extra_trees_hard_gate",
+    "4": "hist_gb_hard_gate"
+  },
+  "mixture_mae_h": 185.88269651558392,
+  "mixture_medae_h": 19.3415972222,
+  "mixture_p90_ae_h": 290.6801288979,
+  "best_single_baseline": "m16e_physics_gate_route_fallback",
+  "best_single_mae_h": 192.92557212494944,
+  "gain_h_vs_best_single": 7.042875609365524,
+  "fold_wins_vs_best_single": 4,
+  "paired_row_win_share_vs_best_single": 0.27461139896373055,
+  "paired_tie_share_vs_best_single": 0.49740932642487046,
+  "changed_row_win_share_vs_best_single": 0.5463917525773195,
+  "claim": "Development-only nested OOF mixture evidence; old final remains blocked and M14 submission is not reopened."
+}

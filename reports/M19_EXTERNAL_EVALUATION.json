@@ -1,0 +1,25 @@
+{
+  "milestone": "M18G_EXTERNAL_EVALUATION",
+  "gate_freeze_sha256": "a161f993b4dcd11701ca4d5a56c90c6a1c0b3a86745b45632abd9dacbc04be21",
+  "prediction_ledger_sha256": "41466369f9e30ef5618d85cb69b106f05633bce3b78f5b553acaea3c526adf44",
+  "label_ledger_sha256": "a1a0c81bf14916c3cd790fe8dd456732bf9ce20a14d576b4570537d983687834",
+  "rows": 500,
+  "point_model": {
+    "decision": "NOT_EVALUATED_NO_PRELABEL_POINT_CANDIDATE_REGISTERED"
+  },
+  "selective_eta": {
+    "decision": "DO_NOT_EXTERNALLY_VALIDATE_M18F_LAYER",
+    "frozen_risk_threshold_h": 61.116040125,
+    "n": 500,
+    "retained_rows": 76,
+    "deferred_rows": 424,
+    "realized_coverage": 0.152,
+    "full_mae_h": 550.4090836774562,
+    "retained_mae_h": 342.5452118163502,
+    "deferred_mae_h": 587.6677022185979,
+    "retained_interval_empirical_coverage": 0.6973684210526315,
+    "risk_abs_error_spearman": 0.32631597234898746,
+    "selection_conditional_conformal_guarantee_claimed": false
+  },
+  "no_retuning_on_same_holdout": true
+}

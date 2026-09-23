@@ -1,0 +1,27 @@
+{
+  "milestone": "M16E",
+  "status": "MARITIME_PHYSICS_EXPERT_FROZEN",
+  "version": "m16e-maritime-physics-v1-20260921",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "selection_population_rule": "M10 train+calibration only; 53-row old final hard-blocked",
+  "outer_fold_source": "M16A frozen outer folds",
+  "inner_selection_only": true,
+  "final_test_used_for_selection": false,
+  "candidate_config_count": 12,
+  "primary_metric": "eligible-only pooled OOF MAE hours",
+  "gate": "PASS_PHYSICS_GATING_COMPONENT",
+  "artifact_sha256": {
+    "m16e_oof_predictions.csv": "0b07c791b7bd9b9a1555416a1c02960ad18b0800b000a7241fb038912cea1b26",
+    "m16e_physics_feature_audit.csv": "59b07cc445914d65eecbaf393f607b384901b4ae8419c277d87a066f0a3cb07f",
+    "m16e_inner_search.csv": "b215fc5897a73bc90951bf6bdb583ce56b7e99ff39da79f90389f5908ea90059",
+    "m16e_outer_selected_configs.csv": "613ab58eed4fdd978360e55f081349ea74f67a16051b647e3479935749ac95a8",
+    "m16e_model_metrics.csv": "19b5e06ac8d91cd73d04dd91168ed478e82d86eff8e050ea110cf11887198223",
+    "m16e_fold_metrics.csv": "080756f1b634803d54ed0e83878fc9885db3b69219292f0bb7ddaf599a470242",
+    "m16e_reference_status_diagnostic.csv": "101b872e8e46dc96731be1111ee7fe0c1a9df8e0d506ed073a5e0147986e3412",
+    "m16e_physics_comparison.png": "2b32e92808c33abf583b0b54393d5bcd18ea5e5efa4a547962b5348d3c9bb739",
+    "m16e_physics_scatter.png": "cb7123594a3d12452603cd42775c70a36ac36cf5e3a46f67fee5addb2f037ec5",
+    "M16E_SUMMARY.json": "84bce2dc8b73702c870d012621df4fdfc06f7e78199ecaeeec78f765fcbea22a",
+    "M16E_REPORT.md": "c1eac2a5c1d575664aa936c55d5244084f2f095aaf0ea2464ca16e871699d832"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "geometry": {
+    "version": "catania_research_geometry_v1",
+    "crs": "EPSG:4326",
+    "semantics": {
+      "research_gate": "proxy cross-section; NOT official port limit/PBP/ATA line",
+      "inner_harbour_polygon": "analysis-only envelope; NOT official legal water boundary"
+    },
+    "gate": {
+      "west": {
+        "lon": 15.095,
+        "lat": 37.4883333333,
+        "anchor": "IIM light 2804 rounded position"
+      },
+      "east": {
+        "lon": 15.1,
+        "lat": 37.4833333333,
+        "anchor": "IIM light 2802 rounded position"
+      }
+    },
+    "inside_reference": {
+      "lon": 15.094,
+      "lat": 37.496
+    },
+    "inner_harbour_vertices": [
+      [
+        15.095,
+        37.4883333333
+      ],
+      [
+        15.089,
+        37.487
+      ],
+      [
+        15.089,
+        37.5035
+      ],
+      [
+        15.1025,
+        37.5035
+      ],
+      [
+        15.102,
+        37.489
+      ],
+      [
+        15.1,
+        37.4833333333
+      ]
+    ],
+    "analysis_bbox": [
+      15.06,
+      37.44,
+      15.14,
+      37.53
+    ]
+  },
+  "rows_in_catania_analysis_envelope": 142287,
+  "vessels_in_catania_analysis_envelope": 58,
+  "gate_events": 136,
+  "gate_event_vessels": 40,
+  "inbound_events": 70,
+  "outbound_events": 66,
+  "candidate_sessions": 61,
+  "candidate_session_vessels": 34,
+  "stop_confirmed_call_candidates": 54,
+  "right_censored_sessions": 5,
+  "unresolved_missing_outbound_sessions": 12,
+  "roadstead_wait_before_entry": 4,
+  "destination_support_catania": 37,
+  "candidate_quality": {
+    "A": 46,
+    "C": 15
+  },
+  "candidate_class": {
+    "STOP_CONFIRMED_CALL_CANDIDATE": 54,
+    "ENTRY_WITHOUT_CONFIRMED_STOP": 7
+  },
+  "warning": "M0D outputs are candidate events only; M0E manual audit is required before any row becomes ground truth."
+}

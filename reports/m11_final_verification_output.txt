@@ -1,0 +1,25 @@
+=== Final M11 full verification ===
+........................................................................ [ 84%]
+.............                                                            [100%]
+85 passed in 0.89s
+PASS M10 reference dataset hash matches pre-open freeze
+PASS 439 parseable ship references = 439 independent supervised MMSIs
+PASS all historical feature timestamps are <= Tracks.last_update
+PASS target-free MMSI split and frozen final-test IDs unchanged
+PASS future-position injection leaves prediction features unchanged (8/8 MMSIs)
+PASS M6 frozen hashes unchanged: 14/14
+PASS M10 final holdout was opened only after calibration selection; no post-test tuning marker
+PASS M10 reference dataset still matches pre-open freeze
+PASS M11 is diagnostic-only: 0 strict rows removed; no M10 model/split reselection
+PASS 439-reference and 53-final forensic ledgers are one-row-per-MMSI
+PASS reference-quality counts and ETA granularity invariants
+PASS top-error concentration and post-hoc sensitivity invariants
+PASS M6 frozen hashes unchanged: 14/14
+PASS compileall
+PASS project control files present
+PASS PROJECT_STATE.json parsed
+PASS current phase: M11_DONE_REFERENCE_ETA_FORENSICS — M11 completed diagnostic-only reference ETA quality and frozen-final error forensics. M10 model/split/final selection remain unchanged; all parseable company references remain in the strict benchmark.
+PASS GO/NO-GO A status: GO_LIMITED
+PASS compiled 57 Python scripts
+PASS evidence policy requires 3 screenshots per material change
+PASS git diff --check

@@ -1,0 +1,24 @@
+{
+  "milestone": "M18B",
+  "version": "m18b-validation-redesign-v1-20260923",
+  "status": "FROZEN_VALIDATION_REDESIGN",
+  "model_change": false,
+  "m18a_contract_changed": false,
+  "fresh_holdout_opened": false,
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "strict_forward_test_union_n": 231,
+  "strict_forward_folds": 3,
+  "embargo_h": 6.0,
+  "m18a_baseline_freeze_sha256": "ea9219067beb818118a1895605069f28a8ee5023b807ca905b99f215fc2b8835",
+  "m16g_oof_sha256": "cd8128d27e3a3d4232ff1758b78f6b48e3f14238dee272f9192ef74aca8af684",
+  "validation_artifact_sha256": {
+    "reports/M18B_VALIDATION_PROTOCOL.json": "745becf450e2287c4b43f257eb387eba6812dadc217dc9a8802ec51721ae8fc4",
+    "reports/M18B_REPORT.md": "a9109b22aa0802b5b01ae07a45a16b3d022a2be7ffac183bf619cdc61135ade3",
+    "reports/m18b_validation_manifest.csv": "3c8f7546ebbf488035cecf395d4d9f5201aa14afa197161b0f4680aa3968c75d",
+    "reports/m18b_forward_membership.csv": "b757440dcfce769bc61a515e62490e89393bb510062b29abe2eb2f7a5d4272dd",
+    "reports/m18b_forward_windows.csv": "32d143ee607b4a5d94d5d6aa3e4ccab331e5325197f0d807bff78ea29c7f9a8c",
+    "reports/m18b_legacy_oof_temporal_diagnostics.csv": "10e873a02ab2c3507b2a1ca254f58ce6e0994bd4cc9c4d23bd69d07692b9b53b",
+    "docs/M18B_VALIDATION_PROTOCOL.md": "f4eec100d9e9299c40a7e949ddd9b51ef8aa526582f4f37cf933d8acb32017b4"
+  }
+}

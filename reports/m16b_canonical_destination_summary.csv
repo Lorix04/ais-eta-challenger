@@ -1,0 +1,195 @@
+canonical_destination,canonical_unlocode,canonical_port_name,canonical_country,resolution_method,n,raw_variants
+FOR_ORDERS,,,,for_orders,25,10
+GIGIB,GIGIB,Gibraltar,Gibraltar,exact_unlocode,13,2
+ITAUG,ITAUG,Augusta,Italy,curated_alias,12,1
+ITAUG,ITAUG,Augusta,Italy,exact_unlocode,12,2
+MTMLA,MTMLA,Valletta,Malta,exact_unlocode,12,2
+EGPSD,EGPSD,Port Said,Egypt,exact_unlocode,8,2
+ESALG,ESALG,Algeciras,Spain,exact_unlocode,7,2
+GIGIB,GIGIB,Gibraltar,Gibraltar,curated_alias,7,2
+ITGOA,ITGOA,Genova,Italy,exact_unlocode,7,2
+ITNAP,ITNAP,Napoli,Italy,exact_unlocode,7,2
+ITSPA,ITSPA,Santa Panagia,Italy,exact_unlocode,7,2
+AMBIGUOUS:MALTA,,,,ambiguous_geography,6,1
+ITRAN,ITRAN,Ravenna,Italy,exact_unlocode,5,2
+TRCKZ,TRCKZ,,TR,unlocode_like_unverified,5,4
+UNKNOWN,,,,unknown,5,1
+ITCTA,ITCTA,Catania,Italy,exact_unlocode,4,1
+ITTAR,ITTAR,Taranto,Italy,exact_unlocode,4,2
+NON_SPECIFIC,,,,non_specific,4,4
+EGEDK,EGEDK,,EG,unlocode_like_unverified,3,2
+ESCAR,ESCAR,,ES,unlocode_like_unverified,3,1
+ESCAS,ESCAS,,ES,unlocode_like_unverified,3,2
+FRSET,FRSET,Sete,France,exact_unlocode,3,1
+ITGIT,ITGIT,Gioia Tauro,Italy,exact_unlocode,3,1
+ITLIV,ITLIV,Livorno,Italy,exact_unlocode,3,2
+ITPFX,ITPFX,,IT,unlocode_like_unverified,3,2
+ITVCE,ITVCE,,IT,unlocode_like_unverified,3,1
+MTMAR,MTMAR,Marsaxlokk,Malta,exact_unlocode,3,1
+SIKOP,SIKOP,,SI,unlocode_like_unverified,3,2
+TRDRC,TRDRC,,TR,unlocode_like_unverified,3,2
+TRISK,TRISK,,TR,unlocode_like_unverified,3,2
+TRIST,TRIST,,TR,unlocode_like_unverified,3,2
+DZAZW,DZAZW,,DZ,unlocode_like_unverified,2,2
+EGALY,EGALY,,EG,unlocode_like_unverified,2,2
+EGDAM,EGDAM,,EG,unlocode_like_unverified,2,2
+EGPSD,EGPSD,Port Said,Egypt,curated_alias,2,1
+EGPSD,EGPSD,Port Said,Egypt,route_terminal_unlocode,2,2
+ESCEU,ESCEU,,ES,unlocode_like_unverified,2,1
+ESTAR,ESTAR,,ES,unlocode_like_unverified,2,2
+ESVLC,ESVLC,Valencia,Spain,exact_unlocode,2,2
+FRMRS,FRMRS,,FR,unlocode_like_unverified,2,1
+GRGPA,GRGPA,,GR,unlocode_like_unverified,2,2
+GRKLX,GRKLX,,GR,unlocode_like_unverified,2,1
+GRPIR,GRPIR,Piraeus,Greece,exact_unlocode,2,1
+GRSTN,GRSTN,,GR,unlocode_like_unverified,2,1
+ILHFA,ILHFA,,IL,unlocode_like_unverified,2,2
+ITCHI,ITCHI,,IT,unlocode_like_unverified,2,2
+ITCTA,ITCTA,Catania,Italy,route_terminal_unlocode,2,2
+ITCVV,ITCVV,,IT,unlocode_like_unverified,2,2
+ITGOA,ITGOA,Genova,Italy,route_terminal_unlocode,2,2
+ITMNP,ITMNP,,IT,unlocode_like_unverified,2,1
+ITPMO,ITPMO,Palermo,Italy,curated_alias,2,2
+ITSAL,ITSAL,,IT,unlocode_like_unverified,2,2
+ITSPA,ITSPA,Santa Panagia,Italy,curated_alias,2,2
+ITTRS,ITTRS,Trieste,Italy,exact_unlocode,2,1
+LBBEY,LBBEY,,LB,unlocode_like_unverified,2,2
+MACAS,MACAS,,MA,unlocode_like_unverified,2,1
+MTMLA,MTMLA,Valletta,Malta,route_terminal_unlocode,2,2
+NLRTM,NLRTM,Rotterdam,Netherlands,curated_alias,2,1
+ROCND,ROCND,,RO,unlocode_like_unverified,2,1
+SGSIN,SGSIN,,SG,unlocode_like_unverified,2,2
+TNLGN,TNLGN,,TN,unlocode_like_unverified,2,1
+TRCEY,TRCEY,,TR,unlocode_like_unverified,2,2
+TRGEM,TRGEM,,TR,unlocode_like_unverified,2,1
+TRIZT,TRIZT,,TR,unlocode_like_unverified,2,2
+TRYAR,TRYAR,,TR,unlocode_like_unverified,2,1
+ALDRZ,ALDRZ,,AL,unlocode_like_unverified,1,1
+ALROM,ALROM,,AL,unlocode_like_unverified,1,1
+ARSLO,ARSLO,,AR,unlocode_like_unverified,1,1
+BEGNE,BEGNE,,BE,unlocode_like_unverified,1,1
+BGVAR,BGVAR,,BG,unlocode_like_unverified,1,1
+COCVE,COCVE,,CO,unlocode_like_unverified,1,1
+DZORN,DZORN,,DZ,unlocode_like_unverified,1,1
+DZSKI,DZSKI,,DZ,unlocode_like_unverified,1,1
+EGPSD,EGPSD,Port Said,Egypt,conservative_fuzzy,1,1
+EGPSE,EGPSE,,EG,unlocode_like_unverified,1,1
+EGPSW,EGPSW,,EG,unlocode_like_unverified,1,1
+EGSKT,EGSKT,,EG,unlocode_like_unverified,1,1
+ESALG,ESALG,Algeciras,Spain,curated_alias,1,1
+ESBCN,ESBCN,,ES,unlocode_like_unverified,1,1
+ESVGO,ESVGO,,ES,unlocode_like_unverified,1,1
+ESVLC,ESVLC,Valencia,Spain,route_terminal_unlocode,1,1
+FRFOS,FRFOS,,FR,unlocode_like_unverified,1,1
+FRLAV,FRLAV,,FR,unlocode_like_unverified,1,1
+GBBRS,GBBRS,,GB,unlocode_like_unverified,1,1
+GBFXT,GBFXT,,GB,unlocode_like_unverified,1,1
+GBPTB,GBPTB,,GB,unlocode_like_unverified,1,1
+GBPTI,GBPTI,,GB,unlocode_like_unverified,1,1
+GBPTL,GBPTL,,GB,unlocode_like_unverified,1,1
+GBTBY,GBTBY,,GB,unlocode_like_unverified,1,1
+GIGIB,GIGIB,Gibraltar,Gibraltar,route_terminal_unlocode,1,1
+GNKMR,GNKMR,,GN,unlocode_like_unverified,1,1
+GRAST,GRAST,,GR,unlocode_like_unverified,1,1
+GRCHQ,GRCHQ,,GR,unlocode_like_unverified,1,1
+GRGYT,GRGYT,,GR,unlocode_like_unverified,1,1
+GRPIR,GRPIR,Piraeus,Greece,curated_alias,1,1
+HROMI,HROMI,,HR,unlocode_like_unverified,1,1
+HRRJK,HRRJK,,HR,unlocode_like_unverified,1,1
+HRZAD,HRZAD,,HR,unlocode_like_unverified,1,1
+ILASH,ILASH,,IL,unlocode_like_unverified,1,1
+ITAOI,ITAOI,,IT,unlocode_like_unverified,1,1
+ITBDS,ITBDS,,IT,unlocode_like_unverified,1,1
+ITBRI,ITBRI,,IT,unlocode_like_unverified,1,1
+ITCAG,ITCAG,,IT,unlocode_like_unverified,1,1
+ITCRV,ITCRV,,IT,unlocode_like_unverified,1,1
+ITCTA,ITCTA,Catania,Italy,curated_alias,1,1
+ITFCO,ITFCO,,IT,unlocode_like_unverified,1,1
+ITGEA,ITGEA,,IT,unlocode_like_unverified,1,1
+ITGIT,ITGIT,Gioia Tauro,Italy,curated_alias,1,1
+ITMEI,ITMEI,,IT,unlocode_like_unverified,1,1
+ITMFR,ITMFR,,IT,unlocode_like_unverified,1,1
+ITMLZ,ITMLZ,Milazzo,Italy,exact_unlocode,1,1
+ITMLZ,ITMLZ,Milazzo,Italy,route_terminal_alias,1,1
+ITMNF,ITMNF,,IT,unlocode_like_unverified,1,1
+ITMSN,ITMSN,,IT,unlocode_like_unverified,1,1
+ITNAP,ITNAP,Napoli,Italy,curated_alias,1,1
+ITPNG,ITPNG,,IT,unlocode_like_unverified,1,1
+ITPZL,ITPZL,,IT,unlocode_like_unverified,1,1
+ITRAN,ITRAN,Ravenna,Italy,curated_alias,1,1
+ITRAN,ITRAN,Ravenna,Italy,route_terminal_unlocode,1,1
+ITSIR,ITSIR,Siracusa,Italy,curated_alias,1,1
+ITSIR,ITSIR,Siracusa,Italy,exact_unlocode,1,1
+ITSPA,ITSPA,Santa Panagia,Italy,route_terminal_unlocode,1,1
+ITSPE,ITSPE,,IT,unlocode_like_unverified,1,1
+ITSVN,ITSVN,,IT,unlocode_like_unverified,1,1
+ITTAR,ITTAR,Taranto,Italy,route_terminal_unlocode,1,1
+ITTOA,ITTOA,,IT,unlocode_like_unverified,1,1
+ITTRI,ITTRI,,IT,unlocode_like_unverified,1,1
+ITVVA,ITVVA,,IT,unlocode_like_unverified,1,1
+KOPER,KOPER,,KO,unlocode_like_unverified,1,1
+LBSEL,LBSEL,,LB,unlocode_like_unverified,1,1
+LYMRA,LYMRA,,LY,unlocode_like_unverified,1,1
+LYTIP,LYTIP,,LY,unlocode_like_unverified,1,1
+MAPTM,MAPTM,,MA,unlocode_like_unverified,1,1
+MTMAR,MTMAR,Marsaxlokk,Malta,curated_alias,1,1
+MTMLA,MTMLA,Valletta,Malta,curated_alias,1,1
+NLMOE,NLMOE,,NL,unlocode_like_unverified,1,1
+NLRTM,NLRTM,Rotterdam,Netherlands,exact_unlocode,1,1
+NLTNZ,NLTNZ,,NL,unlocode_like_unverified,1,1
+PLGDN,PLGDN,,PL,unlocode_like_unverified,1,1
+PLSZZ,PLSZZ,,PL,unlocode_like_unverified,1,1
+PTAVE,PTAVE,,PT,unlocode_like_unverified,1,1
+ROMID,ROMID,,RO,unlocode_like_unverified,1,1
+RULED,RULED,,RU,unlocode_like_unverified,1,1
+RUMKK,RUMKK,,RU,unlocode_like_unverified,1,1
+RUULU,RUULU,,RU,unlocode_like_unverified,1,1
+TEXT:ABU QIR,,,,unresolved_text,1,1
+TEXT:ALEXANDRIA,,,,unresolved_text,1,1
+TEXT:ALIAGA,,,,unresolved_text,1,1
+TEXT:ALIAGA TURKEY,,,,unresolved_text,1,1
+TEXT:AUG,,,,unresolved_text,1,1
+TEXT:BANDIRMA TR,,,,unresolved_text,1,1
+TEXT:BEJAIA,,,,unresolved_text,1,1
+TEXT:DAMIETTA,,,,unresolved_text,1,1
+TEXT:DARDANELLES,,,,unresolved_text,1,1
+TEXT:FIUMICINO ITALY,,,,unresolved_text,1,1
+TEXT:FOR ORD,,,,unresolved_text,1,1
+TEXT:GIGIB 0004,,,,unresolved_text,1,1
+TEXT:IMMINGHAM,,,,unresolved_text,1,1
+TEXT:ISKENDERUN,,,,unresolved_text,1,1
+TEXT:IT LVN VIA MESSINA,,,,unresolved_text,1,1
+TEXT:IT TARANTO,,,,unresolved_text,1,1
+TEXT:MA VALLETTA,,,,unresolved_text,1,1
+TEXT:MAPTM EGPSE,,,,unresolved_text,1,1
+TEXT:MTMAR SIKOP,,,,unresolved_text,1,1
+TEXT:ORAN ALGERIA,,,,unresolved_text,1,1
+TEXT:P P URUGUAY,,,,unresolved_text,1,1
+TEXT:POZZUOLI S A F,,,,unresolved_text,1,1
+TEXT:PRIMORSK,,,,unresolved_text,1,1
+TEXT:SGSIN PEBGA,,,,unresolved_text,1,1
+TEXT:SHENGJIN,,,,unresolved_text,1,1
+TEXT:SKAGEN,,,,unresolved_text,1,1
+TEXT:SUEZ EG,,,,unresolved_text,1,1
+TEXT:TALLINN,,,,unresolved_text,1,1
+TEXT:TANGER MED2,,,,unresolved_text,1,1
+TEXT:TOROS GABRE,,,,unresolved_text,1,1
+TEXT:W AFRICA,,,,unresolved_text,1,1
+TNBIZ,TNBIZ,,TN,unlocode_like_unverified,1,1
+TNSFA,TNSFA,,TN,unlocode_like_unverified,1,1
+TRAMR,TRAMR,,TR,unlocode_like_unverified,1,1
+TRDER,TRDER,,TR,unlocode_like_unverified,1,1
+TRERE,TRERE,,TR,unlocode_like_unverified,1,1
+TRGEB,TRGEB,,TR,unlocode_like_unverified,1,1
+TRHAY,TRHAY,,TR,unlocode_like_unverified,1,1
+TRIZM,TRIZM,,TR,unlocode_like_unverified,1,1
+TRMER,TRMER,,TR,unlocode_like_unverified,1,1
+TRMRM,TRMRM,,TR,unlocode_like_unverified,1,1
+TRTEK,TRTEK,,TR,unlocode_like_unverified,1,1
+TRTUT,TRTUT,,TR,unlocode_like_unverified,1,1
+TRTUZ,TRTUZ,,TR,unlocode_like_unverified,1,1
+TRYAL,TRYAL,,TR,unlocode_like_unverified,1,1
+TRZON,TRZON,,TR,unlocode_like_unverified,1,1
+USCMU,USCMU,,US,unlocode_like_unverified,1,1
+USLCH,USLCH,,US,unlocode_like_unverified,1,1
+USNSS,USNSS,,US,unlocode_like_unverified,1,1

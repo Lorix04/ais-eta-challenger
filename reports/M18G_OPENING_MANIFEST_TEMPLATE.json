@@ -1,0 +1,12 @@
+{
+  "status": "TEMPLATE_NOT_AN_OPENING_RECORD",
+  "gate_freeze_sha256": "FILL_AFTER_M18G_FREEZE",
+  "holdout_id": "FILL_BEFORE_LABEL_REVEAL",
+  "holdout_provenance_sha256": "FILL_BEFORE_LABEL_REVEAL",
+  "prediction_ledger_sha256": "FILL_BEFORE_LABEL_REVEAL",
+  "registered_scoring_bundle_sha256": "FILL_BEFORE_LABEL_REVEAL",
+  "point_candidate_registered": false,
+  "point_candidate_bundle_sha256": null,
+  "labels_observed_when_prediction_ledger_sealed": false,
+  "opening_count_before_this_evaluation": 0
+}

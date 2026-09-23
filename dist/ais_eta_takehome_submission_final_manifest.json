@@ -1,0 +1,27 @@
+{
+  "archive": "ais_eta_takehome_submission_final.zip",
+  "archive_members": 147,
+  "archive_size": 1662845,
+  "contains_company_raw_ais": false,
+  "contains_high_volume_row_level_derived_data": false,
+  "contains_internal_correspondence": false,
+  "contains_internal_evidence": false,
+  "content_manifest_sha256": "ee83fce3ce67bc7283e4fdd4f82f201f2c0f87ee2a3e70f2195267da65ebc8c4",
+  "deterministic_zip": {
+    "compression": "ZIP_DEFLATED level 9",
+    "fixed_member_timestamp": "2026-09-21T00:00:00",
+    "fixed_unix_mode": "0644",
+    "sorted_input_order": true
+  },
+  "final_freeze": true,
+  "frozen_artifacts": {
+    "m10_final_predictions_sha256": "fc6334d82f0b3c382e40805dc1a325163001a363ff6a6329da33160734011ee1",
+    "m10_model_sha256": "efbb86375751e901c48c2f5724514828a10f9eb8ff08ffaabf2d875e369ef86a",
+    "m10_reference_dataset_sha256": "997e4220b46a4ab09abced1b1e7e5fc76d4424ea583cabe1d554a71a6536893e"
+  },
+  "payload_files_hashed": 146,
+  "post_m10_final_test_tuning": false,
+  "public_safe": false,
+  "sha256": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c",
+  "status": "M14_FINAL_SUBMISSION_FROZEN"
+}

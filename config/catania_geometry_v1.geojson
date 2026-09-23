@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "name": "catania_research_geometry_v1",
+  "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}},
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CATANIA_RESEARCH_GATE_V1",
+        "geometry_role": "arrival_cross_section_proxy",
+        "official_boundary": false,
+        "semantics": "Research cross-section only; not an official port limit, PBP, ATA or harbour-master arrival line.",
+        "west_anchor": "Istituto Idrografico light 2804, rounded published position",
+        "east_anchor": "Istituto Idrografico light 2802, rounded published position"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[15.095, 37.4883333333], [15.1, 37.4833333333]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CATANIA_INNER_HARBOUR_PROXY_V1",
+        "geometry_role": "port_side_dwell_confirmation",
+        "official_boundary": false,
+        "semantics": "Analysis-only envelope frozen before ETA modelling; not a legal/official water boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [15.095, 37.4883333333],
+          [15.089, 37.487],
+          [15.089, 37.5035],
+          [15.1025, 37.5035],
+          [15.102, 37.489],
+          [15.1, 37.4833333333],
+          [15.095, 37.4883333333]
+        ]]
+      }
+    }
+  ]
+}

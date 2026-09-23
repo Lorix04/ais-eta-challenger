@@ -1,0 +1,38 @@
+{
+  "milestone": "M16I",
+  "version": "m16i-red-team-ablation-stress-v1-20260922",
+  "gate": "PASS_RED_TEAM_WITH_HEAVY_TAIL_CAVEAT",
+  "development_rows": 386,
+  "blocked_old_final_rows": 53,
+  "final_test_used": false,
+  "official_m16g_mae_h": 185.88269651558392,
+  "best_single_m16e_mae_h": 192.92557212494944,
+  "pooled_gain_h": 7.0428756093655105,
+  "fold_wins_vs_best_single": 4,
+  "leave_one_fold_positive": 5,
+  "trimmed_5pct_abs_target_gain_h": 9.661050019250702,
+  "winsorized_95_gain_h": 4.0713626598341,
+  "largest_net_gain_destination": "NON_SPECIFIC",
+  "gain_after_removing_largest_net_destination_h": 2.492608264190806,
+  "bootstrap_reps": 5000,
+  "bootstrap_seed": 20260922,
+  "bootstrap_positive_probability": 0.9218,
+  "bootstrap_gain_ci95_h": [
+    -2.022127315541719,
+    20.158356833621376
+  ],
+  "bootstrap_gain_ci90_h": [
+    -0.8634582134665048,
+    17.437968813760918
+  ],
+  "top5_positive_gain_share": 0.5102724226561652,
+  "m16h_coverage": 0.8005181347150259,
+  "confidence_medae_h": {
+    "HIGH": 3.3158864905550005,
+    "LOW": 84.4001388886,
+    "MEDIUM": 19.170972222200003
+  },
+  "confidence_ordered": true,
+  "structural_ablation_note": "counterfactual path stresses preserve frozen M16G path where possible and use deterministic fallbacks; they are not retrained/reselected challenger models",
+  "headline_caveat": "The pooled M16G gain survives fold omission, target-magnitude trimming, winsorisation and removal of the largest net-gain destination, but the 95% paired-bootstrap interval crosses zero and positive gain is concentrated in a few rows. Treat M16G as a promising development challenger, not proven replacement, until a new untouched holdout is scored."
+}

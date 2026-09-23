@@ -1,0 +1,34 @@
+{
+  "artifact_sha256": {
+    "M17E_REPORT.md": "f6ceea5da004806e7760897be92ef7e1c9f63c34c0af60c03fe1863aa10ead1f",
+    "M17E_SUMMARY.json": "890d4575f3f4544e2b4e041228d787d78739bbbdfde9d55794e23b68d70f1dda",
+    "m17e_fold_comparison.csv": "f62bd71943519dc7c9f540aa7f6c080ac689acad742c655e0468e9eaebc551cb",
+    "m17e_fold_gain.png": "07471586aa72b385d4bb941a9fe2b49cee9d997b12b7ece0824e611096587541",
+    "m17e_inner_router_search.csv": "a01c9dd53482799bd25bbe36c74fb85436859e11e5a7ec60004bea0812a584a4",
+    "m17e_model_metrics.csv": "dda7d7339df153a824d4ef3d26f1f8b0964988b2e95419ab42466cf136435d56",
+    "m17e_oof_predictions.csv": "25df859c80e98f7423a6326d5bf3cf85951aac4397101a9bfc96bb72ad98b462",
+    "m17e_outer_selected_router.csv": "c2b58c06d5455b73efa4d9cebc464c487a0d6dda6c8e79e4aadfa92ce56ab45e",
+    "m17e_paired_router_audit.csv": "bc472e067a874fa02f6c64badc91da24f237ddda9ba09eedc00a97c6f6ab33e3",
+    "m17e_router_comparison.png": "c5787d9cd09183bcc17fb59042fb02286ea1e5686fda4a497cb45f92f1a87616",
+    "m17e_ssl_inner_audit.csv": "3e976fbf013b4ecd8f9a45254223fe00279b8bb1db544871439349e30c0ef127"
+  },
+  "blocked_old_final_population": 53,
+  "development_population": 386,
+  "final_test_used_for_selection": false,
+  "gate": "NO_M17E_PROMOTION",
+  "immutable_inputs": {
+    "m14_submission": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c",
+    "m16g_freeze": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "m16j_freeze": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b",
+    "m17a_freeze": "2f74f3e59491d119a1d2139b2e79fd402e180ac3c07006cfff5e56df4dbde24a",
+    "m17d_freeze": "00ab34b9c5d8c01bfc4ad9cd55f6d856fb0a2ae68980aca15729fc75efea813d"
+  },
+  "inner_selection_only": true,
+  "milestone": "M17E",
+  "router_actions": [
+    "KEEP_M16G",
+    "SWITCH_TO_M17A"
+  ],
+  "selection_population_rule": "M10 train+calibration only; old M10 final hard-blocked",
+  "version": "m17e-constrained-selective-router-v1-20260922"
+}

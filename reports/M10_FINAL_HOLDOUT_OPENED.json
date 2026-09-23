@@ -1,0 +1,9 @@
+{
+  "opened_at": "2026-09-21T16:20:00+02:00",
+  "reason": "One-time M10 company-reference ETA benchmark after calibration-only model selection",
+  "strict_selected_model": "catboost_current_snapshot",
+  "future_selected_model": "train_destination_median_with_global_fallback",
+  "final_test_rows_strict": 53,
+  "final_test_rows_future": 46,
+  "no_post_test_tuning": true
+}

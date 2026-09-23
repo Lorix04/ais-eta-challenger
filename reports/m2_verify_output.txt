@@ -1,0 +1,39 @@
+PASS 83 combined ETA calls frozen in M2 split table
+PASS 16 final chronological calls locked
+PASS 44 calls assigned to expanding OOF validation blocks
+PASS 23 calls reserved as route warm-up history
+PASS final chronological holdout never scored in M2
+PASS 556 causal OOF approach prediction points produced
+PASS 40 independent calls contribute M2 OOF route evaluation
+PASS 33 unique vessels contribute M2 OOF route evaluation
+PASS 28 OOF calls are cold-vessel relative to their fold
+PASS every fold route model uses only earlier-arriving calls
+PASS six port x expanding-fold route models fitted
+PASS CATANIA_fold1 has no train/validation call overlap
+PASS CATANIA_fold1 excludes all locked final calls
+PASS CATANIA_fold1 training history is strictly earlier than validation
+PASS CATANIA_fold2 has no train/validation call overlap
+PASS CATANIA_fold2 excludes all locked final calls
+PASS CATANIA_fold2 training history is strictly earlier than validation
+PASS CATANIA_fold3 has no train/validation call overlap
+PASS CATANIA_fold3 excludes all locked final calls
+PASS CATANIA_fold3 training history is strictly earlier than validation
+PASS AUGUSTA_fold1 has no train/validation call overlap
+PASS AUGUSTA_fold1 excludes all locked final calls
+PASS AUGUSTA_fold1 training history is strictly earlier than validation
+PASS AUGUSTA_fold2 has no train/validation call overlap
+PASS AUGUSTA_fold2 excludes all locked final calls
+PASS AUGUSTA_fold2 training history is strictly earlier than validation
+PASS AUGUSTA_fold3 has no train/validation call overlap
+PASS AUGUSTA_fold3 excludes all locked final calls
+PASS AUGUSTA_fold3 training history is strictly earlier than validation
+PASS route-kNN distance never claims shorter-than-geodesic travel
+PASS prototype distance never claims shorter-than-geodesic travel
+PASS all M2 OOF ETA predictions are finite
+PASS every route-kNN neighbor belongs to the fold training history and never to self
+PASS pre-specified M2 route-value gate passed
+PASS route-kNN improves <=24h voyage-balanced MAE by at least 10%
+PASS route-kNN improves cold-vessel <=24h MAE
+PASS route-kNN wins all six port x temporal folds on all-horizon MAE
+PASS summary records zero final-holdout rows scored
+M2 verification complete

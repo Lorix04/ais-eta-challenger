@@ -1,0 +1,16 @@
+{
+  "patch": "M19_GITHUB_WINDOWS_PORTABILITY_PATCH",
+  "scientific_status": "NON_SCIENTIFIC_PACKAGING_ONLY",
+  "reason": "Replace import-time Linux system libsnappy requirement with cross-platform python-snappy first and lazy native fallback.",
+  "historical_m19_source_sha256": "0b906e9e9becdc6c3e1c7126b61b7855ba168033715f14f127e5fd1a18a23f7c",
+  "patched_source_sha256": "8f8cb08fbb45eee863804413674c37669752e07015fa68e64807e889dc12c328",
+  "requirements_added": [
+    "thrift==0.24.0",
+    "python-snappy==0.7.3"
+  ],
+  "frozen_prediction_ledger_sha256": "41466369f9e30ef5618d85cb69b106f05633bce3b78f5b553acaea3c526adf44",
+  "frozen_label_ledger_sha256": "a1a0c81bf14916c3cd790fe8dd456732bf9ce20a14d576b4570537d983687834",
+  "frozen_external_full_mae_h": 550.4090836774562,
+  "no_model_or_gate_parameter_changed": true,
+  "mmdec_spent_no_retuning": true
+}

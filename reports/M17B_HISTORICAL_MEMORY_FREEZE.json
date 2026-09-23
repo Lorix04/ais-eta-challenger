@@ -1,0 +1,24 @@
+{
+  "artifact_sha256": {
+    "M17B_REPORT.md": "da170d4b2004003343da5fec8e800e488aa9dad002e561313fe650a74efd6d2c",
+    "M17B_SUMMARY.json": "38cbabe7e920528c610be2442c1789030f29a675408027a567094ca2cad65beb",
+    "m17b_fold_memory_audit.csv": "9ce2203783a94869088663f823fa167263e508efe351d1b25cb557a14c5b1bbc",
+    "m17b_fold_memory_embeddings.npz": "93cc4f75762ccf47ac5b273b4993b4f98232a3fbe3b5e32217557a281fcfe623",
+    "m17b_fold_metrics.csv": "4017c062e07567f92e2269e5bfa88e61afc9b2816ba2a524b8d285b950885807",
+    "m17b_hnsw_recall.png": "23e7642fff95c805fe912b38aa1e6f5b048d71e7f6ed9b341f0b6c0d0afb790a",
+    "m17b_memory_comparison.png": "5297a363a6ce2412793768ad87704d0cce4123a8db4742bbc48354a4643839dd",
+    "m17b_memory_window_audit.csv": "ac74354bb862fdf6426d84fa73125a988f485b93ae13619f884d133dabd431c8",
+    "m17b_model_metrics.csv": "2d3ea233ed20a264ebe9ad177d3298bab6d649671f6ca064509db77231316e4b",
+    "m17b_oof_predictions.csv": "1756bda950d359e179a4864592ca1b793a271f65919bd887d83772262bf46922",
+    "m17b_retrieval_audit.csv": "64d1e9d5a91fad91254372592e135e535af91afd2cbab2061e916b1a77f7af9f",
+    "m17b_ssl_pretraining_window_audit.csv": "6afcabd4768ac31e450c423357c4c6947bdacedd40f505c9c1751f5d7523f4ff"
+  },
+  "gate": "PASS_HNSW_SCALING_NO_MEMORY_PROMOTION",
+  "immutable_inputs": {
+    "m16j_freeze": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b",
+    "m17a_freeze": "2f74f3e59491d119a1d2139b2e79fd402e180ac3c07006cfff5e56df4dbde24a",
+    "m17a_predictions": "ad0ec06b439ecaf08f18b810e64600db9c4bcf3b0e0a38da86695d07494af96f"
+  },
+  "milestone": "M17B",
+  "version": "m17b-historical-memory-hnsw-v1-20260922"
+}

@@ -1,0 +1,10 @@
+check,count
+nonfinite_point_predictions,0
+nonfinite_interval_endpoints,0
+negative_point_prediction,42
+point_prediction_gt_30d,0
+point_prediction_lt_minus_7d,6
+interval_width_gt_30d,0
+route_destination_fallback_global,173
+route_global,77
+physics_not_eligible,271

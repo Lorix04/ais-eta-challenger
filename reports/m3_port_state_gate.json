@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "min_under24_improvement_fraction": 0.02,
+    "min_fold_win_fraction": 0.6666666666666666,
+    "max_overall_degradation_fraction": 0.03
+  },
+  "observed": {
+    "under24_mae_improvement_fraction": 0.009467888700717303,
+    "overall_mae_improvement_fraction": 0.00132325369647575,
+    "fold_wins": 1,
+    "fold_total": 3,
+    "fold_win_fraction": 0.3333333333333333
+  },
+  "checks": {
+    "under24_gain": false,
+    "fold_consistency": false,
+    "no_material_overall_degradation": true
+  },
+  "status": "DROP_PORT_STATE_FOR_NOW"
+}

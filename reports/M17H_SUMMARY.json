@@ -1,0 +1,32 @@
+{
+  "milestone": "M17H",
+  "version": "m17h-conservative-moco-integration-v1-20260922",
+  "gate": "NO_M17H_PROMOTION",
+  "development_rows": 386,
+  "blocked_old_final_rows": 53,
+  "final_test_used_for_selection": false,
+  "expert_count": 4,
+  "route_replacement": "M16D route -> M17G MoCo-TCN64",
+  "physics_fallback_replacement": "M16D route fallback -> M17G MoCo-TCN64 fallback",
+  "meta_candidate_reselected": false,
+  "meta_strategy_source": "frozen M16G outer-fold selected candidate; refit only on M17H inner-OOF base matrix",
+  "inner_folds": 4,
+  "m17g_regenerated_inner_oof": true,
+  "outer_valid_used_for_ssl_pretraining": false,
+  "target_used_for_ssl_pretraining": false,
+  "m16g_mae_h": 185.88269651558392,
+  "m17h_mae_h": 192.17621219357534,
+  "gain_h_vs_m16g": -6.293515677991422,
+  "fold_wins_vs_m16g": 2,
+  "changed_row_win_share": 0.47398843930635837,
+  "p90_ratio_vs_m16g": 1.0500305436134856,
+  "worst_fold_regression_h": 29.589805740471178,
+  "promotion_thresholds": {
+    "min_gain_h": 1.0,
+    "min_fold_wins": 3,
+    "min_changed_row_win_share": 0.5,
+    "max_p90_ratio": 1.02,
+    "max_worst_fold_regression_h": 15.0
+  },
+  "claim": "Development-only conservative component substitution; M14/M16G freezes remain untouched and old-final stays blocked."
+}

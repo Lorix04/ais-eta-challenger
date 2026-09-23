@@ -1,0 +1,26 @@
+{
+  "Catania": {
+    "episodes": 161,
+    "candidate_calls": 112,
+    "candidate_vessels": 44,
+    "radius_km": 2.8
+  },
+  "Augusta": {
+    "episodes": 1781,
+    "candidate_calls": 927,
+    "candidate_vessels": 96,
+    "radius_km": 5.0
+  },
+  "SantaPanagia": {
+    "episodes": 397,
+    "candidate_calls": 212,
+    "candidate_vessels": 25,
+    "radius_km": 4.0
+  },
+  "Siracusa": {
+    "episodes": 371,
+    "candidate_calls": 123,
+    "candidate_vessels": 11,
+    "radius_km": 3.0
+  }
+}

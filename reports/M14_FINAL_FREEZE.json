@@ -1,0 +1,49 @@
+{
+  "freeze_version": 1,
+  "freeze_date": "2026-09-21",
+  "status": "M14_FINAL_SUBMISSION_FROZEN",
+  "scope": "Final reproducibility verification and immutable company-submission packaging only; no modelling changes.",
+  "primary_target": "company-provided Tracks.eta reference",
+  "strict_final": {
+    "rows": 53,
+    "mae_h": 312.01882325980154,
+    "medae_h": 25.330220729072487,
+    "p90_abs_error_h": 560.4
+  },
+  "frozen_artifacts": {
+    "m10_reference_dataset_sha256": "997e4220b46a4ab09abced1b1e7e5fc76d4424ea583cabe1d554a71a6536893e",
+    "m10_model_sha256": "efbb86375751e901c48c2f5724514828a10f9eb8ff08ffaabf2d875e369ef86a",
+    "m10_final_predictions_sha256": "fc6334d82f0b3c382e40805dc1a325163001a363ff6a6329da33160734011ee1",
+    "m10_freeze_sha256": "0b9970550ab4bc08f77fccfbac0f299cc8e87b8be57b8fa09868590e539d89ba",
+    "m10_final_holdout_opened_sha256": "f8e679f73ef155ea21324ac3d2e93fda506fd40bdbfdfbeaf7fa17997c4dac3d",
+    "m6_freeze_sha256": "b551c12da6d05fbea22c365f0b2167879669d948c4d790d46ccd28a9dc8e17de"
+  },
+  "invariants": {
+    "m10_model_changed": false,
+    "m10_split_changed": false,
+    "m10_final_predictions_changed": false,
+    "m10_final_holdout_reopened": false,
+    "post_final_tuning": false,
+    "m6_frozen_hashes_must_match": 14
+  },
+  "submission_policy": {
+    "deterministic_archive": true,
+    "sorted_member_order": true,
+    "fixed_zip_timestamp": "2026-09-21T00:00:00",
+    "fixed_unix_mode": "0644",
+    "cryptographic_content_manifest": true,
+    "archive_sha256_external_manifest": true,
+    "company_raw_ais_included": false,
+    "high_volume_row_level_derived_data_included": false,
+    "internal_evidence_included": false,
+    "internal_correspondence_included": false,
+    "public_safe": false
+  },
+  "reproducibility_scope": {
+    "data_free_cleanroom_completed": true,
+    "raw_data_full_replay_completed": false,
+    "raw_data_full_replay_reason": "Original company CSVs are intentionally absent from the supplied audit bundle/final submission; full replay requires those three files.",
+    "m11_frozen_artifact_verifier": "PASS",
+    "m12_frozen_artifact_verifier": "PASS including exact 53/53 strict final prediction reproduction"
+  }
+}

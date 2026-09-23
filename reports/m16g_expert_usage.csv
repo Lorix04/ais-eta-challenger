@@ -1,0 +1,14 @@
+m16g_selected_meta_id,m16g_selected_expert,rows,share
+extra_trees_hard_gate,physics_gate,50,0.129533678756
+extra_trees_hard_gate,tabular,41,0.10621761658
+extra_trees_hard_gate,prior,33,0.0854922279793
+extra_trees_hard_gate,route,30,0.0777202072539
+hist_gb_hard_gate,route,35,0.0906735751295
+hist_gb_hard_gate,tabular,21,0.0544041450777
+hist_gb_hard_gate,physics_gate,17,0.0440414507772
+hist_gb_hard_gate,prior,4,0.0103626943005
+median_blend,BLEND_MEDIAN,77,0.199481865285
+rf_hard_gate,physics_gate,23,0.059585492228
+rf_hard_gate,route,22,0.0569948186528
+rf_hard_gate,prior,17,0.0440414507772
+rf_hard_gate,tabular,16,0.0414507772021

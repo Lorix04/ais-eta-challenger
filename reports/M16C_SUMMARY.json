@@ -1,0 +1,153 @@
+{
+  "milestone": "M16C",
+  "status": "FOLD_SAFE_HIERARCHICAL_PRIOR_BUILT",
+  "gate": "PASS_COMPONENT_NOT_STANDALONE",
+  "version": "m16c-hierarchical-prior-v1-20260921",
+  "development_rows": 386,
+  "blocked_old_final_rows": 53,
+  "old_final_used_for_selection": false,
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "inner_salt": "M16C_INNER_V1_20260921",
+  "selection_rule": "minimum pooled inner-CV MAE; P90/MedAE/config_id deterministic tie-break",
+  "candidate_hierarchies": {
+    "dest": [
+      "key_dest"
+    ],
+    "dest_ship": [
+      "key_dest",
+      "key_dest_ship"
+    ],
+    "dest_distance": [
+      "key_dest",
+      "key_dest_distance"
+    ],
+    "full": [
+      "key_dest",
+      "key_dest_distance",
+      "key_dest_distance_ship",
+      "key_dest_distance_ship_movement"
+    ]
+  },
+  "parameter_profiles": [
+    {
+      "min_support": 2,
+      "shrinkage_alpha": 10.0
+    },
+    {
+      "min_support": 3,
+      "shrinkage_alpha": 20.0
+    },
+    {
+      "min_support": 5,
+      "shrinkage_alpha": 50.0
+    }
+  ],
+  "clip_quantiles": [
+    null,
+    0.025,
+    0.05
+  ],
+  "robust_estimator": "group median shrunk toward hierarchical parent with w=n/(n+alpha)",
+  "clip_policy": "optional train-only target quantile guardrail selected by inner CV",
+  "m16a_raw_destination_median_oof": {
+    "model": "m16a_raw_destination_median",
+    "n": 386,
+    "mae_h": 202.9708783102998,
+    "medae_h": 22.266388888877785,
+    "rmse_h": 663.9072505639369,
+    "p90_ae_h": 330.8150000000222,
+    "p95_ae_h": 757.750277777775,
+    "within_24h": 0.5155440414507773,
+    "within_48h": 0.7150259067357513,
+    "within_72h": 0.7642487046632125,
+    "prediction_min_h": -3742.03222222,
+    "prediction_max_h": 334.89,
+    "nonfinite_prediction_count": 0,
+    "abs_gt_1y_prediction_count": 0
+  },
+  "m16a_catboost_current_snapshot_oof": {
+    "model": "m16a_catboost_current_snapshot",
+    "n": 386,
+    "mae_h": 206.14229857747853,
+    "medae_h": 25.939685073038895,
+    "rmse_h": 641.5282680913448,
+    "p90_ae_h": 325.5135665413111,
+    "p95_ae_h": 818.2631307580278,
+    "within_24h": 0.47150259067357514,
+    "within_48h": 0.6528497409326425,
+    "within_72h": 0.7331606217616581,
+    "prediction_min_h": -488.485098113,
+    "prediction_max_h": 124.875490048,
+    "nonfinite_prediction_count": 0,
+    "abs_gt_1y_prediction_count": 0
+  },
+  "m16b_naive_canonical_median_oof": {
+    "model": "m16b_naive_canonical_median",
+    "n": 386,
+    "mae_h": 209.25872229415998,
+    "medae_h": 20.733611111105553,
+    "rmse_h": 668.1221116179763,
+    "p90_ae_h": 313.7017361110944,
+    "p95_ae_h": 1426.6707291660778,
+    "within_24h": 0.5362694300518135,
+    "within_48h": 0.694300518134715,
+    "within_72h": 0.7435233160621761,
+    "prediction_min_h": -3742.03222222,
+    "prediction_max_h": 2885.25,
+    "nonfinite_prediction_count": 0,
+    "abs_gt_1y_prediction_count": 0
+  },
+  "m16c_hierarchical_prior_oof": {
+    "model": "m16c_hierarchical_prior",
+    "n": 386,
+    "mae_h": 202.56078933221622,
+    "medae_h": 25.16375,
+    "rmse_h": 621.1478568240085,
+    "p90_ae_h": 339.8746686315407,
+    "p95_ae_h": 813.6935577138992,
+    "within_24h": 0.4792746113989637,
+    "within_48h": 0.6968911917098446,
+    "within_72h": 0.7538860103626943,
+    "prediction_min_h": -1447.8533350776206,
+    "prediction_max_h": 1001.0814464168311,
+    "nonfinite_prediction_count": 0,
+    "abs_gt_1y_prediction_count": 0
+  },
+  "m16c_mae_gain_h_vs_m16a_raw_destination": 0.4100889780835928,
+  "m16c_mae_gain_h_vs_m16a_catboost": 3.5815092452623105,
+  "m16c_mae_gain_h_vs_m16b_naive_canonical": 6.6979329619437635,
+  "fold_wins_vs_m16a_raw_destination": 1,
+  "fold_wins_vs_m16a_catboost": 3,
+  "standalone_promoted": false,
+  "standalone_promotion_rule": "positive pooled MAE gain + >=3/5 fold wins vs raw destination + no P90 regression",
+  "equal_blend_50_50_diagnostic": {
+    "n": 386,
+    "mae_h": 199.86132721289084,
+    "medae_h": 22.43819900643657,
+    "rmse_h": 619.7190821211507,
+    "p90_ae_h": 334.6695025713151,
+    "p95_ae_h": 848.1516053880586,
+    "within_24h": 0.5129533678756477,
+    "within_48h": 0.6865284974093264,
+    "within_72h": 0.7357512953367875,
+    "prediction_min_h": -1928.5163203188104,
+    "prediction_max_h": 525.9575287639656,
+    "nonfinite_prediction_count": 0,
+    "abs_gt_1y_prediction_count": 0,
+    "weight_m16c": 0.5,
+    "weight_raw_destination": 0.5,
+    "weight_selected_or_tuned": false,
+    "purpose": "complementarity diagnostic only; M16G owns ensemble selection"
+  },
+  "residual_correlation_vs_raw_destination": 0.8627740156529431,
+  "selected_configs_by_outer_fold": {
+    "0": "full__n2__a10__clip_none",
+    "1": "dest_ship__n2__a10__clip_none",
+    "2": "full__n3__a20__clip_q0.05",
+    "3": "full__n2__a10__clip_none",
+    "4": "full__n2__a10__clip_q0.025"
+  },
+  "final_test_used_for_selection": false,
+  "claim": "Nested development-only OOF result; not a new untouched final-test result."
+}

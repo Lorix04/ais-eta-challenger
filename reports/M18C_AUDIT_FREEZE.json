@@ -1,0 +1,26 @@
+{
+  "milestone": "M18C",
+  "version": "m18c-target-label-reliability-v1-20260923",
+  "status": "FROZEN_TARGET_LABEL_RELIABILITY_AUDIT",
+  "model_change": false,
+  "relabeling": false,
+  "strict_rows_deleted": 0,
+  "fresh_holdout_opened": false,
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "m18a_baseline_freeze_sha256": "ea9219067beb818118a1895605069f28a8ee5023b807ca905b99f215fc2b8835",
+  "m18b_validation_freeze_sha256": "6c61f825ce2105577517dce9ee0422ece346a488eac9e9b0cb6ab25a409fbfb8",
+  "m16g_oof_sha256": "cd8128d27e3a3d4232ff1758b78f6b48e3f14238dee272f9192ef74aca8af684",
+  "audit_artifact_sha256": {
+    "reports/M18C_TARGET_LABEL_AUDIT.json": "4635b1cb8cb164193406f3fab07d0fa66ac286422fe053bbfd302ebe9c61db76",
+    "reports/M18C_REPORT.md": "dc7e5b458b25ff6bab7d99c669b622ddc17b461118934eaa2d6b2719067ce9dc",
+    "reports/m18c_reference_forensics.csv": "020ce79af11a6b064e15c4cd5aeac1e8df4dad08dc2b24a2b8fd2568902e63fe",
+    "reports/m18c_error_by_reference_status.csv": "a174e58a73b606802e4a768433149b0e99f4148961fc2ea1dd1600814ea3572c",
+    "reports/m18c_error_by_reliability_tier.csv": "c6d8c169f6f54c727b7387c2d7747d15e1ef662d825881ff3874d025b6745a19",
+    "reports/m18c_error_by_diagnostic_regime.csv": "c2fc37fdf68737ef7d9c4633a672fadf8b4087ca85f831f5a05a418cd1edeffb",
+    "reports/m18c_error_concentration.csv": "cc0640ac9b62820e2d0e7e42ae2e4a8b36742401e95ad1918e4b985849f7b57c",
+    "reports/m18c_label_slice_diagnostics.csv": "8a1d0605ff3c2591b9304969785ec3f45ee8686181d08779b5fc4ae2dfe8399d",
+    "reports/m18c_historical_ais_proxy_alignment.csv": "d362898152c437f590de9ab531ddcf8a3d90b63587057d719e02256371984362",
+    "docs/M18C_TARGET_LABEL_RELIABILITY.md": "4c56ca084883160875a013c0e461f38d9e5ce78f3e30c71722f84065c29e87c6"
+  }
+}

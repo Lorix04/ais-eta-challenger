@@ -1,0 +1,38 @@
+{
+  "milestone": "M19",
+  "version": "m19-mmdec-fresh-external-holdout-v1-20260923",
+  "source": {
+    "name": "MMDEC: Multimodal Maritime Dataset on the English Channel",
+    "version": "v1",
+    "doi": "10.5281/zenodo.17491518",
+    "publisher": "Zenodo",
+    "period": "2023-07-01 to 2023-10-01",
+    "region": "Western Celtic Sea, English Channel, part of North Sea",
+    "ais_position_messages": 19014229,
+    "ais_position_unique_mmsi": 25130,
+    "ais_status_messages": 13558007,
+    "ais_status_unique_mmsi": 23958,
+    "required_files": {
+      "Dataset_AIS_POS.parquet": {
+        "published_md5": "12b824d26488e381680b2de90090cc2c",
+        "published_size": "450.9 MB"
+      },
+      "Dataset_AIS_SPEC.parquet": {
+        "published_md5": "f1dd53064868fa078c714986991c3941",
+        "published_size": "210.0 MB"
+      }
+    }
+  },
+  "semantic_alignment": {
+    "label": "AIS Message-5 declared ETA (MMDDHHMM resolved to nearest year)",
+    "same_as_operational_ata": false,
+    "matches_m18a_contract_family": true,
+    "external_provider_region_and_period": true
+  },
+  "blinding": {
+    "provider_enforced": false,
+    "software_procedural": true,
+    "eta_values_allowed_in_scoring_rows": false,
+    "prelabel_eta_use": "availability/range mask only"
+  }
+}

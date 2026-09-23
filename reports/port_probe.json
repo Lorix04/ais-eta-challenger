@@ -1,0 +1,442 @@
+{
+  "Catania": {
+    "rows_15km": 149143,
+    "vessels_15km": 73,
+    "slow_rows": 138300,
+    "slow_vessels": 57,
+    "clusters": [
+      {
+        "cluster": 1,
+        "n_points": 606,
+        "n_vessels": 50,
+        "lat": 37.497243499999996,
+        "lon": 15.094128999999999,
+        "dest_top": "ITCTA"
+      },
+      {
+        "cluster": 2,
+        "n_points": 20,
+        "n_vessels": 4,
+        "lat": 37.530155,
+        "lon": 15.1149325,
+        "dest_top": "PESCA"
+      },
+      {
+        "cluster": 3,
+        "n_points": 11,
+        "n_vessels": 4,
+        "lat": 37.561647,
+        "lon": 15.16339,
+        "dest_top": "LICATA"
+      },
+      {
+        "cluster": 11,
+        "n_points": 21,
+        "n_vessels": 2,
+        "lat": 37.489877,
+        "lon": 15.107113,
+        "dest_top": "CATANIA,SICILY"
+      },
+      {
+        "cluster": 5,
+        "n_points": 18,
+        "n_vessels": 2,
+        "lat": 37.474712,
+        "lon": 15.1125155,
+        "dest_top": "ITCTA"
+      },
+      {
+        "cluster": 7,
+        "n_points": 5,
+        "n_vessels": 2,
+        "lat": 37.484212,
+        "lon": 15.09812,
+        "dest_top": "IT CTA"
+      },
+      {
+        "cluster": 9,
+        "n_points": 5,
+        "n_vessels": 2,
+        "lat": 37.468305,
+        "lon": 15.108485,
+        "dest_top": "CATANIA,SICILY"
+      },
+      {
+        "cluster": 6,
+        "n_points": 222,
+        "n_vessels": 1,
+        "lat": 37.4908265,
+        "lon": 15.112762499999999,
+        "dest_top": "MTMLA>ITCTA"
+      },
+      {
+        "cluster": 10,
+        "n_points": 43,
+        "n_vessels": 1,
+        "lat": 37.485247,
+        "lon": 15.10809,
+        "dest_top": "CATANIA,SICILY"
+      },
+      {
+        "cluster": 8,
+        "n_points": 6,
+        "n_vessels": 1,
+        "lat": 37.502356,
+        "lon": 15.108449,
+        "dest_top": null
+      },
+      {
+        "cluster": 0,
+        "n_points": 3,
+        "n_vessels": 1,
+        "lat": 37.49993,
+        "lon": 15.248132,
+        "dest_top": "OFFSHORE CATANIA"
+      },
+      {
+        "cluster": 4,
+        "n_points": 3,
+        "n_vessels": 1,
+        "lat": 37.479447,
+        "lon": 15.095553,
+        "dest_top": null
+      }
+    ]
+  },
+  "Augusta": {
+    "rows_15km": 467767,
+    "vessels_15km": 161,
+    "slow_rows": 427490,
+    "slow_vessels": 128,
+    "clusters": [
+      {
+        "cluster": 0,
+        "n_points": 8312,
+        "n_vessels": 87,
+        "lat": 37.210834000000006,
+        "lon": 15.2051745,
+        "dest_top": "ITAUG"
+      },
+      {
+        "cluster": 9,
+        "n_points": 2665,
+        "n_vessels": 20,
+        "lat": 37.125017,
+        "lon": 15.26445,
+        "dest_top": "IT SPA"
+      },
+      {
+        "cluster": 11,
+        "n_points": 149,
+        "n_vessels": 17,
+        "lat": 37.23665,
+        "lon": 15.199473,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 16,
+        "n_points": 75,
+        "n_vessels": 8,
+        "lat": 37.191113,
+        "lon": 15.194837,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 1,
+        "n_points": 34,
+        "n_vessels": 6,
+        "lat": 37.112762000000004,
+        "lon": 15.2523035,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 31,
+        "n_points": 74,
+        "n_vessels": 5,
+        "lat": 37.202261,
+        "lon": 15.221607500000001,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 7,
+        "n_points": 17,
+        "n_vessels": 5,
+        "lat": 37.23086,
+        "lon": 15.224327,
+        "dest_top": "AUG"
+      },
+      {
+        "cluster": 18,
+        "n_points": 51,
+        "n_vessels": 4,
+        "lat": 37.12354,
+        "lon": 15.232137,
+        "dest_top": "ITSP"
+      },
+      {
+        "cluster": 8,
+        "n_points": 22,
+        "n_vessels": 4,
+        "lat": 37.2214075,
+        "lon": 15.192319000000001,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 4,
+        "n_points": 684,
+        "n_vessels": 3,
+        "lat": 37.134893000000005,
+        "lon": 15.2788065,
+        "dest_top": "ITSPA"
+      },
+      {
+        "cluster": 21,
+        "n_points": 240,
+        "n_vessels": 3,
+        "lat": 37.136333,
+        "lon": 15.255317,
+        "dest_top": "ITSPA FOR ORDERS"
+      },
+      {
+        "cluster": 22,
+        "n_points": 56,
+        "n_vessels": 3,
+        "lat": 37.285125,
+        "lon": 15.190983500000002,
+        "dest_top": null
+      },
+      {
+        "cluster": 12,
+        "n_points": 39,
+        "n_vessels": 3,
+        "lat": 37.232158,
+        "lon": 15.217412,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 35,
+        "n_points": 31,
+        "n_vessels": 3,
+        "lat": 37.12984,
+        "lon": 15.29326,
+        "dest_top": "ITSPA"
+      },
+      {
+        "cluster": 5,
+        "n_points": 14,
+        "n_vessels": 3,
+        "lat": 37.243283,
+        "lon": 15.20995,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 3,
+        "n_points": 151,
+        "n_vessels": 2,
+        "lat": 37.119667,
+        "lon": 15.284633,
+        "dest_top": "ITSIR"
+      },
+      {
+        "cluster": 17,
+        "n_points": 36,
+        "n_vessels": 2,
+        "lat": 37.132965,
+        "lon": 15.233919499999999,
+        "dest_top": "ITSPA"
+      },
+      {
+        "cluster": 2,
+        "n_points": 28,
+        "n_vessels": 2,
+        "lat": 37.173064,
+        "lon": 15.201146999999999,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 20,
+        "n_points": 24,
+        "n_vessels": 2,
+        "lat": 37.1873055,
+        "lon": 15.2759305,
+        "dest_top": "TRALI>ITAUG"
+      },
+      {
+        "cluster": 33,
+        "n_points": 20,
+        "n_vessels": 2,
+        "lat": 37.2907165,
+        "lon": 15.1636475,
+        "dest_top": null
+      }
+    ]
+  },
+  "Santa_Panagia": {
+    "rows_15km": 321782,
+    "vessels_15km": 186,
+    "slow_rows": 284813,
+    "slow_vessels": 118,
+    "clusters": [
+      {
+        "cluster": 0,
+        "n_points": 5680,
+        "n_vessels": 75,
+        "lat": 37.205756,
+        "lon": 15.204672500000001,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 6,
+        "n_points": 2665,
+        "n_vessels": 20,
+        "lat": 37.125017,
+        "lon": 15.26445,
+        "dest_top": "IT SPA"
+      },
+      {
+        "cluster": 5,
+        "n_points": 559,
+        "n_vessels": 17,
+        "lat": 37.053287,
+        "lon": 15.283442,
+        "dest_top": "SIRACUSA"
+      },
+      {
+        "cluster": 9,
+        "n_points": 75,
+        "n_vessels": 8,
+        "lat": 37.191113,
+        "lon": 15.194837,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 1,
+        "n_points": 34,
+        "n_vessels": 6,
+        "lat": 37.112762000000004,
+        "lon": 15.2523035,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 21,
+        "n_points": 74,
+        "n_vessels": 5,
+        "lat": 37.202261,
+        "lon": 15.221607500000001,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 11,
+        "n_points": 51,
+        "n_vessels": 4,
+        "lat": 37.12354,
+        "lon": 15.232137,
+        "dest_top": "ITSP"
+      },
+      {
+        "cluster": 4,
+        "n_points": 684,
+        "n_vessels": 3,
+        "lat": 37.134893000000005,
+        "lon": 15.2788065,
+        "dest_top": "ITSPA"
+      },
+      {
+        "cluster": 14,
+        "n_points": 240,
+        "n_vessels": 3,
+        "lat": 37.136333,
+        "lon": 15.255317,
+        "dest_top": "ITSPA FOR ORDERS"
+      },
+      {
+        "cluster": 24,
+        "n_points": 31,
+        "n_vessels": 3,
+        "lat": 37.12984,
+        "lon": 15.29326,
+        "dest_top": "ITSPA"
+      },
+      {
+        "cluster": 3,
+        "n_points": 151,
+        "n_vessels": 2,
+        "lat": 37.119667,
+        "lon": 15.284633,
+        "dest_top": "ITSIR"
+      },
+      {
+        "cluster": 10,
+        "n_points": 36,
+        "n_vessels": 2,
+        "lat": 37.132965,
+        "lon": 15.233919499999999,
+        "dest_top": "ITSPA"
+      },
+      {
+        "cluster": 2,
+        "n_points": 28,
+        "n_vessels": 2,
+        "lat": 37.173064,
+        "lon": 15.201146999999999,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 13,
+        "n_points": 24,
+        "n_vessels": 2,
+        "lat": 37.1873055,
+        "lon": 15.2759305,
+        "dest_top": "TRALI>ITAUG"
+      },
+      {
+        "cluster": 8,
+        "n_points": 10,
+        "n_vessels": 2,
+        "lat": 37.195558500000004,
+        "lon": 15.265958000000001,
+        "dest_top": "ITAUG"
+      },
+      {
+        "cluster": 12,
+        "n_points": 6,
+        "n_vessels": 2,
+        "lat": 37.162878,
+        "lon": 15.209422499999999,
+        "dest_top": "AUGUSTA"
+      },
+      {
+        "cluster": 25,
+        "n_points": 244,
+        "n_vessels": 1,
+        "lat": 37.140483,
+        "lon": 15.273067,
+        "dest_top": "ITSPA>ITAUG"
+      },
+      {
+        "cluster": 31,
+        "n_points": 107,
+        "n_vessels": 1,
+        "lat": 37.13781,
+        "lon": 15.26262,
+        "dest_top": "ITSPA"
+      },
+      {
+        "cluster": 7,
+        "n_points": 25,
+        "n_vessels": 1,
+        "lat": 37.142075,
+        "lon": 15.233785,
+        "dest_top": "MELILI ,SICILY"
+      },
+      {
+        "cluster": 20,
+        "n_points": 23,
+        "n_vessels": 1,
+        "lat": 37.19478,
+        "lon": 15.270818,
+        "dest_top": "ITAUG"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_sha256": {
+    "M17D_REPORT.md": "987efad1cabcf26525083cd02e680f99a15d7a8b64d6853b69715a9452e60378",
+    "M17D_SUMMARY.json": "d77c97876718657eb8a9412c5a7674517c9f0f4a57fd0411b33f31d265cc41f7",
+    "m17d_expert_usage.csv": "208d22c4a33b9bfc04f0580784a144f1f2bbde13eca0a54b4705a082afcdecc0",
+    "m17d_fold_comparison.csv": "eebc5da76a768af04b1d5cf4ce471ee29c08970ee1ec0b78770be33744d4d09c",
+    "m17d_fold_gain.png": "82b685a65e8b4f4dd015ffe6a042bf47faf9e9e0f42a9ce709c5ace796839434",
+    "m17d_graph_inner_audit.csv": "b5eb82f86cb1a1dc20ee6c812d90441f59bd256bf6b0da4caef4f1e8c8b53d5e",
+    "m17d_inner_meta_search.csv": "85a57c5ee6f15091759be492489a16abee19d01537a7e2453c69e084b4b19654",
+    "m17d_mixture_comparison.png": "8ddab392a233c97309717934d02325bfa7df7a260a26b1d85043245ae73cfcc8",
+    "m17d_model_metrics.csv": "93353a1d060fedca69f654ca8dfb47b5162442732000935d43183871285757d0",
+    "m17d_oof_predictions.csv": "6e3a7252bae6a570951e452d9b6857c3ad5fc85ad4bca3b88a6062db4ae2eadd",
+    "m17d_outer_selected_meta.csv": "333dd3cd2ed304086fd8fc53f4f8bffa13f69dbe44b8d0a7c38d1be888ef1ff4",
+    "m17d_paired_error_deltas.csv": "fb31f9bd93cbd686f8a5c2eda7ae0de1099f0ddcaeaef9ca2dd64e4154b64846",
+    "m17d_ssl_inner_audit.csv": "354afa05c30c497e25a457c1a8b939e1b7be4ba35da03837e61e0d9520e413f5"
+  },
+  "blocked_old_final_population": 53,
+  "development_population": 386,
+  "final_test_used_for_selection": false,
+  "gate": "NO_M17D_PROMOTION",
+  "immutable_inputs": {
+    "m14_submission": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c",
+    "m16g_freeze": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "m16j_freeze": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b",
+    "m17a_freeze": "2f74f3e59491d119a1d2139b2e79fd402e180ac3c07006cfff5e56df4dbde24a",
+    "m17c_freeze": "282f9965d87a6ced720c8ea08f21717063545775704538fe208ff6f1b1cc0389"
+  },
+  "inner_selection_only": true,
+  "m17a_regenerated_inner_oof": true,
+  "m17c_regenerated_inner_oof": true,
+  "milestone": "M17D",
+  "selection_population_rule": "M10 train+calibration only; old M10 final hard-blocked",
+  "version": "m17d-extended-mixture-of-experts-v1-20260922"
+}

@@ -1,0 +1,27 @@
+{
+  "milestone": "M16G",
+  "version": "m16g-mixture-of-experts-v1-20260921",
+  "gate": "PASS_MOE_STABLE_GAIN",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "selection_population_rule": "M10 train+calibration only; old M10 final hard-blocked",
+  "outer_fold_source": "M16A frozen outer folds",
+  "inner_selection_only": true,
+  "final_test_used_for_selection": false,
+  "base_predictions_regenerated_inner_oof": true,
+  "target_derived_gating_features_used": false,
+  "artifact_sha256": {
+    "M16G_REPORT.md": "dc919b80df5cb6fb34fe0b5a12f2119e2ff57c3c762cf0b485c333403c7dc29f",
+    "M16G_SUMMARY.json": "de1e47613ea5ec7a5bfea140db170d936a934f3ee62e388ad4a543a7cff1bdb5",
+    "m16g_oof_predictions.csv": "cd8128d27e3a3d4232ff1758b78f6b48e3f14238dee272f9192ef74aca8af684",
+    "m16g_inner_meta_search.csv": "cb6596c2df2a49722726e4c23a7d9ff8d29ed0627ad86b6ded46ddbf23bcead8",
+    "m16g_outer_selected_meta.csv": "fdac058bbead90f8943bfba35276b46ae20b7f797aa93c4dddcc3d21b59bbcb5",
+    "m16g_candidate_metrics.csv": "8fd9d3f76baa5d34124d84a888402f56a076988efa12a31c6d8f3f6b2905af2f",
+    "m16g_fold_metrics.csv": "10767c0fdb2d44236f26dda89227374fc3b2ffd9618c800fa54005f7909874ff",
+    "m16g_fold_comparison.csv": "9a78e5b489b5f83ea3e5d3c5a3332b60b94a838ac411e2d2358ee30042015ce8",
+    "m16g_expert_usage.csv": "a3df94ea019ed840d903e82592554e370d890f52c011419f6fba3fcdc912a81c",
+    "m16g_paired_error_deltas.csv": "1d39a85b57310c53fc382b9382e20930d37c7581285cf4ca14fe61d8ab5fb897",
+    "m16g_mixture_comparison.png": "69a22a879992e13a9ccf1fb71cc93de483c509af28a92d21df51409861f700b8",
+    "m16g_expert_usage.png": "72fe8e859006c8d76cdce2ccc028e8c9c2e5219bd815a68cf237dbd42e0b7a91"
+  }
+}

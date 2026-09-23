@@ -1,0 +1,102 @@
+{
+  "strict": {
+    "task": "strict_all_parseable",
+    "train_n": 321,
+    "calibration_n": 65,
+    "final_test_n": 53,
+    "selected_model": "catboost_current_snapshot",
+    "selection_metric": "calibration MAE hours",
+    "selected_final_metrics": {
+      "n": 53,
+      "mae_h": 312.01882325980154,
+      "medae_h": 25.330220729072487,
+      "rmse_h": 838.0387059056388,
+      "p90_ae_h": 560.4344131864802,
+      "within_6h": 0.09433962264150944,
+      "within_12h": 0.16981132075471697,
+      "within_24h": 0.4339622641509434,
+      "within_48h": 0.6037735849056604
+    },
+    "global_median_final_metrics": {
+      "n": 53,
+      "mae_h": 322.5497169811321,
+      "medae_h": 34.408611111111114,
+      "rmse_h": 856.7899464001048,
+      "p90_ae_h": 564.6706111111114,
+      "within_6h": 0.1509433962264151,
+      "within_12h": 0.2641509433962264,
+      "within_24h": 0.3584905660377358,
+      "within_48h": 0.6981132075471698
+    },
+    "destination_median_final_metrics": {
+      "n": 53,
+      "mae_h": 353.67256813417197,
+      "medae_h": 25.68611111111111,
+      "rmse_h": 897.1932065086626,
+      "p90_ae_h": 1439.0513333333379,
+      "within_6h": 0.2641509433962264,
+      "within_12h": 0.33962264150943394,
+      "within_24h": 0.4528301886792453,
+      "within_48h": 0.660377358490566
+    },
+    "selected_vs_destination_median_bootstrap": {
+      "mean_gain_h": 41.65374487437028,
+      "ci95_low_h": -8.178116168229092,
+      "ci95_high_h": 126.77623142813614
+    }
+  },
+  "future_reference": {
+    "task": "future_reference",
+    "train_n": 275,
+    "calibration_n": 54,
+    "final_test_n": 46,
+    "selected_model": "train_destination_median_with_global_fallback",
+    "selection_metric": "calibration MAE hours",
+    "selected_final_metrics": {
+      "n": 46,
+      "mae_h": 136.80571256038647,
+      "medae_h": 22.439166666666672,
+      "rmse_h": 537.8939174147756,
+      "p90_ae_h": 200.50708333333333,
+      "within_6h": 0.1956521739130435,
+      "within_12h": 0.30434782608695654,
+      "within_24h": 0.5217391304347826,
+      "within_48h": 0.717391304347826
+    },
+    "global_median_final_metrics": {
+      "n": 46,
+      "mae_h": 138.4040458937198,
+      "medae_h": 31.709583333333335,
+      "rmse_h": 530.4407761751897,
+      "p90_ae_h": 195.26055555555556,
+      "within_6h": 0.13043478260869565,
+      "within_12h": 0.2391304347826087,
+      "within_24h": 0.41304347826086957,
+      "within_48h": 0.6739130434782609
+    },
+    "destination_median_final_metrics": {
+      "n": 46,
+      "mae_h": 136.80571256038647,
+      "medae_h": 22.439166666666672,
+      "rmse_h": 537.8939174147756,
+      "p90_ae_h": 200.50708333333333,
+      "within_6h": 0.1956521739130435,
+      "within_12h": 0.30434782608695654,
+      "within_24h": 0.5217391304347826,
+      "within_48h": 0.717391304347826
+    },
+    "selected_vs_destination_median_bootstrap": {
+      "mean_gain_h": 0.0,
+      "ci95_low_h": 0.0,
+      "ci95_high_h": 0.0
+    }
+  },
+  "interpretation": {
+    "strict": "Directly honors every parseable company-provided Tracks ETA label, including stale/past/far-future references.",
+    "future_reference": "Operational diagnostic restricted only by ETA semantics: reference ETA is not already in the past at prediction time. No upper horizon cutoff is used.",
+    "actual_arrival_claim": false
+  },
+  "final_test_opened_once": true,
+  "m6_predictor_unchanged": true,
+  "m6_holdout_not_reused": true
+}

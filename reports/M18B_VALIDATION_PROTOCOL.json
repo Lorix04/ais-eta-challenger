@@ -1,0 +1,102 @@
+{
+  "milestone": "M18B",
+  "version": "m18b-validation-redesign-v1-20260923",
+  "status": "VALIDATION_PROTOCOL_FROZEN_NO_MODEL_CHANGE",
+  "m18a_contract_version": "m18a-prediction-contract-frozen-baseline-v1-20260923",
+  "model_change": false,
+  "prediction_artifact_rewrite": false,
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "owner_unit": "MMSI (one supervised Tracks row per MMSI under M18A)",
+  "owner_grouping_note": "Because the primary benchmark has one target row per MMSI, owner-grouped and row-grouped outer evaluation coincide; repeated AIS history rows are inputs, not independent supervised labels.",
+  "strict_forward_temporal_design": {
+    "temporal_blocks": 5,
+    "block_assignment": "near-equal-count contiguous decision-time blocks; identical timestamps never split",
+    "block_counts": {
+      "0": 78,
+      "1": 77,
+      "2": 77,
+      "3": 77,
+      "4": 77
+    },
+    "test_blocks": [
+      2,
+      3,
+      4
+    ],
+    "forward_folds": 3,
+    "warmup_blocks": [
+      0,
+      1
+    ],
+    "strict_test_union_n": 231,
+    "strict_test_union_fraction": 0.5984455958549223,
+    "embargo_h": 6.0,
+    "embargo_rationale": "matches the longest 6 h causal AIS history used by the frozen route representation and prevents overlapping decision-history windows at train/test boundaries",
+    "fit_rule": "all preprocessing, train-derived aggregates, expert fitting, meta-selection and calibration must be refit using TRAIN only inside each forward fold",
+    "purged_rows_are_training_forbidden": true,
+    "future_rows_are_training_forbidden": true,
+    "legacy_oof_metrics_are_forward_generalization": false
+  },
+  "reporting_metrics": {
+    "primary": "MAE_h",
+    "secondary": [
+      "MedAE_h",
+      "RMSE_h",
+      "P90_absolute_error_h",
+      "mean_signed_error_h"
+    ],
+    "fold_reporting": [
+      "pooled strict-test union",
+      "macro mean across forward folds",
+      "each forward fold separately"
+    ],
+    "selection_forbidden_slices": "slice metrics are diagnostics/robustness checks and cannot be used to tune after test labels are observed"
+  },
+  "predeclared_diagnostic_slices": [
+    "forward fold / decision-time block",
+    "M18A reference ETA status",
+    "destination seen-vs-unseen in forward-train (diagnostic proxy only)",
+    "target horizon regime; to be audited in M18D, not used as a prediction-time feature"
+  ],
+  "cross_port_validation": {
+    "status": "WITHHELD_NO_AUTHORITATIVE_PORT_EVENT_LABEL",
+    "reason": "M18A target is company Tracks.eta reference and noisy destination text does not establish an authoritative arrival port/event.",
+    "allowed_now": "destination-family support diagnostics only; no cross-port generalization claim"
+  },
+  "fresh_external_lockbox": {
+    "opened": false,
+    "selection_use_allowed": false,
+    "required_before_open": [
+      "hash/schema/provenance freeze",
+      "M18A target semantics confirmation or explicit new contract version",
+      "executable full-development baseline/candidate recipes frozen",
+      "promotion metrics and critical slices frozen"
+    ],
+    "paired_uncertainty": {
+      "unit": "owner/MMSI row",
+      "method": "paired bootstrap of baseline MAE minus candidate MAE",
+      "reps": 10000,
+      "seed": 18023
+    },
+    "promotion_gate": {
+      "primary_mae_gain_must_be_positive": true,
+      "paired_bootstrap_ci95_lower_bound_must_exceed_h": 0.0,
+      "candidate_p90_ratio_vs_baseline_max": 1.02,
+      "critical_slice_regression_ratio_max": 1.1,
+      "critical_slice_min_n": 20,
+      "single_opening_no_retuning_after_labels": true
+    }
+  },
+  "legacy_m16g_oof_diagnostic_only": {
+    "ledger": "reports/m16g_oof_predictions.csv",
+    "purpose": "sanity-check chronology heterogeneity only",
+    "not_a_claim": "These predictions came from legacy balanced hash folds; temporal slicing them does not create forward-temporal generalization evidence."
+  },
+  "temporal_boundaries": [
+    "2026-04-07T20:39:48",
+    "2026-04-10T06:45:55",
+    "2026-04-12T02:26:39",
+    "2026-04-13T19:13:57"
+  ]
+}

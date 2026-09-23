@@ -1,0 +1,6 @@
+outer_fold,selected_meta_id,inner_best_mae_h,inner_best_p90_ae_h,outer_train_n,outer_valid_n,inner_folds,m17a_regenerated_inner_oof,m17c_regenerated_inner_oof,selected_on_inner_only
+0,logit_soft_gate,214.470504293,320.09977161,308,78,3,True,True,True
+1,hist_gb_hard_gate,206.831320129,355.460558626,309,77,3,True,True,True
+2,extra_trees_hard_gate,185.481237687,286.422666667,309,77,3,True,True,True
+3,hist_gb_hard_gate,211.8659431,313.102351369,309,77,3,True,True,True
+4,logit_soft_gate,148.539075128,222.652768667,309,77,3,True,True,True

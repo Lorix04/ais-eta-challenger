@@ -1,0 +1,27 @@
+$ python scripts/12_m0e_verify.py
+PASS M0E manual audit covers all 61 candidate sessions exactly once
+PASS validated truth: 51 kept / 10 excluded
+PASS retained confidence: A=37 / B=14
+PASS primary ETA cohort: 28 calls / 13 unique vessels
+PASS ETA cohort is a strict subset of final ground truth
+PASS crossing-bracket uncertainty median=61s and P95<=62s
+PASS seven-page visual audit atlas exists
+PASS project pointer advanced to M1 with GO_LIMITED
+
+$ pytest -q
+.........................                                                [100%]
+25 passed in 0.82s
+
+$ python -m compileall -q src scripts tests
+PASS compileall
+
+$ python scripts/00_project_check.py
+PASS project control files present
+PASS PROJECT_STATE.json parsed
+PASS current phase: M1 — Catania ETA baseline feasibility: sample-size/split diagnostics and simple physical baselines only
+PASS GO/NO-GO A status: GO_LIMITED
+PASS compiled 13 Python scripts
+PASS evidence policy requires 3 screenshots per material change
+
+$ git diff --check
+PASS git diff --check

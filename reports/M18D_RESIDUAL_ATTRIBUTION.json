@@ -1,0 +1,118 @@
+{
+  "milestone": "M18D",
+  "version": "m18d-residual-error-attribution-v1-20260923",
+  "decision": "RESIDUAL_ERROR_ATTRIBUTION_FROZEN_NO_MODEL_CHANGE",
+  "scope": {
+    "model_change": false,
+    "training": false,
+    "tuning": false,
+    "relabeling": false,
+    "row_filtering": false,
+    "fresh_holdout_opened": false,
+    "old_final_used_for_selection": false
+  },
+  "population": {
+    "development_rows": 386,
+    "near_term_diagnostic_rows": 279,
+    "blocked_old_final_rows": 53,
+    "primary_residual": "frozen M16G OOF signed/absolute error"
+  },
+  "findings": {
+    "strict_rows": 386,
+    "near_term_rows": 279,
+    "strict_m16g_mae_h": 185.8826965155934,
+    "near_term_m16g_mae_h": 20.260697024124216,
+    "strict_m16g_p90_ae_h": 290.6801288979,
+    "near_term_m16g_p90_ae_h": 42.604412354628906,
+    "non_near_term_absolute_error_share": 0.9212170358378324,
+    "near_term_m16h_predicted_error_rank_corr": 0.6004473748808441,
+    "near_term_expert_spread_rank_corr": 0.13264061466127555,
+    "near_term_position_age_rank_corr": -0.11503128585155055,
+    "near_term_physics_eligible_mae_h": 4.85589436231956,
+    "near_term_physics_ineligible_mae_h": 29.00162437717068,
+    "near_term_low_confidence_mae_h": 56.301949757677995,
+    "near_term_high_confidence_mae_h": 5.9407050877698095,
+    "near_term_existing_expert_oracle_mae_h": 10.146046027613062,
+    "near_term_existing_expert_oracle_gap_h": 10.114650996511154,
+    "near_term_selected_expert_is_oracle_fraction": 0.4014336917562724
+  },
+  "expert_diagnostics": {
+    "strict": {
+      "scope": "STRICT_386",
+      "rows": 386,
+      "m16g_selected_mae_h": 185.8826965155934,
+      "oracle_existing_expert_mae_h": 165.72178958402299,
+      "oracle_gap_h": 20.160906931570423,
+      "selected_expert_is_oracle_fraction": 0.4015544041450777,
+      "positive_selection_regret_fraction": 0.5751295336787565,
+      "mean_selection_regret_h": 20.160906931570356,
+      "median_selection_regret_h": 1.6213367483496626,
+      "p90_selection_regret_h": 46.68217038163333,
+      "oracle_expert_counts": {
+        "route": 124,
+        "tabular": 109,
+        "prior": 87,
+        "physics_gate": 66
+      },
+      "diagnostic_only": true
+    },
+    "near_term": {
+      "scope": "NEAR_TERM_FUTURE_0_7D",
+      "rows": 279,
+      "m16g_selected_mae_h": 20.260697024124216,
+      "oracle_existing_expert_mae_h": 10.146046027613062,
+      "oracle_gap_h": 10.114650996511154,
+      "selected_expert_is_oracle_fraction": 0.4014336917562724,
+      "positive_selection_regret_fraction": 0.5698924731182796,
+      "mean_selection_regret_h": 10.114650996511156,
+      "median_selection_regret_h": 1.1424766443777659,
+      "p90_selection_regret_h": 24.10311362388,
+      "oracle_expert_counts": {
+        "route": 92,
+        "prior": 65,
+        "tabular": 62,
+        "physics_gate": 60
+      },
+      "diagnostic_only": true
+    }
+  },
+  "priority_order": [
+    {
+      "priority": "P0_BLOCKER",
+      "hypothesis": "authoritative_target_ground_truth"
+    },
+    {
+      "priority": "P1_TEST_FIRST",
+      "hypothesis": "destination_and_route_intent"
+    },
+    {
+      "priority": "P1_DIAGNOSTIC_CONTROL",
+      "hypothesis": "uncertainty_and_expert_selection"
+    },
+    {
+      "priority": "P2_CONDITIONAL",
+      "hypothesis": "port_operations"
+    },
+    {
+      "priority": "P3_LOW_CURRENT_SIGNAL",
+      "hypothesis": "raw_ais_freshness_and_state"
+    },
+    {
+      "priority": "P2_UNTESTABLE_WITH_CURRENT_DATA",
+      "hypothesis": "weather_and_ocean"
+    },
+    {
+      "priority": "P2_SUPPORTING_SIGNAL",
+      "hypothesis": "navigable_route_complexity"
+    }
+  ],
+  "policy": {
+    "strict_primary_score_changed": false,
+    "near_term_slice_replaces_primary_benchmark": false,
+    "attribution_is_causal_proof": false,
+    "oracle_expert_is_deployable_result": false,
+    "target_derived_diagnostics_are_runtime_features": false,
+    "m18e_must_use_controlled_ablations": true
+  },
+  "next_step": "M18E_EXTERNAL_INFORMATION_ABLATION_LAB"
+}

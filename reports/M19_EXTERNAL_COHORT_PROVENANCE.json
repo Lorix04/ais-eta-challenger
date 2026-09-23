@@ -1,0 +1,62 @@
+{
+  "milestone": "M19",
+  "version": "m19-mmdec-fresh-external-holdout-v1-20260923",
+  "status": "TARGET_FREE_COHORT_PREPARED",
+  "source": {
+    "name": "MMDEC v1",
+    "doi": "10.5281/zenodo.17491518",
+    "integrity": {
+      "Dataset_AIS_POS.parquet": {
+        "md5": "12b824d26488e381680b2de90090cc2c",
+        "sha256": "88998c43f7e152710c3b157cf47c8119cdef05554d2a6d32e980ce36101b5785",
+        "bytes": 450935970
+      },
+      "Dataset_AIS_SPEC.parquet": {
+        "md5": "f1dd53064868fa078c714986991c3941",
+        "sha256": "58324a031088b312f4c2e80cb6cdbc3c979fa14ff3c2164f48635833b0e4ac44",
+        "bytes": 209957042
+      }
+    }
+  },
+  "policy": {
+    "max_rows": 500,
+    "preselect_rows": 2000,
+    "history_hours": 6,
+    "max_position_age_min": 60.0,
+    "min_history_points": 2
+  },
+  "audit": {
+    "version": "m19-mmdec-fresh-external-holdout-v1-20260923",
+    "source_doi": "10.5281/zenodo.17491518",
+    "candidate_rows_preselected": 2000,
+    "selected_rows": 500,
+    "selected_unique_mmsi": 500,
+    "history_hours": 6,
+    "max_position_age_min": 60.0,
+    "rejections": {
+      "insufficient_history": 105,
+      "stale_position": 48
+    },
+    "eta_values_exposed_to_scoring_rows": false,
+    "prelabel_eta_use": "availability/range mask only; target magnitude not computed",
+    "provider_enforced_blindness": false,
+    "public_source_blinding": "software/procedural only",
+    "parquet_reader": "m19_parquet_lite_audited_streaming_v2_parallel_hash_chunked_position_scan"
+  },
+  "artifacts": {
+    "rows": {
+      "path": "m19_rows_unlabeled.pkl.gz",
+      "sha256": "c4a2be95ccfe4182c71f293631791b03e43d8c44b64c6292c32fa44484635051"
+    },
+    "states": {
+      "path": "m19_states_unlabeled.pkl.gz",
+      "sha256": "07707310154d5c31f03a27f7b7e896fa0c5d8ca7ca5810e8870c5d66b22820e2"
+    },
+    "locator": {
+      "path": "m19_cohort_locator.csv",
+      "sha256": "9df887a9d96ddb224459644f26eb56ec29812cf398eaa5f4b2342f8437955a87"
+    }
+  },
+  "labels_materialized": false,
+  "eta_values_exposed_to_scoring_rows": false
+}

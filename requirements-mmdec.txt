@@ -1,0 +1,3 @@
+# Optional high-performance dependency for reading the canonical MMDEC parquet files.
+# The core repository already includes thrift + python-snappy for the audited fallback reader.
+pyarrow==21.0.0

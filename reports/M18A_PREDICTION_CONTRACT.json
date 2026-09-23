@@ -1,0 +1,96 @@
+{
+  "milestone": "M18A",
+  "version": "m18a-prediction-contract-frozen-baseline-v1-20260923",
+  "status": "PREDICTION_CONTRACT_FROZEN",
+  "purpose": "Freeze problem semantics and M16G baseline before any new data source, feature family, validation redesign, or external holdout is examined.",
+  "primary_prediction_contract": {
+    "task_id": "company_tracks_eta_reference_tte_h",
+    "decision_time": "Tracks.last_update",
+    "label_source": "Tracks.eta",
+    "target_formula": "target_tte_h = parsed Tracks.eta - Tracks.last_update",
+    "eta_year_resolution": "choose the temporally nearest valid previous/current/next calendar year because AIS Message 5 ETA omits year",
+    "unit": "hours",
+    "supervision_unit": "one Tracks row / one MMSI",
+    "population": "ship rows with parseable company-provided ETA reference",
+    "semantic_status": "company reference ETA; not observed ATA and not berth/all-fast arrival",
+    "location_semantics": "unspecified by the provided label; must not be silently relabelled as Pilot Boarding Place, port entrance, berth or all-fast",
+    "strict_reference_policy": "retain every parseable company reference, including past/stale/far-future values; quality regimes are diagnostics unless a future target policy is predeclared before evaluation"
+  },
+  "leakage_boundary": {
+    "positions_rule": "Positions.recorded_at <= Tracks.last_update",
+    "current_snapshot_rule": "only fields available in the Tracks snapshot at Tracks.last_update; Tracks.eta is target-only",
+    "training_aggregate_rule": "target-derived priors/aggregates may be fitted only on the training partition visible to the current nested fold",
+    "representation_learning_rule": "outer/inner validation owners remain excluded whenever trajectory representation training would otherwise expose their history",
+    "prohibited_prediction_inputs": [
+      "Tracks.eta / eta_reference_raw / eta_reference_dt / target_tte_h",
+      "reference_eta_status or any target-derived quality bucket",
+      "future Positions rows or any post-decision event",
+      "absolute error, residual, coverage or hindsight diagnostic",
+      "old 53-row M10 final set for selection, fitting or threshold tuning",
+      "fresh external holdout labels before the final promotion gate"
+    ]
+  },
+  "frozen_baseline": {
+    "point_champion": "M16G nested development-only mixture-of-experts",
+    "point_version": "m16g-mixture-of-experts-v1-20260921",
+    "point_gate": "PASS_MOE_STABLE_GAIN",
+    "development_rows": 386,
+    "blocked_old_final_rows": 53,
+    "outer_folds": 5,
+    "point_metrics": {
+      "n": 386,
+      "mae_h": 185.88269651558392,
+      "medae_h": 19.3415972222,
+      "rmse_h": 619.0155480799909,
+      "p90_ae_h": 290.6801288979,
+      "p95_ae_h": 748.44075133604,
+      "bias_h": -18.334940768614207
+    },
+    "best_single_baseline": "m16e_physics_gate_route_fallback",
+    "gain_h_vs_best_single": 7.042875609365524,
+    "uncertainty_sidecar": "M16H development-only empirical 80% residual/conformal-style interval around frozen M16G P50",
+    "m16h_nominal_coverage": 0.8,
+    "m16h_observed_pooled_coverage": 0.8005181347150259,
+    "official_company_submission_remains": "M14/M10 strict reference benchmark; M16G is a post-submission development challenger for a new untouched holdout only"
+  },
+  "selection_and_validation_policy": {
+    "reused_development_set": "386 M10 train+calibration MMSIs only",
+    "old_final_policy": "53 M10 final MMSIs permanently blocked for all post-final selection/tuning",
+    "model_selection_after_m18a": "no further claim may use repeated improvement on the same 386 rows as external validation",
+    "future_validation_requirement": "validation redesign must preserve complete owner/voyage groups and temporal/owner separation appropriate to the evaluated claim",
+    "metrics_required": [
+      "MAE",
+      "MedAE",
+      "RMSE",
+      "P90 absolute error",
+      "P95 absolute error",
+      "bias",
+      "fold/regime breakdown",
+      "paired uncertainty/CI where applicable"
+    ]
+  },
+  "fresh_holdout_policy": {
+    "status": "NOT_AVAILABLE_IN_REPOSITORY",
+    "selection_use_allowed": false,
+    "feature_engineering_use_allowed": false,
+    "threshold_tuning_use_allowed": false,
+    "label_peeking_allowed": false,
+    "required_before_opening": [
+      "record immutable file/content hashes",
+      "verify schema and decision-time semantics without reading target-dependent performance",
+      "predeclare candidate and promotion criteria",
+      "score the frozen baseline and candidate under the same contract"
+    ],
+    "promotion_principle": "a fresh holdout is an evaluation lockbox, not another development set"
+  },
+  "target_change_policy": {
+    "new_operational_targets": [
+      "ATA at specified port location",
+      "Pilot Boarding Place",
+      "port entrance",
+      "berth arrival",
+      "all-fast"
+    ],
+    "rule": "any operational-event target becomes a new versioned task with its own event definition, location, timestamp provenance and leakage boundary; it cannot replace this contract retrospectively"
+  }
+}

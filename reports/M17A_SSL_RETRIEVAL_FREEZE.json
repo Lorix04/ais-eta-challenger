@@ -1,0 +1,26 @@
+{
+  "artifact_sha256": {
+    "M17A_REPORT.md": "8f81187cc09a8f85793032f56fd944739d857ea08c014a80e308b59f8a02d676",
+    "M17A_SUMMARY.json": "9ddf0d17e05fe17ef1966ff6c6b964553c74c57558f891dafe76004eec5b7556",
+    "m17a_fold_embeddings.npz": "f614f11049f0d55d90070b7f7f3e676aa41e25bc3ceab0721249d360debd4831",
+    "m17a_fold_metrics.csv": "6a0db645c6701e506a1bba222668dc2f430fa41739cefb918a9cdbe3503dd464",
+    "m17a_model_metrics.csv": "5456f742fcc59fbd5ce68c964fa07d9134120862bfa092b9d846975bfe1a4ad8",
+    "m17a_neighbour_details.csv": "e8014fc211228fc5b9ab8b42e1a01f4c3caafc0f33b3d406151058e3a1d6c525",
+    "m17a_oof_predictions.csv": "ad0ec06b439ecaf08f18b810e64600db9c4bcf3b0e0a38da86695d07494af96f",
+    "m17a_pretraining_window_audit.csv": "41aa7737fd1c82e04b351641f98d43f7748c154e59b7b4367fab77fb04c76491",
+    "m17a_retrieval_comparison.png": "cc3063668066d451c1028963a131cc845e4ad8f3433a27a1bcde498dc0e5e6ab",
+    "m17a_ssl_training_audit.csv": "1ad8db0de4c64ab755b46c7ed59fab0f5aa74d25a9b1596f48db74cb54e46824",
+    "m17a_ssl_training_convergence.png": "5b0d06fac05232416d0bbfaa0d3abb2e41edd2665de44fcb249dc113b0439ec0"
+  },
+  "decision": "retain learned retrieval only if promotion gate passes",
+  "gate": "PASS_LEARNED_RETRIEVAL_COMPONENT",
+  "immutable_inputs": {
+    "m16d_distances": "21a39063cd3a48d97daaea99ebbe1f0175241ff1a7927ae15a95557984b222fb",
+    "m16d_predictions": "922efa48ccca9d340c528bf54cf574ae818964d55f2c8cca36dbd7532e259fc6",
+    "m16d_sequences": "7c62045b421b8a00a3023e5516d89697e3173c93c4d6df1af434f0ec275ef7d6",
+    "m16d_summary": "e8085c790513a8a6b6e02af8c2f82fdcf9ca5bfd1fd931f78a7696e4b9afa967",
+    "m16j_freeze": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b"
+  },
+  "milestone": "M17A",
+  "version": "m17a-ssl-retrieval-v1-20260922"
+}

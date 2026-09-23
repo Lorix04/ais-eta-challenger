@@ -1,0 +1,31 @@
+{
+  "milestone": "M18G1",
+  "version": "m18g1-full-development-scoring-bundle-v1-20260923",
+  "status": "FULL_DEVELOPMENT_SCORING_BUNDLE_FROZEN",
+  "m18g_gate_modified": false,
+  "fresh_holdout_opened": false,
+  "holdout_labels_observed": false,
+  "artifact_sha256": {
+    "models/m18g1_full_development_scoring_bundle.joblib": "682619085b60beed4ea25084e492fdd1516e30f230bcfd1c5e5bc12c73348078",
+    "models/m18g1_full_development_scoring_bundle.joblib.sha256": "e24986a4312b9c3eca9ebc014a647bbcff6e6239c1c61e8c4b3b490320dfc9e4",
+    "reports/M18G1_SCORING_BUNDLE_REGISTRATION.json": "08867ed59b9560871775ee90db5ddcbb9327838d20074f224c778a27eb10299f",
+    "reports/M18G1_SCORING_INPUT_SCHEMA.json": "1fce61235c84f5d45edec7db87fa8101621482b53b52a5cbed525f83a2f54e3c",
+    "reports/M18G1_REPORT.md": "7b31e8dec39d11f429c3f1cda02406a615d7808c53f63b257b90c3d6b9678f4e",
+    "reports/m18g1_refit_consensus.csv": "1a227e7f4b37689d2e423a88afea864da8dcf69215b558b2426c5214b8a0317d",
+    "reports/m18g1_blind_smoke_ledger.csv": "8700ff7f8a04c28a06d02852a3e0a1b1d2e89c6b83590761eeb948bfddeaf9bb",
+    "reports/m18g1_blind_smoke_detail.csv": "0fac304c5acca6d6e6abc565c623bb1fdc6af1bc53f6724e3014dbbfae444e30",
+    "reports/m18g1_opening_readiness_after_bundle.csv": "9128cf28f37fbbd46584dc97bb34ff811cefaec3411b05cfefd5733e964d9138",
+    "docs/M18G1_FULL_DEVELOPMENT_SCORING_BUNDLE.md": "c0a95e60006155b97b9decf9d82d1252b6c98a2e61da47d7c3c71424e46fd838"
+  },
+  "source_freeze_sha256": {
+    "M16G_MIXTURE_FREEZE.json": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "M16H_PROBABILISTIC_FREEZE.json": "79526e72d72f71167598622f179fc83d6f3b463336dcfc275f91a5899e6d834c",
+    "M18A_BASELINE_FREEZE.json": "ea9219067beb818118a1895605069f28a8ee5023b807ca905b99f215fc2b8835",
+    "M18B_VALIDATION_FREEZE.json": "6c61f825ce2105577517dce9ee0422ece346a488eac9e9b0cb6ab25a409fbfb8",
+    "M18C_AUDIT_FREEZE.json": "e2ede157d8d280560aabb16ae66820ae4ae3b446440c8d4c27f2b1272486dd8a",
+    "M18D_ATTRIBUTION_FREEZE.json": "a8778ee83a62e9f469629c13fc99c4ab76939c632f64345254971eb810a31dd8",
+    "M18E_ABLATION_FREEZE.json": "aedb57421bbc628c3d93db874c38f38ababc4cc007fdb8bc89704fcf1586761a",
+    "M18F_SELECTIVE_FREEZE.json": "b49f862e4917ee189239ad045c85842b8583ec9cf32f69c553e1799a4663ae53",
+    "M18G_PROMOTION_FREEZE.json": "a161f993b4dcd11701ca4d5a56c90c6a1c0b3a86745b45632abd9dacbc04be21"
+  }
+}

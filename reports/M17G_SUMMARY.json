@@ -1,0 +1,65 @@
+{
+  "blocked_old_final_rows": 53,
+  "candidate_results": [
+    {
+      "candidate": "moco_tcn64",
+      "fold_wins_vs_m17a": 3,
+      "gain_h_vs_m17a": 1.8185988773669521,
+      "mae_h": 188.28659614273727,
+      "medae_h": 19.9675,
+      "p90_ae_h": 263.71847222229997,
+      "p90_ratio_vs_m17a": 0.9532811300563243,
+      "promotion_gate_passed": true
+    },
+    {
+      "candidate": "masked_transformer_mae64",
+      "fold_wins_vs_m17a": 2,
+      "gain_h_vs_m17a": -0.8046387449643362,
+      "mae_h": 190.90983376506856,
+      "medae_h": 20.457361111200004,
+      "p90_ae_h": 278.1256944444,
+      "p90_ratio_vs_m17a": 1.0053598978617095,
+      "promotion_gate_passed": false
+    }
+  ],
+  "claim": "Development-only representation benchmark; exact same ETA retrieval/aggregation contract as M17A. Any superiority claim still requires a fresh untouched holdout.",
+  "development_rows": 386,
+  "final_test_used_for_selection": false,
+  "gate": "PASS_STRONGER_SSL_ENCODER_COMPONENT",
+  "m17a_frozen_oof": {
+    "abs_gt_1y_prediction_count": 0,
+    "mae_h": 190.10519502010422,
+    "medae_h": 19.0436111111,
+    "n": 386,
+    "nonfinite_prediction_count": 0,
+    "p90_ae_h": 276.64291666689996,
+    "p95_ae_h": 779.2515972224701,
+    "prediction_max_h": 2378.25222222,
+    "prediction_min_h": -2422.87055556,
+    "rmse_h": 628.4381975225624,
+    "within_24h": 0.5595854922279793,
+    "within_48h": 0.7150259067357513,
+    "within_72h": 0.7487046632124352
+  },
+  "milestone": "M17G",
+  "outer_valid_used_for_ssl_pretraining": false,
+  "promotion_gate": {
+    "max_p90_ratio": 1.03,
+    "min_fold_wins": 3,
+    "min_mae_gain_h": 1.0
+  },
+  "research_basis": [
+    "MoCo-AIS (2026) momentum-contrast trajectory embeddings",
+    "NaviSight (2026) masked-autoencoder maritime embeddings",
+    "Representation Learning for Maritime Vessel Behaviour (2026) masked self-supervised AIS encoders"
+  ],
+  "retrieval_contract": {
+    "aggregator": "frozen M16D similarity-weighted median",
+    "gate": "destination",
+    "k": 9,
+    "representation": "geo_kin_6h"
+  },
+  "selected_candidate": "moco_tcn64",
+  "target_used_for_ssl_pretraining": false,
+  "version": "m17g-stronger-ssl-v1-20260922"
+}

@@ -1,0 +1,27 @@
+{
+  "milestone": "M17H",
+  "version": "m17h-conservative-moco-integration-v1-20260922",
+  "gate": "NO_M17H_PROMOTION",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "final_test_used_for_selection": false,
+  "meta_candidate_reselected": false,
+  "immutable_inputs": {
+    "m16g_freeze": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "m17g_freeze": "412091e411e4f4d3de875ecba940e1db722543b932ae8a9d2da27fe3eedf46d1",
+    "m16j_freeze": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b",
+    "m14_submission": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c"
+  },
+  "artifact_sha256": {
+    "M17H_REPORT.md": "d967becb2394989a0f077486eb8bd0a8083a5d746a3364f2d74cc727447f6d22",
+    "M17H_SUMMARY.json": "91917f679b2e2ae3c478ca869d3600a1fe0d867e1da889974c65ccc26c0ecb57",
+    "m17h_oof_predictions.csv": "57e910178c771f1f6a547b84ef77ab3df053a62384dd55ea1da61420d97e8173",
+    "m17h_model_metrics.csv": "2307f219947454ae3ab63c9cfdf7896760cd8c0937643cadddb1dbaaa4f0811a",
+    "m17h_fold_comparison.csv": "ac627acf5ac8d89e04fdc28badfc8855b1e1ce7b96b2ead28b6615778e5826fb",
+    "m17h_outer_meta.csv": "2da7cb2211d7637feed737402964c84490ffba28cb57f09309eac55e65d4b0aa",
+    "m17h_ssl_inner_audit.csv": "efa1bcf47378991bd051325d7bd7c983aff55fb54b0097e6f3d3bcb777c9c5e5",
+    "m17h_paired_audit.csv": "6b9f920066eaf44f3b0e6c63e2dec98f19a58fedf5be71b906735ea2b8edefd7",
+    "m17h_integration_comparison.png": "74a530f8e6024648e0bb37f10c7f77251d9010eb3056852caf007541ee2060ef",
+    "m17h_fold_gain.png": "91f39cdd01bdbb1da87aa032dd700fcc5ab8b810679cc88db9c5fb9569bed97d"
+  }
+}

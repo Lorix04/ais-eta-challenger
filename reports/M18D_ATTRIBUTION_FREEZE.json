@@ -1,0 +1,29 @@
+{
+  "milestone": "M18D",
+  "version": "m18d-residual-error-attribution-v1-20260923",
+  "status": "FROZEN_RESIDUAL_ERROR_ATTRIBUTION",
+  "model_change": false,
+  "relabeling": false,
+  "strict_rows_deleted": 0,
+  "fresh_holdout_opened": false,
+  "development_population": 386,
+  "near_term_diagnostic_population": 279,
+  "blocked_old_final_population": 53,
+  "m18a_baseline_freeze_sha256": "ea9219067beb818118a1895605069f28a8ee5023b807ca905b99f215fc2b8835",
+  "m18b_validation_freeze_sha256": "6c61f825ce2105577517dce9ee0422ece346a488eac9e9b0cb6ab25a409fbfb8",
+  "m18c_audit_freeze_sha256": "e2ede157d8d280560aabb16ae66820ae4ae3b446440c8d4c27f2b1272486dd8a",
+  "m16g_oof_sha256": "cd8128d27e3a3d4232ff1758b78f6b48e3f14238dee272f9192ef74aca8af684",
+  "attribution_artifact_sha256": {
+    "reports/M18D_RESIDUAL_ATTRIBUTION.json": "0d3fc38d65dd41bcb81ede40619794681c4d63212c3b1170dda8dbda1312e3fb",
+    "reports/M18D_REPORT.md": "14e51d44c630d9376f476088b183cdd60e9e9f3c18ebe4a8a7f0658b8323c25c",
+    "reports/m18d_residual_ledger.csv": "a08d03aee7a7d97efa8283591750cd9d58f1d9ac48098d2be312e0d23f180348",
+    "reports/m18d_categorical_slice_metrics.csv": "1883b2ff7b58dc861984ff5b1b362902c475e26b88599ef51f2e1244bb4a34df",
+    "reports/m18d_numeric_attribution.csv": "f3430396487798fb2d6660ddc9c70fd0022f706e958686a3fd445600e5d23f3a",
+    "reports/m18d_quantile_slice_metrics.csv": "4c2924d5aebd1f51d6506ac11945d3ced70c6951a8a0f97d30ec4bf689fff08e",
+    "reports/m18d_expert_diagnostics.json": "0c1a216f2c40ff01f9f25dcc074bdaaba773df528a05805dcac260f0d28daaab",
+    "reports/m18d_missing_information_matrix.csv": "5bfd4716dbe79ad301457ad40b6ea346d9d88916a7072ff4cc4582c37eb6b8cd",
+    "reports/m18d_top_robust_near_term_slices.csv": "23a117326df9119d98b918275d3229bafa7a5ad584366d46ed96de9a5b89b680",
+    "reports/m18d_top_near_term_numeric_signals.csv": "a7ea747a97977da4df6e16a8252ddfba5f8b3300cd9fd9526782819d7bac62e4",
+    "docs/M18D_RESIDUAL_ATTRIBUTION_POLICY.md": "4f3fae93784d535532eb716df96c66020fc970f1ac25659de2566016a7a649c0"
+  }
+}

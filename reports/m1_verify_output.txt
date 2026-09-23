@@ -1,0 +1,17 @@
+PASS panel rows unique by session/decision
+PASS source observation never after decision
+PASS decision always before ground truth
+PASS voyage start not after decision
+PASS provider age nonnegative
+PASS 15-minute wall-clock grid
+PASS final chronological test has 6 calls
+PASS final test later than development
+PASS final test has no CV folds
+PASS development has CV folds
+PASS metrics are development-only
+PASS no final-test rows used in reported metrics
+PASS M1 gate expands ground truth
+PASS under6h approach covers >=10 calls
+PASS long-horizon approach evidence remains sparse
+PASS prefix invariance 8/8
+M1 verification PASS: 16 checks

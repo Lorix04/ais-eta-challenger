@@ -1,0 +1,12 @@
+topic,previous_status,company_answer,m9_status,action
+arrival_event,unknown,"reaches/enters destination-port area",resolved_at_event_family_level,"treat research gate as conceptually aligned proxy; wait for exact boundary/ground truth before claiming equivalence"
+positions_semantics,inferred_snapshot_like,"historical AIS observations",resolved_file_role,"keep empirical 60-61s diagnostics; remove wording that company confirmed latest-state semantics for Positions"
+tracks_semantics,latest_snapshot_inferred,"most recent available vessel state",resolved,"never backfill Tracks into historical Positions"
+recorded_at,upstream_timestamp_semantics_unknown,"timestamp associated with each Positions observation",partially_resolved,"use as observation timestamp; keep source-message/reception/provider semantics unknown"
+historical_destination,available,"available in Positions",resolved,"retain causal/as-of destination handling"
+historical_eta,missing_time_series,"latest only in Tracks",resolved_absent,"reported-ETA longitudinal benchmark remains blocked"
+longer_history,requested,"none beyond exercise dataset",resolved_absent,"scope claims to supplied 13-day evidence"
+internal_model_features,unknown,"unknown because model external",resolved_unknown,"do not claim feature parity or apples-to-apples internal-model comparison"
+horizon_metric,unknown,"no specific horizon/metric beyond destination-port ETA",unresolved_business_kpi,"retain multi-metric/horizon reporting; no KPI-optimized claim"
+ground_truth_source,unknown,not answered,pending,"follow up"
+port_area_geometry,unknown,not answered,pending,"follow up"

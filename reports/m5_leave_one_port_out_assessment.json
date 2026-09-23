@@ -1,0 +1,11 @@
+{
+  "status": "NOT_SCIENTIFICALLY_MEANINGFUL_FOR_RETAINED_ROUTE_MODEL",
+  "attempted": false,
+  "reason": [
+    "M2 historical routes terminate at a port-specific target gate; transferring those geometries to another port would not represent an unseen-port deployment.",
+    "Catania OOF support is only 10 calls and its initial route family is effectively SSE-only, while Augusta is multimodal.",
+    "Augusta ETA cohort is Levante-only, so even within-port entrance transfer is not supported.",
+    "Siracusa/Santa Panagia remain exploratory because authoritative production-grade geometry was not established."
+  ],
+  "allowed_claim": "within-seen-port temporal and cold-vessel stress tests only"
+}

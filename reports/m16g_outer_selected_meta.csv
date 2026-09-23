@@ -1,0 +1,6 @@
+outer_fold,selected_meta_id,inner_best_mae_h,inner_best_p90_ae_h,inner_best_medae_h,outer_train_n,outer_valid_n,inner_folds,base_predictions_regenerated_inner_oof,selected_on_inner_only
+0,rf_hard_gate,192.427223702,291.955954509,18.8571245129,308,78,4,True,True
+1,median_blend,197.954884621,310.181898992,21.1216666667,309,77,4,True,True
+2,extra_trees_hard_gate,182.805876146,312.103357135,20.6328915094,309,77,4,True,True
+3,extra_trees_hard_gate,226.377137961,375.866114821,21.1158333333,309,77,4,True,True
+4,hist_gb_hard_gate,151.007420813,239.0743475,19.9858333333,309,77,4,True,True

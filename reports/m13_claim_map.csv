@@ -1,0 +1,15 @@
+claim_id,claim,status,evidence,delivery_role
+C01,Tracks.eta is the company exercise reference target,SUPPORTED,Company clarification documented in docs/COMPANY_ALIGNMENT.md,PRIMARY
+C02,439 parseable reference ETAs across 439 MMSIs,SUPPORTED,reports/m10_reference_dataset_summary.json,PRIMARY
+C03,Strict final MAE is 312.0 h and median absolute error is 25.3 h on 53 final rows,SUPPORTED,reports/M10_REPORT.md,PRIMARY
+C04,Same frozen strict model has 28.6 h MAE on final 0-7 day future-reference subset,SUPPORTED_DIAGNOSTIC,reports/M11_REPORT.md,DIAGNOSTIC_ONLY
+C05,Top 5 final errors explain 79.1% of total absolute error,SUPPORTED_DIAGNOSTIC,reports/M11_REPORT.md,DIAGNOSTIC_ONLY
+C06,destination_norm is the strongest single frozen-model feature under native importance and calibration mean absolute SHAP,SUPPORTED_DIAGNOSTIC,reports/M12_REPORT.md,DIAGNOSTIC_ONLY
+C07,Causal-history CatBoost did not improve strict calibration over current-snapshot CatBoost,SUPPORTED,reports/M12_REPORT.md,PRIMARY_INTERPRETATION
+C08,Destination-median baseline won the future-reference calibration diagnostic,SUPPORTED,reports/M10_REPORT.md,DIAGNOSTIC_ONLY
+C09,The submission beats the externally developed ETA model,NOT_ESTABLISHED,External model inputs/evaluation unavailable,BLOCKED
+C10,Tracks.eta is observed ATA,NOT_ESTABLISHED,AIS ETA is an estimated voyage-related reference,BLOCKED
+C11,Route-kNN physical branch achieved 36.5 min vs 37.7 min geodesic on its locked holdout,SUPPORTED_SECONDARY,reports/M6_FINAL_REPORT.md,SECONDARY
+C12,Route-kNN physical branch is statistically superior overall,NOT_ESTABLISHED,Paired bootstrap gain interval includes zero,BLOCKED
+C13,Unseen-port generalization is established,NOT_ESTABLISHED,reports/m5_claim_scope.csv,BLOCKED
+C14,Model is suitable for berth/all-fast or safety-critical navigation,NOT_ESTABLISHED,Target/data do not support these uses,BLOCKED

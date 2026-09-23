@@ -1,0 +1,56 @@
+{
+  "milestone": "M18G1",
+  "version": "m18g1-full-development-scoring-bundle-v1-20260923",
+  "status": "FULL_DEVELOPMENT_M16G_M16H_SCORING_BUNDLE_REGISTERED",
+  "bundle_path": "models/m18g1_full_development_scoring_bundle.joblib",
+  "bundle_sha256": "682619085b60beed4ea25084e492fdd1516e30f230bcfd1c5e5bc12c73348078",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "fresh_holdout_opened": false,
+  "holdout_labels_observed": false,
+  "historical_m16g_oof_score_changed": false,
+  "point_candidate_registered": false,
+  "baseline_operational_scorer_registered": true,
+  "selective_operational_scorer_registered": true,
+  "scoring_requires_labels": false,
+  "consensus_configs": {
+    "m16c_id": "full__n2__a10__clip_none",
+    "m16d_id": "geo_kin_6h__destination__k9",
+    "m16d": {
+      "representation": "geo_kin_6h",
+      "gate": "destination",
+      "k": 9
+    },
+    "m16e_id": "sog180__geodesic__corr_destination_residual",
+    "m16f_id": "hgb_quant50_leaf20",
+    "m16g_meta_id": "extra_trees_hard_gate",
+    "m16h_interval_id": "adaptive_scale_24h",
+    "selection_rule": "plurality of already-frozen outer-fold selections; lexical tie-break; no new external labels"
+  },
+  "uncertainty": {
+    "nominal_marginal_coverage": 0.8,
+    "interval_candidate": "adaptive_scale_24h",
+    "interval_floor_h": 24.0,
+    "interval_scale_q": 1.2688739305722065,
+    "calibration_source": "official M16G nested-OOF absolute errors normalized by official M16H cross-fitted predicted risk",
+    "development_empirical_coverage_using_cross_fitted_risk": 0.8031088082901554,
+    "confidence_q1_h": 13.313495889733334,
+    "confidence_q2_h": 29.171993093633333,
+    "m18f_frozen_selective_risk_threshold_h": 61.116040125,
+    "selection_conditional_guarantee_claimed": false
+  },
+  "source_freeze_sha256": {
+    "M16G_MIXTURE_FREEZE.json": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "M16H_PROBABILISTIC_FREEZE.json": "79526e72d72f71167598622f179fc83d6f3b463336dcfc275f91a5899e6d834c",
+    "M18A_BASELINE_FREEZE.json": "ea9219067beb818118a1895605069f28a8ee5023b807ca905b99f215fc2b8835",
+    "M18B_VALIDATION_FREEZE.json": "6c61f825ce2105577517dce9ee0422ece346a488eac9e9b0cb6ab25a409fbfb8",
+    "M18C_AUDIT_FREEZE.json": "e2ede157d8d280560aabb16ae66820ae4ae3b446440c8d4c27f2b1272486dd8a",
+    "M18D_ATTRIBUTION_FREEZE.json": "a8778ee83a62e9f469629c13fc99c4ab76939c632f64345254971eb810a31dd8",
+    "M18E_ABLATION_FREEZE.json": "aedb57421bbc628c3d93db874c38f38ababc4cc007fdb8bc89704fcf1586761a",
+    "M18F_SELECTIVE_FREEZE.json": "b49f862e4917ee189239ad045c85842b8583ec9cf32f69c553e1799a4663ae53",
+    "M18G_PROMOTION_FREEZE.json": "a161f993b4dcd11701ca4d5a56c90c6a1c0b3a86745b45632abd9dacbc04be21"
+  },
+  "smoke_ledger_sha256": "8700ff7f8a04c28a06d02852a3e0a1b1d2e89c6b83590761eeb948bfddeaf9bb",
+  "input_schema_sha256": "1fce61235c84f5d45edec7db87fa8101621482b53b52a5cbed525f83a2f54e3c",
+  "next_gate_step": "receive a truly fresh unlabeled cohort, hash its provenance, score it with scripts/111_m18g1_score_blind.py, then seal prediction ledger + opening manifest before label reveal"
+}

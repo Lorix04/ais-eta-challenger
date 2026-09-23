@@ -1,0 +1,15 @@
+{
+  "status": "M19_LABELS_REVEALED_AFTER_BLIND_LEDGER_SEAL",
+  "rows": 500,
+  "prediction_ledger_sha256": "41466369f9e30ef5618d85cb69b106f05633bce3b78f5b553acaea3c526adf44",
+  "label_ledger_sha256": "a1a0c81bf14916c3cd790fe8dd456732bf9ce20a14d576b4570537d983687834",
+  "reference_eta_status_counts": {
+    "FUTURE_0_7D": 197,
+    "FUTURE_14_30D": 14,
+    "FUTURE_7_14D": 27,
+    "FUTURE_GT30D": 38,
+    "PAST_1_24H": 44,
+    "PAST_GT24H": 178,
+    "PAST_LT1H": 2
+  }
+}

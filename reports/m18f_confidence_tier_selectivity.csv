@@ -1,0 +1,4 @@
+confidence_tier,rows,balanced_retained_rows,balanced_retention_fraction,full_mae_h,balanced_retained_mae_h
+HIGH,124,124,1,114.20263336,114.20263336
+LOW,130,48,0.369230769231,349.978469547,141.460745632
+MEDIUM,132,132,1,91.6090399798,91.6090399798

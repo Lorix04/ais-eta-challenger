@@ -1,0 +1,9 @@
+{
+  "status": "M4_CALIBRATED_HIGH_RELIABILITY_GO_M5",
+  "passed": true,
+  "primary_half_width_h": 2.485228427881811,
+  "trajectory_coverage": 1.0,
+  "evaluation_calls": 16,
+  "stability_status": "KEEP_CAUSAL_STABILIZER",
+  "reported_eta_status": "NO_TEMPORALLY_ALIGNED_REPORTED_ETA"
+}

@@ -1,0 +1,1 @@
+sample_key,mmsi,decision_time,baseline_pred_h,m16h_risk_h,m16h_lower_h,m16h_upper_h,slice_vessel_seen,slice_confidence_tier,slice_physics_eligible,slice_destination_resolved,candidate_pred_h

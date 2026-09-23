@@ -1,0 +1,20 @@
+{
+  "opened": true,
+  "freeze_sha256": "b551c12da6d05fbea22c365f0b2167879669d948c4d790d46ccd28a9dc8e17de",
+  "scored_call_ids": [
+    "AU-068",
+    "AU-069",
+    "AU-070",
+    "AU-071",
+    "AU-073",
+    "AU-074",
+    "AU-075",
+    "AU-076",
+    "AU-077",
+    "AU-079",
+    "CT-055",
+    "CT-057",
+    "CT-060"
+  ],
+  "post_open_rule": "No changes to M2/M4 predictor, route fitting, reliability thresholds, interval width, smoothing alpha, target, primary metric or final cohort may be made in response to final-holdout results."
+}

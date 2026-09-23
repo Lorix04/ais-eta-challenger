@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "min_combined_eta_calls": 50,
+    "min_combined_unique_vessels": 25,
+    "min_calls_with_over_6h_approach": 10,
+    "min_calls_with_over_12h_approach": 5
+  },
+  "observed": {
+    "combined_eta_calls": 83,
+    "combined_unique_vessels": 58,
+    "calls_with_over_6h_approach": 12,
+    "calls_with_over_12h_approach": 7
+  },
+  "checks": {
+    "combined_eta_calls": true,
+    "combined_unique_vessels": true,
+    "calls_with_over_6h_approach": true,
+    "calls_with_over_12h_approach": true
+  },
+  "status": "GO_M2"
+}

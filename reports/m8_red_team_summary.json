@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "frozen_hashes_checked": 14,
+  "frozen_hash_mismatches": 0,
+  "unsupported_overclaims_found": [],
+  "absolute_container_path_hits": [],
+  "red_team_findings": 10,
+  "predictor_changed_after_m6": false
+}

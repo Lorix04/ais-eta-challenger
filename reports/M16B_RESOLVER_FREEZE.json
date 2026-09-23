@@ -1,0 +1,16 @@
+{
+  "milestone": "M16B",
+  "status": "CANONICAL_DESTINATION_RESOLVER_FROZEN",
+  "resolver_version": "m16b-canonical-destination-v1-20260921",
+  "frozen_catalog_sha256": "7eae413f4c3bd5b84df10d12b32f2d0fd554722dc655068dd2669d1cee53732e",
+  "development_population": 386,
+  "old_final_population_blocked": 53,
+  "resolver_target_free": true,
+  "artifact_sha256": {
+    "m16b_destination_resolutions.csv": "0f33eb8e82e4e6ba6a7202e1d6b972178832b959f6c97a7fe9750774f2a421ac",
+    "m16b_destination_variant_audit.csv": "6776ca966fe0a49ebf1d9eb8c74fac84789411ed0aaec0c337aa3899b8142850",
+    "m16b_canonical_destination_summary.csv": "741185a9d18abba23e014f385c7997c895bb04c8ff096481647eb1cf59a85ebe",
+    "m16b_canonical_destination_oof_fold_metrics.csv": "17370d2537d5ed6cac1078813d12c0ef166a3507aa4d7295a81ac4c80f5420d4",
+    "M16B_CARDINALITY_COVERAGE.json": "bce3b5dca327b5528f694014537b5800bd02ba975ef7cf208526b8628c5e4d1a"
+  }
+}

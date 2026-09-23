@@ -1,0 +1,3 @@
+artifact,scope,n,mae_h,medae_h,rmse_h,p90_ae_h,p95_ae_h,bias_h
+M16G,386-row development nested OOF,386,185.882696516,19.3415972222,619.01554808,290.680128898,748.440751336,-18.3349407686
+M10/M14 official submission,"53-row once-opened old final; context only, permanently blocked for M18 selection",53,312.01882326,25.3302207291,,560.4,,

@@ -1,0 +1,6 @@
+outer_fold,outer_train_mmsi,outer_valid_mmsi,ssl_pretraining_windows,ssl_pretraining_unique_mmsi,outer_valid_used_for_ssl_pretraining,ssl_train_loss_start,ssl_train_loss_end,pca_components,pca_explained_variance_ratio_sum
+0,308,78,2452,308,False,1.32825927478,0.251300956355,16,0.980106413364
+1,309,77,2470,309,False,1.30055082144,0.24217371972,16,0.978360772133
+2,309,77,2461,309,False,1.31480747725,0.252475256311,16,0.979699611664
+3,309,77,2460,309,False,1.32621438968,0.233750116874,16,0.981604158878
+4,309,77,2461,309,False,1.30937475148,0.244678973958,16,0.98062646389

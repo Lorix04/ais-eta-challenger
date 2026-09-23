@@ -1,0 +1,24 @@
+PASS M3 starts from exactly 40 M2 cross-fitted calls
+PASS 10 stacking warm-up calls frozen
+PASS 30 calls assigned to M3 OOF validation
+PASS M3 OOF contains 30 independent calls
+PASS three expanding temporal M3 folds present
+PASS locked M2 final calls remain untouched
+PASS summary records zero final-holdout scoring
+PASS every M3 training history ends before its validation block
+PASS expanding M3 train call counts are 10/20/30
+PASS all M3 predictions are finite
+PASS all M3 predictions are non-negative
+PASS every M3 row maps back to an M2 OOF base prediction
+PASS M3 physical baseline exactly preserves M2 cross-fitted route ETA
+PASS feature manifest excludes identity/truth columns
+PASS raw MMSI is not a model feature
+PASS true remaining time is not a model feature
+PASS fixed candidate selection picks residual LightGBM
+PASS M3 stop condition fires when residual ML does not beat physics
+PASS saved M3 gate agrees with summary
+PASS port-state ablation is rejected by pre-specified gate
+PASS selected residual model is worse than route physics at <=24h
+PASS residual model also degrades cold-vessel <=24h performance
+PASS paired call bootstrap CI indicates negative residual-ML gain
+M3 verification complete

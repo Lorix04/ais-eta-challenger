@@ -1,0 +1,36 @@
+{
+  "scope": "diagnostic-only frozen-model explainability; no training, tuning, model selection or feature pruning",
+  "frozen_model": "models/m10_strict_reference_catboost.cbm",
+  "frozen_model_sha256_before": "efbb86375751e901c48c2f5724514828a10f9eb8ff08ffaabf2d875e369ef86a",
+  "frozen_model_sha256_after": "efbb86375751e901c48c2f5724514828a10f9eb8ff08ffaabf2d875e369ef86a",
+  "tree_count": 47,
+  "feature_count": 14,
+  "expected_value_h": 40.41321269476912,
+  "shap_max_additivity_error_h": {
+    "train": 1.1368683772161603e-13,
+    "calibration": 1.1368683772161603e-13,
+    "final_test": 8.526512829121202e-14
+  },
+  "top_native_importance_feature": "destination_norm",
+  "top_native_importance_value": 15.62782370426839,
+  "top_calibration_mean_abs_shap_feature": "destination_norm",
+  "top_calibration_mean_abs_shap_h": 12.05504676511163,
+  "top_calibration_shap_group": "motion",
+  "top_calibration_group_mean_abs_shap_h": 13.405280238166426,
+  "top_calibration_masking_group": "voyage_state",
+  "top_calibration_masking_mean_abs_shift_h": 22.587017113854,
+  "strict_calibration_history_delta_mae_h": 6.384666247242706,
+  "future_calibration_history_delta_mae_h": 0.2190891232478407,
+  "future_calibration_destination_median_delta_mae_h_vs_current": -9.258697543702027,
+  "final_prediction_min_h": -109.5367382082203,
+  "final_prediction_max_h": 93.82774410283884,
+  "final_target_min_h": -3055.031388888889,
+  "final_target_max_h": 3553.268333333333,
+  "interpretation": {
+    "importance_is_not_causal": true,
+    "shap_explains_model_not_maritime_reality": true,
+    "masking_used_for_selection": false,
+    "final_test_used_for_model_change": false,
+    "history_model_refit_in_m12": false
+  }
+}

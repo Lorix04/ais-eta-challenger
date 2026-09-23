@@ -1,0 +1,28 @@
+{
+  "artifact_sha256": {
+    "M17F_REPORT.md": "602a58da61cc1fae643713799e05673be56ddb6ad155a6c1a61622ebb12b52a5",
+    "M17F_SUMMARY.json": "93d8e8153892d1f3dfb6f3dfa21aa2bed7d02c85e67da18b70bfb233fff74712",
+    "m17f_fold_comparison.csv": "5d3ab0a11ff2f6f51637b9029b0a572b936a110a50648383a11022e74a5a53c1",
+    "m17f_inner_search.csv": "aefe6bd71b16ec02da5334b7c7846a046db5137b8c0cf1680fd6fe89ced032bd",
+    "m17f_model_metrics.csv": "a185862f1d2f3b9bae612abb7904f1ce090e4ecf5155bcd828c9328dfbbfc647",
+    "m17f_noise_model_comparison.png": "25c9b95d1d9488ec41f042f2323e220ab91713627fbce25c60cd1e0a8419ed2f",
+    "m17f_oof_predictions.csv": "6d9d6d42d30a03c1285b4ebbb079d0513d454962bf35f913a74e5dd105a59cf6",
+    "m17f_outer_selected_model.csv": "92a5369b8e51f8c9300826c999bc429f3a4f3fd5aa98e9eb5809cd8066a34d9b",
+    "m17f_residual_audit.csv": "b5ce2bfff4f795de0c4a657bc5214618fd85a3b5cf82388a36b60308aab90cbb",
+    "m17f_residual_structure.png": "a303da60cd76aa78cf6c22c60111c74d37ec704035d40b9b7d1a4fc5878249b5"
+  },
+  "blocked_old_final_population": 53,
+  "development_population": 386,
+  "final_test_used_for_selection": false,
+  "gate": "NO_M17F_PROMOTION",
+  "immutable_inputs": {
+    "m14_submission": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c",
+    "m16g_freeze": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "m16j_freeze": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b",
+    "m17e_freeze": "c67b3b0a3c8eb370492226b1b641e822b414d223fd54018cf55680a655532904"
+  },
+  "inner_selection_only": true,
+  "milestone": "M17F",
+  "target_derived_runtime_features_used": false,
+  "version": "m17f-latent-target-noise-v1-20260922"
+}

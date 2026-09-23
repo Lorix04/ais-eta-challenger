@@ -1,0 +1,9 @@
+check,passed_now,note
+gate_freeze,True,Historical M18G gate remains unchanged
+full_development_m16g_m16h_scoring_bundle_registered,True,682619085b60beed4ea25084e492fdd1516e30f230bcfd1c5e5bc12c73348078
+fresh_holdout_received_unlabelled,False,No fresh external cohort supplied
+fresh_holdout_provenance_manifest_sealed,False,Must be done before scoring/opening
+blind_prediction_ledger_sealed_before_labels,False,Now executable via scripts/111_m18g1_score_blind.py once unlabeled cohort exists
+point_candidate_registered_pre_label,False,M18E promoted no point challenger; optional for baseline/selective external validation
+labels_observed,False,Must remain false until prediction ledger/opening manifest are sealed
+one_time_evaluation_executed,False,Not executed

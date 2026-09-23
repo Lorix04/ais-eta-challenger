@@ -1,0 +1,2 @@
+calls,mean_paired_gain_h,ci95_low_h,ci95_high_h,ci_includes_zero
+13,0.021581426075337713,-0.04228945635751339,0.07866889236947767,True

@@ -1,0 +1,32 @@
+{
+  "rows": 969084,
+  "sentinel_counts": {
+    "sog_unavailable_102_3": 48,
+    "sog_capped_102_2": 0,
+    "cog_unavailable_ge_360": 97059,
+    "heading_unavailable_511": 256354,
+    "draught_zero_or_negative": 24390,
+    "nav_status_undefined_15": 21107,
+    "lat_invalid_or_unavailable": 0,
+    "lon_invalid_or_unavailable": 0,
+    "destination_missing_or_blank": 228945
+  },
+  "sentinel_pct": {
+    "sog_unavailable_102_3": 4.953130997932068e-05,
+    "sog_capped_102_2": 0.0,
+    "cog_unavailable_ge_360": 0.10015540448506012,
+    "heading_unavailable_511": 0.2645322799674744,
+    "draught_zero_or_negative": 0.02516809688324232,
+    "nav_status_undefined_15": 0.021780361661115032,
+    "lat_invalid_or_unavailable": 0.0,
+    "lon_invalid_or_unavailable": 0.0,
+    "destination_missing_or_blank": 0.2362488700669911
+  },
+  "clean_valid_pct": {
+    "position": 1.0,
+    "sog": 0.9999504686900207,
+    "cog": 0.8998342764920275,
+    "heading": 0.7354481138889921,
+    "draught": 0.7719980930445658
+  }
+}

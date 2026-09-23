@@ -1,0 +1,4 @@
+fold,validation_start,training_calls,training_unique_vessels,training_rows,validation_calls,validation_unique_vessels,validation_rows,cold_validation_calls,training_max_arrival,validation_min_arrival
+1,2026-04-08 22:49:57.500,10,10,136,10,10,103,9,2026-04-08 21:11:35.500,2026-04-08 22:49:57.500
+2,2026-04-10 05:32:45.500,20,19,239,10,10,158,8,2026-04-09 17:07:38.500,2026-04-10 05:32:45.500
+3,2026-04-11 07:19:53.500,30,27,397,10,10,159,6,2026-04-11 06:30:04.500,2026-04-11 07:19:53.500

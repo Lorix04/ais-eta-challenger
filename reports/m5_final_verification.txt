@@ -1,0 +1,51 @@
+$ python scripts/29_m5_port_generalization.py
+  "unseen_port_generalization": "NOT_ESTABLISHED",
+  "leave_one_port_out_attempted": false,
+  "claim_scope_file": "reports/m5_claim_scope.csv",
+  "next": "M6 final take-home deliverable and one-time locked chronological evaluation under frozen M2/M4 design"
+}
+$ python scripts/31_m5_visual_audit.py
+M5 visual audit complete
+$ python scripts/30_m5_verify.py
+PASS M5 stress table preserves the 40 independent M2 OOF calls
+PASS M5 preserves the 33 unique M2 OOF vessels
+PASS locked final chronological calls remain untouched
+PASS M5 explicitly records zero locked-final scoring
+PASS port metrics separate Catania and Augusta
+PASS CATANIA has enough OOF calls for port stress test
+PASS CATANIA route model does not materially degrade <=24h port MAE
+PASS CATANIA has enough cold-vessel calls
+PASS CATANIA route model survives cold-vessel stress
+PASS AUGUSTA has enough OOF calls for port stress test
+PASS AUGUSTA route model does not materially degrade <=24h port MAE
+PASS AUGUSTA has enough cold-vessel calls
+PASS AUGUSTA route model survives cold-vessel stress
+PASS Augusta has enough later HIGH-reliability calls for port-level interval stress
+PASS pooled M4 interval preserves required whole-call coverage in Augusta
+PASS Catania temporal interval evidence is explicitly recognized as underpowered
+PASS port-specific 90% conformal diagnostics expose max-score small-N behavior
+PASS Augusta E route-family stress subgroup is represented
+PASS Augusta E route-family degradation is preserved as a warning, not hidden
+PASS M5 gate records route-family heterogeneity warning
+PASS Scirocco has no ETA-eligible support and is not promoted to generalization evidence
+PASS unseen-port generalization is explicitly not claimed
+PASS leave-one-port-out is not manufactured from incompatible port-specific route geometry
+PASS claim-scope table blocks unseen-port claim
+PASS claim-scope table preserves final holdout
+PASS M5 does not rewrite M2 OOF predictions
+PASS M5 gate passes with explicit scope limits
+M5 verification complete
+$ PYTHONPATH=src pytest -q
+..........................................................               [100%]
+58 passed in 1.50s
+$ python -m compileall -q src scripts
+PASS compileall
+$ python scripts/00_project_check.py
+PASS project control files present
+PASS PROJECT_STATE.json parsed
+PASS current phase: M6 — Prepare final take-home deliverable and perform the one-time locked chronological evaluation under the frozen M2 route-physics + M4 reliability/stability design; do not alter the predictor based on final-holdout results.
+PASS GO/NO-GO A status: GO_LIMITED
+PASS compiled 32 Python scripts
+PASS evidence policy requires 3 screenshots per material change
+$ git diff --check
+PASS git diff --check

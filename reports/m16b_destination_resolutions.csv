@@ -1,0 +1,387 @@
+mmsi,split,destination_norm,normalized_destination,terminal_segment,canonical_destination,canonical_unlocode,canonical_port_name,canonical_country,canonical_lat,canonical_lon,resolution_method,resolution_confidence,is_resolved_port,is_non_specific,is_route_expression,catalog_version,m16a_outer_fold,target_tte_h,pred_m16a_raw_destination_median_h,pred_train_canonical_destination_median_h
+210627000,train,ITAUG,ITAUG,ITAUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,-20.6094444444,-45.30125,-80.1340277778
+210688000,train,IT LIV,IT LIV,IT LIV,ITLIV,ITLIV,Livorno,Italy,43.55,10.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,54.3475,48.3297222222,37.4151388889
+212690000,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,-0.651944444444,-120.646388889,-76.6530555556
+215035000,train,RAVENNA,RAVENNA,RAVENNA,ITRAN,ITRAN,Ravenna,Italy,44.42,12.2,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,1,43.6044444444,46.6986111111,55.1116666667
+215054000,train,IT SPA,IT SPA,IT SPA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,12.3469444444,48.3297222222,-186.653611111
+215178000,train,TR TUT,TR TUT,TR TUT,TRTUT,TRTUT,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,84.3366666667,48.3297222222,48.3297222222
+215232000,train,CATANIA SICILY,CATANIA SICILY,CATANIA SICILY,ITCTA,ITCTA,Catania,Italy,37.5,15.1,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,0,-100.135833333,50.8336111111,-5.64222222222
+215270000,train,ESCAR,ESCAR,ESCAR,ESCAR,ESCAR,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,69.0805555556,-15.3402777778,-15.3402777778
+215282000,train,EGPSD,EGPSD,EGPSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,64.0183333333,60.2488888889,62.9429166667
+215481000,train,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,97.6213888889,84.1227777778,86.7340277778
+215498000,train,ITSPA,ITSPA,ITSPA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,-117.643055556,-139.610277778,-151.462222222
+215826000,train,IT AUG > TR DER,IT AUG > TR DER,TR DER,TRDER,TRDER,,TR,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,70.8777777778,50.8336111111,50.8336111111
+215867000,train,ITAUG>ESVLC,ITAUG>ESVLC,ESVLC,ESVLC,ESVLC,Valencia,Spain,39.45,-0.32,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,4,61.9911111111,48.3297222222,-1501.43791667
+215909000,train,IT VVA,IT VVA,IT VVA,ITVVA,ITVVA,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,9.765,49.8680555556,49.8680555556
+215958000,train,ITFCO,ITFCO,ITFCO,ITFCO,ITFCO,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,27.3138888889,48.3297222222,48.3297222222
+215993000,train,ITMNP,ITMNP,ITMNP,ITMNP,ITMNP,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,22.0844444444,26.4025,26.4025
+219028212,calibration,RO MID,RO MID,RO MID,ROMID,ROMID,,RO,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,78.6966666667,46.6986111111,46.6986111111
+219031822,calibration,WORKSITE,WORKSITE,WORKSITE,NON_SPECIFIC,,,,,,non_specific,1,False,True,False,m16b-canonical-destination-v1-20260921,1,9.26722222222,46.6986111111,1317.20097222
+219110000,train,EGPSD>GBTBY,EGPSD>GBTBY,GBTBY,GBTBY,GBTBY,,GB,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,1,175.056111111,46.6986111111,46.6986111111
+219133000,train,BEANR>ILHFA,BEANR>ILHFA,ILHFA,ILHFA,ILHFA,,IL,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,2,58.2141666667,49.8680555556,58.6833333333
+219210000,train,EGDAM>>SGSIN,EGDAM>SGSIN,SGSIN,SGSIN,SGSIN,,SG,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,692.941388889,50.8336111111,760.620833333
+219303000,train,MESSINA>MILAZZO,MESSINA>MILAZZO,MILAZZO,ITMLZ,ITMLZ,Milazzo,Italy,38.22,15.24,route_terminal_alias,0.99,True,False,True,m16b-canonical-destination-v1-20260921,0,1.77916666667,50.8336111111,6.3725
+219432000,train,ITAUG,ITAUG,ITAUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,-79.6436111111,-24.2809722222,-36.7822222222
+219550000,train,MALTA,MALTA,MALTA,AMBIGUOUS:MALTA,,,,,,ambiguous_geography,1,False,False,False,m16b-canonical-destination-v1-20260921,2,6.19583333333,5.45166666667,5.45166666667
+219608000,train,OMSLV>>EGPSD,OMSLV>EGPSD,EGPSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,0,41.2513888889,50.8336111111,62.1336111111
+228481700,train,ESALG,ESALG,ESALG,ESALG,ESALG,Algeciras,Spain,36.13,-5.45,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,57.5136111111,90.6488888889,88.2754166667
+229331000,calibration,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,1.55583333333,4.05680555556,3.41319444444
+229370000,train,EG ALY,EG ALY,EG ALY,EGALY,EGALY,,EG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,65.5713888889,48.3297222222,48.3297222222
+229412000,train,FRLAV,FRLAV,FRLAV,FRLAV,FRLAV,,FR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,68.0102777778,46.6986111111,46.6986111111
+229456000,train,ESALG,ESALG,ESALG,ESALG,ESALG,Algeciras,Spain,36.13,-5.45,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,85.9019444444,82.6511111111,82.9086111111
+229471000,train,ATLANTIC OCEAN,ATLANTIC OCEAN,ATLANTIC OCEAN,NON_SPECIFIC,,,,,,non_specific,1,False,True,False,m16b-canonical-destination-v1-20260921,0,256.149722222,50.8336111111,2378.25222222
+229548000,train,ESVLC,ESVLC,ESVLC,ESVLC,ESVLC,Valencia,Spain,39.45,-0.32,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,-3047.71833333,50.8336111111,53.4168055556
+229648000,train,TANGER MED2,TANGER MED2,TANGER MED2,TEXT:TANGER MED2,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,68.2094444444,46.6986111111,46.6986111111
+230723000,calibration,ITMNF,ITMNF,ITMNF,ITMNF,ITMNF,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,37.9788888889,49.8680555556,49.8680555556
+232012490,train,NL TNZ,NL TNZ,NL TNZ,NLTNZ,NLTNZ,,NL,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,205.648333333,50.8336111111,50.8336111111
+232026551,train,MT MLA > GR GYT,MT MLA > GR GYT,GR GYT,GRGYT,GRGYT,,GR,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,26.8955555556,50.8336111111,50.8336111111
+232058998,train,GBGIB,GBGIB,GBGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,85.6202777778,48.3297222222,83.9305555556
+232061535,train,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,4.87833333333,3.88861111111,3.88861111111
+232062004,train,GBBRS,GBBRS,GBBRS,GBBRS,GBBRS,,GB,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,290.709722222,50.8336111111,50.8336111111
+232063279,train,AR SLO,AR SLO,AR SLO,ARSLO,ARSLO,,AR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,502.520555556,48.3297222222,48.3297222222
+235010170,train,GR STN,GR STN,GR STN,GRSTN,GRSTN,,GR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,27.5930555556,48.3297222222,48.3297222222
+236623000,train,FO,FO,FO,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,0,38.715,50.8336111111,232.388333333
+238066000,train,TRCKZ,TRCKZ,TRCKZ,TRCKZ,TRCKZ,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,30.7016666667,50.8336111111,46.5988888889
+240544000,train,TRIZM,TRIZM,TRIZM,TRIZM,TRIZM,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,50.1938888889,46.6986111111,46.6986111111
+240633000,train,GBGIB,GBGIB,GBGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,115.341388889,48.3297222222,83.9305555556
+240788000,train,PIRAEUS,PIRAEUS,PIRAEUS,GRPIR,GRPIR,Piraeus,Greece,37.933333,23.616667,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,2,40.0636111111,49.8680555556,28.6488888889
+240878000,train,GALVESTON FOR ORDER,GALVESTON FOR ORDER,GALVESTON FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,4,428.973333333,48.3297222222,161.535833333
+240893000,train,CO CVE,CO CVE,CO CVE,COCVE,COCVE,,CO,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,298.963611111,48.3297222222,48.3297222222
+240942000,train,IT NAP,IT NAP,IT NAP,ITNAP,ITNAP,Napoli,Italy,40.84,14.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,18.4938888889,53.4486111111,15.9166666667
+241287000,train,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,0,390.611388889,308.100833333,232.388333333
+241298000,train,FRMRS,FRMRS,FRMRS,FRMRS,FRMRS,,FR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,40.9797222222,38.3283333333,38.3283333333
+241618000,train,GBPTL,GBPTL,GBPTL,GBPTL,GBPTL,,GB,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,175.416666667,46.6986111111,46.6986111111
+241689000,train,SKAW FOR ORDERS,SKAW FOR ORDERS,SKAW FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,2,232.388333333,49.8680555556,74.0119444444
+241745000,train,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,0,48.4636111111,308.100833333,232.388333333
+241751000,train,ITPFX,ITPFX,ITPFX,ITPFX,ITPFX,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,32.6686111111,56.1919444444,40.1470833333
+241859000,train,SIKOP,SIKOP,SIKOP,SIKOP,SIKOP,,SI,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,42.1702777778,46.6986111111,57.4680555556
+241929000,train,ORAN ALGERIA,ORAN ALGERIA,ORAN ALGERIA,TEXT:ORAN ALGERIA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,2,91.735,49.8680555556,49.8680555556
+241953000,train,GRPIR,GRPIR,GRPIR,GRPIR,GRPIR,Piraeus,Greece,37.933333,23.616667,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,26.4461111111,48.3297222222,40.0636111111
+242494400,train,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,-3043.85944444,3.93583333333,3.43680555556
+244090800,train,TNLGN,TNLGN,TNLGN,TNLGN,TNLGN,,TN,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,33.0186111111,27.925,27.925
+244865000,calibration,BEJAIA,BEJAIA,BEJAIA,TEXT:BEJAIA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,54.1683333333,46.6986111111,46.6986111111
+245278000,train,NLMOE,NLMOE,NLMOE,NLMOE,NLMOE,,NL,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,230.653333333,49.8680555556,49.8680555556
+246518000,train,NAPLES,NAPLES,NAPLES,ITNAP,ITNAP,Napoli,Italy,40.84,14.25,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,1,18.9361111111,46.6986111111,15.9166666667
+247018700,train,FOR ORDER,FOR ORDER,FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,4,47.5175,334.89,161.535833333
+247045300,train,IT PALERMO,IT PALERMO,IT PALERMO,ITPMO,ITPMO,Palermo,Italy,38.13,13.36,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,10.7030555556,48.3297222222,30.1
+247055200,train,PALERMO,PALERMO,PALERMO,ITPMO,ITPMO,Palermo,Italy,38.13,13.36,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,2,30.1,49.8680555556,10.7030555556
+247069600,train,TNLGN,TNLGN,TNLGN,TNLGN,TNLGN,,TN,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,27.925,33.0186111111,33.0186111111
+247077700,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,-595.088611111,-166.650833333,-81.5651388889
+247095300,train,IT RAN,IT RAN,IT RAN,ITRAN,ITRAN,Ravenna,Italy,44.42,12.2,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,42.1283333333,83.2125,57.3427777778
+247100900,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,0,-136.652222222,-143.648611111,-36.7822222222
+247101700,train,SANTA PANAGIA,SANTA PANAGIA,SANTA PANAGIA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,-2010.43222222,48.3297222222,-132.61875
+247104500,calibration,GRPIR,GRPIR,GRPIR,GRPIR,GRPIR,Piraeus,Greece,37.933333,23.616667,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,30.8516666667,48.3297222222,40.0636111111
+247131100,train,ITAUG,ITAUG,ITAUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,-201.613888889,-28.6958333333,-76.6530555556
+247144750,calibration,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,,,unknown,1,False,True,False,m16b-canonical-destination-v1-20260921,4,-2424.53972222,-2409.17930556,-2409.17930556
+247147120,train,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,,,unknown,1,False,True,False,m16b-canonical-destination-v1-20260921,2,-2422.87055556,-2410.01388889,-2410.01388889
+247153450,train,MARE,MARE,MARE,NON_SPECIFIC,,,,,,non_specific,1,False,True,False,m16b-canonical-destination-v1-20260921,4,2378.25222222,48.3297222222,256.149722222
+247176900,calibration,SIRACUSA,SIRACUSA,SIRACUSA,ITSIR,ITSIR,Siracusa,Italy,37.07,15.29,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,23.0305555556,48.3297222222,-2.32222222222
+247219700,train,ITNAP,ITNAP,ITNAP,ITNAP,ITNAP,Napoli,Italy,40.84,14.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,15.9166666667,17.0472222222,18.59
+247231200,train,ESTAR,ESTAR,ESTAR,ESTAR,ESTAR,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,2885.25,48.3297222222,45.0263888889
+247241800,train,ITSAL>ITCTA,ITSAL>ITCTA,ITCTA,ITCTA,ITCTA,Catania,Italy,37.5,15.1,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,0,-10.6105555556,50.8336111111,-5.64222222222
+247268300,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,229.347777778,-166.650833333,-81.5651388889
+247278300,train,IN PORT,IN PORT,IN PORT,NON_SPECIFIC,,,,,,non_specific,1,False,True,False,m16b-canonical-destination-v1-20260921,1,3786.35444444,46.6986111111,1317.20097222
+247282600,calibration,IT AUG,IT AUG,IT AUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,-2.3475,-78.63875,-76.6530555556
+247296500,train,ITLIV,ITLIV,ITLIV,ITLIV,ITLIV,Livorno,Italy,43.55,10.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,40.4125,34.4177777778,44.3826388889
+247298300,train,IT AUG,IT AUG,IT AUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,-393.143611111,-78.63875,-76.6530555556
+247305480,train,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,,,unknown,1,False,True,False,m16b-canonical-destination-v1-20260921,2,-2525.77555556,-2410.01388889,-2410.01388889
+247306670,train,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,,,unknown,1,False,True,False,m16b-canonical-destination-v1-20260921,1,-2395.48805556,-2423.70513889,-2423.70513889
+247310200,train,TNSFA,TNSFA,TNSFA,TNSFA,TNSFA,,TN,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,25.0463888889,49.8680555556,49.8680555556
+247313600,train,IT CHI,IT CHI,IT CHI,ITCHI,ITCHI,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,54.7930555556,49.8680555556,103.856388889
+247319800,train,ITCTA>ITSAL,ITCTA>ITSAL,ITSAL,ITSAL,ITSAL,,IT,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,11.9872222222,50.8336111111,14.9733333333
+247324900,calibration,ITGEA,ITGEA,ITGEA,ITGEA,ITGEA,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,11.9605555556,49.8680555556,49.8680555556
+247333600,calibration,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,4084.76305556,-166.650833333,-81.5651388889
+247343900,calibration,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,2,-2457.65333333,-101.576111111,-69.6515277778
+247349400,calibration,ITCTA,ITCTA,ITCTA,ITCTA,ITCTA,Catania,Italy,37.5,15.1,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,-648.636388889,-11.5020833333,-5.64222222222
+247351700,calibration,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,4051.84972222,-166.650833333,-81.5651388889
+247355500,train,ITTOA,ITTOA,ITTOA,ITTOA,ITTOA,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,21.2675,50.8336111111,50.8336111111
+247362500,train,AUG,AUG,AUG,TEXT:AUG,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,2,-1851.15305556,49.8680555556,49.8680555556
+247382800,train,S PANAGIA,S PANAGIA,S PANAGIA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,0,-2281.43333333,50.8336111111,-151.462222222
+247383400,train,ITCTA>ITGOA,ITCTA>ITGOA,ITGOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,4,32.5116666667,48.3297222222,46.4047222222
+247392600,train,ITNAP,ITNAP,ITNAP,ITNAP,ITNAP,Napoli,Italy,40.84,14.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,15.5044444444,15.9166666667,18.715
+247407900,train,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,,,unknown,1,False,True,False,m16b-canonical-destination-v1-20260921,2,1902.665,-2410.01388889,-2410.01388889
+247408700,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,-120.646388889,-166.650833333,-81.5651388889
+247415100,train,ITCTA,ITCTA,ITCTA,ITCTA,ITCTA,Catania,Italy,37.5,15.1,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,-174.649444444,-11.5020833333,-5.64222222222
+247415600,calibration,POZZUOLI S A F,POZZUOLI S A F,POZZUOLI S A F,TEXT:POZZUOLI S A F,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,2,18.5783333333,49.8680555556,49.8680555556
+247425900,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,-1542.90277778,-120.646388889,-76.6530555556
+247426100,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,2,-166.650833333,-101.576111111,-69.6515277778
+247432200,train,IT PFX,IT PFX,IT PFX,ITPFX,ITPFX,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,24.1022222222,50.8336111111,44.4302777778
+247453600,train,MTMLA>ITCTA,MTMLA>ITCTA,ITCTA,ITCTA,ITCTA,Catania,Italy,37.5,15.1,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,2,-0.8875,49.8680555556,-58.7488888889
+247483800,calibration,ITTRS,ITTRS,ITTRS,ITTRS,ITTRS,Trieste,Italy,45.65,13.77,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,-3742.03222222,41.3936111111,41.3936111111
+247488900,train,EGALY,EGALY,EGALY,EGALY,EGALY,,EG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,29.5083333333,48.3297222222,48.3297222222
+247530400,train,ITGOA,ITGOA,ITGOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,39.3958333333,46.4047222222,48.6569444444
+248089000,train,ITCVV,ITCVV,ITCVV,ITCVV,ITCVV,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,26.3880555556,46.6986111111,25.5236111111
+248105000,train,ITAOI,ITAOI,ITAOI,ITAOI,ITAOI,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,47.1530555556,46.6986111111,46.6986111111
+248159000,train,ITMLZ,ITMLZ,ITMLZ,ITMLZ,ITMLZ,Milazzo,Italy,38.22,15.24,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,6.3725,49.8680555556,1.77916666667
+248333000,train,ITAUG,ITAUG,ITAUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,-27.9525,-28.6958333333,-76.6530555556
+248422000,calibration,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,-738.6,3.91222222222,3.93583333333
+248507000,train,ITAUG>EGEDK,ITAUG>EGEDK,EGEDK,EGEDK,EGEDK,,EG,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,3,68.9125,48.3297222222,85.3144444444
+249004000,train,ALEXANDRIA,ALEXANDRIA,ALEXANDRIA,TEXT:ALEXANDRIA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,43.8797222222,46.6986111111,46.6986111111
+249022000,calibration,ROTTERDAM,ROTTERDAM,ROTTERDAM,NLRTM,NLRTM,Rotterdam,Netherlands,51.916667,4.5,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,0,157.519166667,190.408611111,202.227638889
+249087000,train,ITAUG,ITAUG,ITAUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,-17.4319444444,-49.7161111111,-81.5651388889
+249146000,train,ITCTA,ITCTA,ITCTA,ITCTA,ITCTA,Catania,Italy,37.5,15.1,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,-5.64222222222,-411.642916667,-100.135833333
+249172000,calibration,MTMAR,MTMAR,MTMAR,MTMAR,MTMAR,Marsaxlokk,Malta,35.833333,14.533333,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,10.3208333333,10.71625,8.88638888889
+249281000,train,ITCTA,ITCTA,ITCTA,ITCTA,ITCTA,Catania,Italy,37.5,15.1,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,-17.3619444444,-411.642916667,-100.135833333
+249414000,train,TRALI>MTMLA,TRALI>MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,2,2.26111111111,49.8680555556,3.93583333333
+249433000,train,ALGECIRAS,ALGECIRAS,ALGECIRAS,ESALG,ESALG,Algeciras,Spain,36.13,-5.45,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,1,81.2930555556,46.6986111111,85.9019444444
+249596000,train,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,10.1502777778,3.88861111111,3.88861111111
+249611000,train,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,97.4713888889,89.0002777778,85.6202777778
+249697000,train,TRDRC,TRDRC,TRDRC,TRDRC,TRDRC,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,92.2597222222,33.7158333333,41.4997222222
+249742000,calibration,IMMINGHAM,IMMINGHAM,IMMINGHAM,TEXT:IMMINGHAM,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,3,247.046944444,48.3297222222,48.3297222222
+249962000,train,ESCAR,ESCAR,ESCAR,ESCAR,ESCAR,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,79.1775,-15.3402777778,-15.3402777778
+249974000,train,VALLETTA,VALLETTA,VALLETTA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,5.33888888889,48.3297222222,3.41319444444
+253000158,train,TRYAR,TRYAR,TRYAR,TRYAR,TRYAR,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,54.0591666667,73.2861111111,73.2861111111
+255779000,train,ESCAR,ESCAR,ESCAR,ESCAR,ESCAR,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,-15.3402777778,74.1290277778,74.1290277778
+255801270,calibration,ESCEU,ESCEU,ESCEU,ESCEU,ESCEU,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,88.0419444444,48.3297222222,48.3297222222
+255805849,train,MAPTM,MAPTM,MAPTM,MAPTM,MAPTM,,MA,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,97.9855555556,50.8336111111,50.8336111111
+255805866,train,ITNAP,ITNAP,ITNAP,ITNAP,ITNAP,Napoli,Italy,40.84,14.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,52.1658333333,15.7105555556,15.9166666667
+255805951,train,GR STN,GR STN,GR STN,GRSTN,GRSTN,,GR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,20.465,48.3297222222,48.3297222222
+255805968,train,LYTIP,LYTIP,LYTIP,LYTIP,LYTIP,,LY,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,21.8616666667,46.6986111111,46.6986111111
+255806044,train,ITRAN,ITRAN,ITRAN,ITRAN,ITRAN,Ravenna,Italy,44.42,12.2,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,59.5738888889,57.4204166667,55.1116666667
+255806427,train,ITGIT,ITGIT,ITGIT,ITGIT,ITGIT,Gioia Tauro,Italy,38.43,15.9,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,5.84305555556,5.89166666667,6.43847222222
+255915592,train,FRMRS,FRMRS,FRMRS,FRMRS,FRMRS,,FR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,38.3283333333,40.9797222222,40.9797222222
+255915609,train,MT MLA,MT MLA,MT MLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,16.4616666667,-741.288611111,3.41319444444
+255915683,calibration,IT RAN,IT RAN,IT RAN,ITRAN,ITRAN,Ravenna,Italy,44.42,12.2,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,83.2125,42.1283333333,51.9172222222
+255915693,train,ITRAN,ITRAN,ITRAN,ITRAN,ITRAN,Ravenna,Italy,44.42,12.2,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,55.1116666667,59.6515277778,54.1483333333
+255915737,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,0,-82.5058333333,-143.648611111,-36.7822222222
+255915759,train,FOR ORDER,FOR ORDER,FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,4,-566.815555556,334.89,161.535833333
+255915798,train,TRMER,TRMER,TRMER,TRMER,TRMER,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,72.305,49.8680555556,49.8680555556
+255915800,calibration,ITAUG,ITAUG,ITAUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,-62.65,-24.2809722222,-36.7822222222
+255915967,train,ALIAGA,ALIAGA,ALIAGA,TEXT:ALIAGA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,0,37.5897222222,50.8336111111,50.8336111111
+255916537,train,EGAKI>ITCVV,EGAKI>ITCVV,ITCVV,ITCVV,ITCVV,,IT,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,25.5236111111,50.8336111111,26.3880555556
+255970000,calibration,ITTAR,ITTAR,ITTAR,ITTAR,ITTAR,Taranto,Italy,40.47,17.23,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,22.8913888889,19.4041666667,16.7352777778
+256049000,train,FRSET,FRSET,FRSET,FRSET,FRSET,Sete,France,43.4,3.7,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,46.6986111111,35.1477777778,35.1477777778
+256227000,calibration,IT AUG,IT AUG,IT AUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,-80.6244444444,-76.6530555556,-36.7822222222
+256251000,train,TR IZT,TR IZT,TR IZT,TRIZT,TRIZT,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,59.8719444444,48.3297222222,27.5413888889
+256286000,calibration,ITGOA,ITGOA,ITGOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,44.5888888889,46.4047222222,45.4194444444
+256392000,calibration,IT TARANTO,IT TARANTO,IT TARANTO,TEXT:IT TARANTO,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,0,19.2561111111,50.8336111111,50.8336111111
+256436000,train,ITMNP,ITMNP,ITMNP,ITMNP,ITMNP,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,26.4025,22.0844444444,22.0844444444
+256515000,train,ITSPA,ITSPA,ITSPA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,-139.610277778,-117.643055556,-163.314166667
+256607000,calibration,GIOIA TAURO,GIOIA TAURO,GIOIA TAURO,ITGIT,ITGIT,Gioia Tauro,Italy,38.43,15.9,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,2,6.98527777778,49.8680555556,5.89166666667
+256714000,train,ITGOA,ITGOA,ITGOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,44.4341666667,46.4047222222,48.6569444444
+256812000,calibration,TR CEY,TR CEY,TR CEY,TRCEY,TRCEY,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,80.7813888889,49.8680555556,76.2652777778
+256885000,train,ITGOA,ITGOA,ITGOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,46.4047222222,44.5888888889,47.7490277778
+256891000,train,ITAUG,ITAUG,ITAUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,-0.993888888889,-49.7161111111,-81.5651388889
+257824000,train,ESVGO,ESVGO,ESVGO,ESVGO,ESVGO,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,121.198611111,46.6986111111,46.6986111111
+268251804,train,ITVCE,ITVCE,ITVCE,ITVCE,ITVCE,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,70.6719444444,61.0847222222,61.0847222222
+271000677,train,LBBEY,LBBEY,LBBEY,LBBEY,LBBEY,,LB,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,60.9197222222,46.6986111111,46.6986111111
+271000748,train,FRSET,FRSET,FRSET,FRSET,FRSET,Sete,France,43.4,3.7,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,35.1477777778,42.2897222222,42.2897222222
+271002572,calibration,TRYAL,TRYAL,TRYAL,TRYAL,TRYAL,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,40.7847222222,50.8336111111,50.8336111111
+271040948,train,FRSET,FRSET,FRSET,FRSET,FRSET,Sete,France,43.4,3.7,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,37.8808333333,35.1477777778,35.1477777778
+271044383,train,ESCAS,ESCAS,ESCAS,ESCAS,ESCAS,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,67.055,46.6986111111,121.9675
+271051063,train,MTMAR,MTMAR,MTMAR,MTMAR,MTMAR,Marsaxlokk,Malta,35.833333,14.533333,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,8.88638888889,11.4334722222,10.3208333333
+271051219,train,ITGIT,ITGIT,ITGIT,ITGIT,ITGIT,Gioia Tauro,Italy,38.43,15.9,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,5.89166666667,8.24375,6.98527777778
+271052090,calibration,ITGOA,ITGOA,ITGOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,65.5586111111,44.5888888889,46.4047222222
+273267690,calibration,EGPSD,EGPSD,EGPSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,65.6369444444,64.0183333333,65.3186111111
+273271070,train,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,2,328.807222222,90.6833333333,74.0119444444
+273276260,train,GIBRALTAR FOR ORDER,GIBRALTAR FOR ORDER,GIBRALTAR FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,3,78.9519444444,48.3297222222,253.554444444
+273277260,train,RUMKK,RUMKK,RUMKK,RUMKK,RUMKK,,RU,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,322.369166667,48.3297222222,48.3297222222
+273277840,train,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,2,314.258055556,90.6833333333,74.0119444444
+275488000,train,FR FOS,FR FOS,FR FOS,FRFOS,FRFOS,,FR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,71.3927777778,48.3297222222,48.3297222222
+275497000,train,TRGEM,TRGEM,TRGEM,TRGEM,TRGEM,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,102.308611111,48.3297222222,48.3297222222
+304204000,train,TRCKZ,TRCKZ,TRCKZ,TRCKZ,TRCKZ,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,57.4575,50.8336111111,46.5988888889
+304427000,calibration,ITTAR,ITTAR,ITTAR,ITTAR,ITTAR,Taranto,Italy,40.47,17.23,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,19.4041666667,22.8913888889,17.3766666667
+304578000,train,GR GPA,GR GPA,GR GPA,GRGPA,GRGPA,,GR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,25.5877777778,46.6986111111,18.0111111111
+304610000,train,GI GIB,GI GIB,GI GIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,65.3591666667,74.8519444444,85.6202777778
+304785000,train,ITCHI,ITCHI,ITCHI,ITCHI,ITCHI,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,103.856388889,48.3297222222,54.7930555556
+305690000,train,ITSVN,ITSVN,ITSVN,ITSVN,ITSVN,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,51.4602777778,48.3297222222,48.3297222222
+305715000,train,PLSZZ,PLSZZ,PLSZZ,PLSZZ,PLSZZ,,PL,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,320.296388889,48.3297222222,48.3297222222
+308628000,train,ITMSN,ITMSN,ITMSN,ITMSN,ITMSN,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,2.09805555556,49.8680555556,49.8680555556
+309467000,train,ITSPE,ITSPE,ITSPE,ITSPE,ITSPE,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,52.2075,48.3297222222,48.3297222222
+310610000,train,HRDBV>MTMLA,HRDBV>MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,2,-786.144166667,49.8680555556,3.93583333333
+310772000,train,USCMU,USCMU,USCMU,USCMU,USCMU,,US,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,360.723333333,49.8680555556,49.8680555556
+310841000,train,GR CHQ,GR CHQ,GR CHQ,GRCHQ,GRCHQ,,GR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,22.3866666667,48.3297222222,48.3297222222
+311000231,train,IT SPA,IT SPA,IT SPA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,-125.627222222,48.3297222222,-186.653611111
+311000451,train,ITSPA,ITSPA,ITSPA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,-434.634444444,-128.626666667,-186.653611111
+311000516,train,LYESI>HROMI,LYESI>HROMI,HROMI,HROMI,HROMI,,HR,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,3,43.0938888889,48.3297222222,48.3297222222
+311000621,train,KOPER,KOPER,KOPER,KOPER,KOPER,,KO,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,60.9886111111,46.6986111111,46.6986111111
+311001060,train,MALTA,MALTA,MALTA,AMBIGUOUS:MALTA,,,,,,ambiguous_geography,1,False,False,False,m16b-canonical-destination-v1-20260921,3,5.45166666667,6.19583333333,6.19583333333
+311001144,train,GIGIB 0004,GIGIB 0004,GIGIB 0004,TEXT:GIGIB 0004,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,4,103.049722222,48.3297222222,48.3297222222
+311085000,train,IT CRV,IT CRV,IT CRV,ITCRV,ITCRV,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,10.5536111111,46.6986111111,46.6986111111
+311775000,calibration,DZ AZW,DZ AZW,DZ AZW,DZAZW,DZAZW,,DZ,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,77.9036111111,49.8680555556,59.9638888889
+312107000,calibration,TRIST,TRIST,TRIST,TRIST,TRIST,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,52.7094444444,74.0866666667,79.5994444444
+312120000,train,IT TRI,IT TRI,IT TRI,ITTRI,ITTRI,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,17.4525,48.3297222222,48.3297222222
+312333000,calibration,ES CAS,ES CAS,ES CAS,ESCAS,ESCAS,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,121.9675,48.3297222222,84.5561111111
+314001113,train,GB PTB,GB PTB,GB PTB,GBPTB,GBPTB,,GB,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,272.909722222,46.6986111111,46.6986111111
+314432000,train,ITPNG,ITPNG,ITPNG,ITPNG,ITPNG,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,38.3425,46.6986111111,46.6986111111
+314496000,train,ITRAN,ITRAN,ITRAN,ITRAN,ITRAN,Ravenna,Italy,44.42,12.2,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,59.7291666667,57.3427777778,55.1116666667
+314509000,train,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,4.225,3.91222222222,3.93583333333
+314652000,calibration,ORDER,ORDER,ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,4,-270.887777778,-2439.34805556,161.535833333
+314900000,train,ROCND,ROCND,ROCND,ROCND,ROCND,,RO,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,94.1419444444,91.7725,91.7725
+319076100,train,IT TAR,IT TAR,IT TAR,ITTAR,ITTAR,Taranto,Italy,40.47,17.23,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,17.3766666667,16.7352777778,16.7352777778
+319301000,train,TOROS GABRE,TOROS GABRE,TOROS GABRE,TEXT:TOROS GABRE,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,87.4213888889,46.6986111111,46.6986111111
+338619000,train,EGPSD,EGPSD,EGPSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,50.7580555556,64.0183333333,65.3186111111
+351656000,train,ROCND,ROCND,ROCND,ROCND,ROCND,,RO,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,91.7725,94.1419444444,94.1419444444
+352001323,train,ITNAP,ITNAP,ITNAP,ITNAP,ITNAP,Napoli,Italy,40.84,14.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,18.59,15.9166666667,18.715
+352001352,train,GIBRALTAR,GIBRALTAR,GIBRALTAR,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,81.3805555556,87.8477777778,86.7340277778
+352002170,calibration,ITBRI,ITBRI,ITBRI,ITBRI,ITBRI,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,31.0708333333,50.8336111111,50.8336111111
+352002243,train,BALTIC SEA FOR ORDER,BALTIC SEA FOR ORDER,BALTIC SEA FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,2,303.231666667,274.720555556,74.0119444444
+352002310,train,MACAS,MACAS,MACAS,MACAS,MACAS,,MA,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,104.6475,78.1888888889,78.1888888889
+352002473,calibration,ALIAGA TURKEY,ALIAGA TURKEY,ALIAGA TURKEY,TEXT:ALIAGA TURKEY,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,3,54.0963888889,48.3297222222,48.3297222222
+352003272,train,ESBCN,ESBCN,ESBCN,ESBCN,ESBCN,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,53.6988888889,46.6986111111,46.6986111111
+352003495,calibration,NL RTM,NL RTM,NL RTM,NLRTM,NLRTM,Rotterdam,Netherlands,51.916667,4.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,214.046666667,46.6986111111,157.519166667
+352004307,train,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,111.593333333,93.2358333333,85.6202777778
+352004590,train,LB SEL,LB SEL,LB SEL,LBSEL,LBSEL,,LB,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,71.5641666667,50.8336111111,50.8336111111
+352004593,train,BALTIC SEA FOR ORDER,BALTIC SEA FOR ORDER,BALTIC SEA FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,4,274.720555556,303.231666667,161.535833333
+352004690,train,P P URUGUAY,P P URUGUAY,P P URUGUAY,TEXT:P P URUGUAY,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,533.3925,46.6986111111,46.6986111111
+352004810,train,GI GIB,GI GIB,GI GIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,74.8519444444,91.9708333333,83.9305555556
+352005357,train,SKAGEN,SKAGEN,SKAGEN,TEXT:SKAGEN,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,0,250.311388889,50.8336111111,50.8336111111
+352005660,train,GIBRALTAR FOR ORDERS,GIBRALTAR FOR ORDERS,GIBRALTAR FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,3,84.285,48.3297222222,253.554444444
+352006086,train,TRTEK,TRTEK,TRTEK,TRTEK,TRTEK,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,74.6733333333,50.8336111111,50.8336111111
+352506000,train,SGSIN PEBGA,SGSIN PEBGA,SGSIN PEBGA,TEXT:SGSIN PEBGA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,4,640.108888889,48.3297222222,48.3297222222
+352604000,train,EG EDK,EG EDK,EG EDK,EGEDK,EGEDK,,EG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,70.1394444444,50.8336111111,68.9125
+353589000,calibration,PORT SAID,PORT SAID,PORT SAID,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,0,67.3097222222,66.6188888889,62.1336111111
+354562000,train,TRAMR,TRAMR,TRAMR,TRAMR,TRAMR,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,58.2997222222,48.3297222222,48.3297222222
+355860000,train,ITVCE,ITVCE,ITVCE,ITVCE,ITVCE,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,57.4363888889,67.7025,67.7025
+356324000,calibration,ITGOA,ITGOA,ITGOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,55.225,46.4047222222,48.6569444444
+356680000,train,ISKENDERUN,ISKENDERUN,ISKENDERUN,TEXT:ISKENDERUN,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,3,75.5544444444,48.3297222222,48.3297222222
+356755000,train,GIBRALTAR,GIBRALTAR,GIBRALTAR,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,90.5836111111,81.3805555556,83.9305555556
+356794000,train,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,11.7391666667,3.93583333333,3.43680555556
+357463000,train,GRPIR>>>ITGOA,GRPIR>ITGOA,ITGOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,3,50.9091666667,48.3297222222,45.4194444444
+357983000,train,ES VLC,ES VLC,ES VLC,ESVLC,ESVLC,Valencia,Spain,39.45,-0.32,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,44.8425,48.3297222222,-1492.86361111
+372119000,train,PORT SAID,PORT SAID,PORT SAID,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,2,66.6188888889,67.3097222222,64.0183333333
+372668000,train,DZAZW,DZAZW,DZAZW,DZAZW,DZAZW,,DZ,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,59.9638888889,46.6986111111,77.9036111111
+373026000,train,ITAUG,ITAUG,ITAUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,-36.7822222222,-45.30125,-80.1340277778
+373808000,train,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,1,18.7561111111,308.100833333,90.6833333333
+374194000,train,ORDER,ORDER,ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,2,-2439.34805556,-270.887777778,74.0119444444
+376304000,train,HRZAD,HRZAD,HRZAD,HRZAD,HRZAD,,HR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,45.8775,48.3297222222,48.3297222222
+403532001,train,EG PSD,EG PSD,EG PSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,51.7697222222,48.3297222222,65.3186111111
+403660000,calibration,ES ALG,ES ALG,ES ALG,ESALG,ESALG,Algeciras,Spain,36.13,-5.45,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,83.1661111111,98.5522222222,85.9019444444
+428002000,train,DAMIETTA,DAMIETTA,DAMIETTA,TEXT:DAMIETTA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,81.0472222222,46.6986111111,46.6986111111
+431048000,train,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,2,426.029722222,90.6833333333,74.0119444444
+431476000,train,TR DRC,TR DRC,TR DRC,TRDRC,TRDRC,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,49.2836111111,50.8336111111,92.2597222222
+440252000,train,TRDRC,TRDRC,TRDRC,TRDRC,TRDRC,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,33.7158333333,92.2597222222,92.2597222222
+461000256,train,FOR ORDER,FOR ORDER,FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,1,391.848055556,47.5175,90.6833333333
+461000284,train,FOR ORDER,FOR ORDER,FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,2,334.89,20.9331944444,74.0119444444
+461000370,calibration,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,4,301.943611111,316.139166667,161.535833333
+477630800,train,ES ALG,ES ALG,ES ALG,ESALG,ESALG,Algeciras,Spain,36.13,-5.45,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,98.5522222222,83.1661111111,82.9086111111
+477856500,train,MALTA,MALTA,MALTA,AMBIGUOUS:MALTA,,,,,,ambiguous_geography,1,False,False,False,m16b-canonical-destination-v1-20260921,3,3.58555555556,6.19583333333,6.19583333333
+477963900,train,MALTA,MALTA,MALTA,AMBIGUOUS:MALTA,,,,,,ambiguous_geography,1,False,False,False,m16b-canonical-destination-v1-20260921,2,3.05555555556,5.45166666667,5.45166666667
+511100560,train,ITNAP,ITNAP,ITNAP,ITNAP,ITNAP,Napoli,Italy,40.84,14.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,14.895,17.2533333333,18.5419444444
+538001657,train,GR AST,GR AST,GR AST,GRAST,GRAST,,GR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,15.0325,50.8336111111,50.8336111111
+538002883,train,TR ISK,TR ISK,TR ISK,TRISK,TRISK,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,79.4730555556,88.1566666667,78.3219444444
+538003678,train,ITAUG>ITSPA,ITAUG>ITSPA,ITSPA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,4,-186.653611111,48.3297222222,-132.61875
+538004518,calibration,GI GIB>TR CKZ,GI GIB>TR CKZ,TR CKZ,TRCKZ,TRCKZ,,TR,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,50.4611111111,50.8336111111,46.5988888889
+538004558,train,ITPFX,ITPFX,ITPFX,ITPFX,ITPFX,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,56.1919444444,32.6686111111,28.3854166667
+538005330,calibration,BRPMA>TRISK,BRPMA>TRISK,TRISK,TRISK,TRISK,,TR,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,2,68.4872222222,49.8680555556,83.8148611111
+538005431,train,MALTA,MALTA,MALTA,AMBIGUOUS:MALTA,,,,,,ambiguous_geography,1,False,False,False,m16b-canonical-destination-v1-20260921,3,5.76138888889,6.19583333333,6.19583333333
+538005496,train,IT SPA,IT SPA,IT SPA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,-163.314166667,48.3297222222,-186.653611111
+538005853,train,IT PZL,IT PZL,IT PZL,ITPZL,ITPZL,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,6.67722222222,46.6986111111,46.6986111111
+538006774,train,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,103.651111111,84.1227777778,86.7340277778
+538007198,train,GN KMR,GN KMR,GN KMR,GNKMR,GNKMR,,GN,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,234.348611111,48.3297222222,48.3297222222
+538007504,train,TRYAR,TRYAR,TRYAR,TRYAR,TRYAR,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,73.2861111111,54.0591666667,54.0591666667
+538007511,calibration,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,79.2452777778,93.2358333333,85.6202777778
+538007661,train,TR ERE,TR ERE,TR ERE,TRERE,TRERE,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,50.2191666667,46.6986111111,46.6986111111
+538008070,train,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,89.0002777778,97.4713888889,83.9305555556
+538009008,train,RU ULU,RU ULU,RU ULU,RUULU,RUULU,,RU,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,334.990833333,48.3297222222,48.3297222222
+538009052,train,MT MLA,MT MLA,MT MLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,-741.288611111,16.4616666667,3.88861111111
+538009159,train,TR ISK,TR ISK,TR ISK,TRISK,TRISK,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,88.1566666667,79.4730555556,73.9801388889
+538009183,calibration,PLGDN,PLGDN,PLGDN,PLGDN,PLGDN,,PL,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,284.9025,49.8680555556,49.8680555556
+538009214,calibration,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,79.0844444444,89.0002777778,85.6202777778
+538009532,train,GI GIB,GI GIB,GI GIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,91.9708333333,74.8519444444,85.6202777778
+538009615,train,ROTTERDAM,ROTTERDAM,ROTTERDAM,NLRTM,NLRTM,Rotterdam,Netherlands,51.916667,4.5,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,1,190.408611111,157.519166667,157.519166667
+538009968,calibration,EG PSD,EG PSD,EG PSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,68.2436111111,48.3297222222,65.3186111111
+538009987,train,GRPIR>GIGIB,GRPIR>GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,0,84.0602777778,50.8336111111,86.7340277778
+538010211,train,ITSPA,ITSPA,ITSPA,ITSPA,ITSPA,Santa Panagia,Italy,37.1,15.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,-12.6144444444,-128.626666667,-186.653611111
+538010262,train,TR GEB,TR GEB,TR GEB,TRGEB,TRGEB,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,64.9925,46.6986111111,46.6986111111
+538010540,calibration,GI GIB,GI GIB,GI GIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,96.8438888889,74.8519444444,85.6202777778
+538010653,train,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,3,90.6833333333,314.258055556,253.554444444
+538010874,calibration,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,2.93777777778,3.88861111111,3.88861111111
+538011225,train,ES VLC > ITTAR,ES VLC > ITTAR,ITTAR,ITTAR,ITTAR,Taranto,Italy,40.47,17.23,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,0,13.5269444444,50.8336111111,18.3904166667
+538011848,calibration,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,4,-79.6066666667,316.139166667,161.535833333
+538011969,train,HR RJK,HR RJK,HR RJK,HRRJK,HRRJK,,HR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,34.5391666667,48.3297222222,48.3297222222
+538012456,train,FOR ORDER,FOR ORDER,FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,1,-5.65111111111,47.5175,90.6833333333
+538071393,train,ITSIR,ITSIR,ITSIR,ITSIR,ITSIR,Siracusa,Italy,37.07,15.29,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,-2.32222222222,49.8680555556,23.0305555556
+538090701,train,RULED,RULED,RULED,RULED,RULED,,RU,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,297.199444444,48.3297222222,48.3297222222
+544203120,train,ESCAS,ESCAS,ESCAS,ESCAS,ESCAS,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,102.057222222,46.6986111111,121.9675
+548651000,train,IT AUG,IT AUG,IT AUG,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,-76.6530555556,-80.6244444444,-81.5651388889
+563003300,train,NLRTM>EGSKT,NLRTM>EGSKT,EGSKT,EGSKT,EGSKT,,EG,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,1,46.5769444444,46.6986111111,46.6986111111
+563162400,train,USNSS,USNSS,USNSS,USNSS,USNSS,,US,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,372.982222222,46.6986111111,46.6986111111
+563186100,train,ESALG,ESALG,ESALG,ESALG,ESALG,Algeciras,Spain,36.13,-5.45,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,82.6511111111,90.6488888889,88.2754166667
+563205300,train,BANDIRMA TR,BANDIRMA TR,BANDIRMA TR,TEXT:BANDIRMA TR,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,3,67.0344444444,48.3297222222,48.3297222222
+563246500,calibration,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,-654.671944444,93.2358333333,85.6202777778
+563279900,train,ITLIV,ITLIV,ITLIV,ITLIV,ITLIV,Livorno,Italy,43.55,10.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,34.4177777778,40.4125,47.38
+563280700,train,EGPSD,EGPSD,EGPSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,49.8680555556,64.0183333333,65.3186111111
+564724000,train,AL DRZ,AL DRZ,AL DRZ,ALDRZ,ALDRZ,,AL,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,14.0841666667,49.8680555556,49.8680555556
+565712000,train,IT NAP,IT NAP,IT NAP,ITNAP,ITNAP,Napoli,Italy,40.84,14.25,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,53.4486111111,18.4938888889,18.5419444444
+566453000,train,GIBRALTAR,GIBRALTAR,GIBRALTAR,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,83.8008333333,87.8477777778,86.7340277778
+566579000,train,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,3.88861111111,3.93583333333,3.43680555556
+566722000,train,GRKLX,GRKLX,GRKLX,GRKLX,GRKLX,,GR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,36.4436111111,21.8638888889,21.8638888889
+577339000,train,TRGEM,TRGEM,TRGEM,TRGEM,TRGEM,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,88.0297222222,48.3297222222,48.3297222222
+578001200,train,MA VALLETTA,MA VALLETTA,MA VALLETTA,TEXT:MA VALLETTA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,4,7.66361111111,48.3297222222,48.3297222222
+605026210,train,AL ROM,AL ROM,AL ROM,ALROM,ALROM,,AL,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,34.4072222222,48.3297222222,48.3297222222
+605076070,train,DZORN,DZORN,DZORN,DZORN,DZORN,,DZ,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,69.5616666667,49.8680555556,49.8680555556
+613404821,train,TALLINN,TALLINN,TALLINN,TEXT:TALLINN,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,368.455555556,46.6986111111,46.6986111111
+613471602,calibration,PRIMORSK,PRIMORSK,PRIMORSK,TEXT:PRIMORSK,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,367.818333333,46.6986111111,46.6986111111
+613992601,train,TRHAY,TRHAY,TRHAY,TRHAY,TRHAY,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,64.6044444444,49.8680555556,49.8680555556
+629009126,calibration,ITMFR,ITMFR,ITMFR,ITMFR,ITMFR,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,96.3855555556,48.3297222222,48.3297222222
+630001201,train,LB BEY,LB BEY,LB BEY,LBBEY,LBBEY,,LB,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,29.0869444444,46.6986111111,46.6986111111
+636011638,train,SUEZ EG,SUEZ EG,SUEZ EG,TEXT:SUEZ EG,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,3,63.5813888889,48.3297222222,48.3297222222
+636012378,train,DZ AZW>TR CKZ,DZ AZW>TR CKZ,TR CKZ,TRCKZ,TRCKZ,,TR,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,2,44.8680555556,49.8680555556,50.4611111111
+636013095,train,ITVCE,ITVCE,ITVCE,ITVCE,ITVCE,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,64.7330555556,64.0541666667,64.0541666667
+636014168,train,MTMAR,MTMAR,MTMAR,MTMAR,MTMAR,Marsaxlokk,Malta,35.833333,14.533333,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,12.5461111111,9.60361111111,8.88638888889
+636015710,train,EG EDK,EG EDK,EG EDK,EGEDK,EGEDK,,EG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,100.489444444,50.8336111111,68.9125
+636015940,train,DZSKI,DZSKI,DZSKI,DZSKI,DZSKI,,DZ,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,38.6913888889,48.3297222222,48.3297222222
+636016014,train,GBPTI,GBPTI,GBPTI,GBPTI,GBPTI,,GB,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,94.4358333333,46.6986111111,46.6986111111
+636016205,train,ES TAR,ES TAR,ES TAR,ESTAR,ESTAR,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,45.0263888889,48.3297222222,2885.25
+636017773,train,GIBRALTAR,GIBRALTAR,GIBRALTAR,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,87.8477777778,81.3805555556,83.9305555556
+636018276,train,ITGIT,ITGIT,ITGIT,ITGIT,ITGIT,Gioia Tauro,Italy,38.43,15.9,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,10.6444444444,5.89166666667,6.43847222222
+636018323,train,MTMAR SIKOP,MTMAR SIKOP,MTMAR SIKOP,TEXT:MTMAR SIKOP,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,47.1522222222,46.6986111111,46.6986111111
+636018629,train,IT CAG,IT CAG,IT CAG,ITCAG,ITCAG,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,47.7572222222,49.8680555556,49.8680555556
+636018926,calibration,ESCEU,ESCEU,ESCEU,ESCEU,ESCEU,,ES,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,75.9636111111,48.3297222222,48.3297222222
+636019542,train,EG DAM,EG DAM,EG DAM,EGDAM,EGDAM,,EG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,65.5738888889,48.3297222222,46.2247222222
+636019819,train,ESALG,ESALG,ESALG,ESALG,ESALG,Algeciras,Spain,36.13,-5.45,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,95.2236111111,84.2765277778,82.9086111111
+636019983,train,SGSIN,SGSIN,SGSIN,SGSIN,SGSIN,,SG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,760.620833333,48.3297222222,692.941388889
+636020064,train,EGPSW,EGPSW,EGPSW,EGPSW,EGPSW,,EG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,70.4255555556,48.3297222222,48.3297222222
+636020328,train,PT AVE,PT AVE,PT AVE,PTAVE,PTAVE,,PT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,124.724722222,49.8680555556,49.8680555556
+636020540,train,BG VAR,BG VAR,BG VAR,BGVAR,BGVAR,,BG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,92.9991666667,46.6986111111,46.6986111111
+636020938,calibration,MACAS,MACAS,MACAS,MACAS,MACAS,,MA,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,78.1888888889,104.6475,104.6475
+636020986,calibration,MAPTM EGPSE,MAPTM EGPSE,MAPTM EGPSE,TEXT:MAPTM EGPSE,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,61.695,46.6986111111,46.6986111111
+636021078,train,ITGIT>LYMRA,ITGIT>LYMRA,LYMRA,LYMRA,LYMRA,,LY,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,25.8052777778,50.8336111111,50.8336111111
+636021161,train,GBFXT,GBFXT,GBFXT,GBFXT,GBFXT,,GB,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,182.796111111,50.8336111111,50.8336111111
+636021246,train,MARSAXLOKK,MARSAXLOKK,MARSAXLOKK,MTMAR,MTMAR,Marsaxlokk,Malta,35.833333,14.533333,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,4,7.10861111111,48.3297222222,10.3208333333
+636021362,train,IT LVN VIA MESSINA,IT LVN VIA MESSINA,IT LVN VIA MESSINA,TEXT:IT LVN VIA MESSINA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,0,22.8505555556,50.8336111111,50.8336111111
+636021365,train,ABU QIR,ABU QIR,ABU QIR,TEXT:ABU QIR,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,3,41.7258333333,48.3297222222,48.3297222222
+636021513,train,TR ZON,TR ZON,TR ZON,TRZON,TRZON,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,81.255,50.8336111111,50.8336111111
+636021596,train,ITGIT>>>>>ITRAN,ITGIT>ITRAN,ITRAN,ITRAN,ITRAN,Ravenna,Italy,44.42,12.2,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,4,48.7227777778,48.3297222222,55.1116666667
+636021665,calibration,ITTRS,ITTRS,ITTRS,ITTRS,ITTRS,Trieste,Italy,45.65,13.77,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,41.3936111111,-3742.03222222,-3742.03222222
+636021700,train,AUGUSTA,AUGUSTA,AUGUSTA,ITAUG,ITAUG,Augusta,Italy,37.216667,15.216666,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,3,-356.462777778,-120.646388889,-76.6530555556
+636021702,train,ITBDS,ITBDS,ITBDS,ITBDS,ITBDS,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,17.0086111111,48.3297222222,48.3297222222
+636021733,train,IT TAR,IT TAR,IT TAR,ITTAR,ITTAR,Taranto,Italy,40.47,17.23,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,16.7352777778,17.3766666667,17.3766666667
+636021739,train,ITMEI,ITMEI,ITMEI,ITMEI,ITMEI,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,1.41805555556,46.6986111111,46.6986111111
+636021781,train,TRCEY,TRCEY,TRCEY,TRCEY,TRCEY,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,76.2652777778,48.3297222222,80.7813888889
+636022183,train,MTMLA,MTMLA,MTMLA,MTMLA,MTMLA,Valletta,Malta,35.883335,14.5,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,1,3.93583333333,4.05680555556,3.41319444444
+636022522,train,PORTSAID,PORTSAID,PORTSAID,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,conservative_fuzzy,0.941176470588,True,False,False,m16b-canonical-destination-v1-20260921,0,75.9841666667,50.8336111111,62.1336111111
+636022541,train,GRGPA,GRGPA,GRGPA,GRGPA,GRGPA,,GR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,18.0111111111,49.8680555556,25.5877777778
+636022867,train,TRTUZ,TRTUZ,TRTUZ,TRTUZ,TRTUZ,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,67.5058333333,46.6986111111,46.6986111111
+636022905,train,SI KOP,SI KOP,SI KOP,SIKOP,SIKOP,,SI,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,57.4680555556,50.8336111111,40.2456944444
+636023127,train,ITSAL,ITSAL,ITSAL,ITSAL,ITSAL,,IT,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,14.9733333333,49.8680555556,11.9872222222
+636023250,train,EGDAM,EGDAM,EGDAM,EGDAM,EGDAM,,EG,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,46.2247222222,50.8336111111,65.5738888889
+636023526,train,SIKOP,SIKOP,SIKOP,SIKOP,SIKOP,,SI,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,38.3211111111,46.6986111111,57.4680555556
+636023809,train,GIBRALTAR,GIBRALTAR,GIBRALTAR,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,curated_alias,0.99,True,False,False,m16b-canonical-destination-v1-20260921,0,75.8911111111,85.8243055556,86.7340277778
+636024336,calibration,FIUMICINO ITALY,FIUMICINO ITALY,FIUMICINO ITALY,TEXT:FIUMICINO ITALY,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,1,711.461944444,46.6986111111,46.6986111111
+636024536,train,IT GOA,IT GOA,IT GOA,ITGOA,ITGOA,Genova,Italy,44.407,8.934,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,52.4452777778,48.3297222222,45.4194444444
+636024606,train,DARDANELLES,DARDANELLES,DARDANELLES,TEXT:DARDANELLES,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,3,36.4069444444,48.3297222222,48.3297222222
+636024786,train,EGPSD,EGPSD,EGPSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,4,74.3922222222,60.2488888889,64.0183333333
+636024805,calibration,TRIZT,TRIZT,TRIZT,TRIZT,TRIZT,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,1,27.5413888889,46.6986111111,59.8719444444
+636024824,train,US LCH,US LCH,US LCH,USLCH,USLCH,,US,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,647.133888889,48.3297222222,48.3297222222
+636024855,train,GIGIB,GIGIB,GIGIB,GIGIB,GIGIB,Gibraltar,Gibraltar,36.14,-5.35,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,3,72.7880555556,97.4713888889,83.9305555556
+636024939,train,ILASH,ILASH,ILASH,ILASH,ILASH,,IL,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,54.13,49.8680555556,49.8680555556
+636025061,train,ILHFA,ILHFA,ILHFA,ILHFA,ILHFA,,IL,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,3,58.6833333333,48.3297222222,58.2141666667
+636025888,calibration,MALTA,MALTA,MALTA,AMBIGUOUS:MALTA,,,,,,ambiguous_geography,1,False,False,False,m16b-canonical-destination-v1-20260921,2,12.1338888889,5.45166666667,5.45166666667
+636025912,train,GRKLX,GRKLX,GRKLX,GRKLX,GRKLX,,GR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,21.8638888889,36.4436111111,36.4436111111
+636092313,train,US PEF > TR MRM,US PEF > TR MRM,TR MRM,TRMRM,TRMRM,,TR,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,39.0594444444,50.8336111111,50.8336111111
+636092552,train,ESALG,ESALG,ESALG,ESALG,ESALG,Algeciras,Spain,36.13,-5.45,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,0,90.6488888889,82.6511111111,82.9086111111
+636093132,train,TRIST,TRIST,TRIST,TRIST,TRIST,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,74.0866666667,52.7094444444,52.7094444444
+636093171,train,MYTPP>EGPSE,MYTPP>EGPSE,EGPSE,EGPSE,EGPSE,,EG,,,unlocode_like_unverified,0.7,False,False,True,m16b-canonical-destination-v1-20260921,0,46.4288888889,50.8336111111,50.8336111111
+636093237,calibration,BEGNE,BEGNE,BEGNE,BEGNE,BEGNE,,BE,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,4,208.744166667,48.3297222222,48.3297222222
+636093368,train,MYTPP>>EGPSD,MYTPP>EGPSD,EGPSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,route_terminal_unlocode,1,True,False,True,m16b-canonical-destination-v1-20260921,4,52.7875,48.3297222222,64.0183333333
+647553008,train,SUEZ FOR ORDER,SUEZ FOR ORDER,SUEZ FOR ORDER,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,0,69.0719444444,50.8336111111,232.388333333
+667001639,calibration,TR CKZ,TR CKZ,TR CKZ,TRCKZ,TRCKZ,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,48.3297222222,49.8680555556,50.4611111111
+667002240,train,EGPSD,EGPSD,EGPSD,EGPSD,EGPSD,Port Said,Egypt,31.25,32.3,exact_unlocode,1,True,False,False,m16b-canonical-destination-v1-20260921,2,60.2488888889,64.0183333333,64.0183333333
+667002260,train,FOR ORDERS,FOR ORDERS,FOR ORDERS,FOR_ORDERS,,,,,,for_orders,1,False,True,False,m16b-canonical-destination-v1-20260921,1,318.020277778,308.100833333,90.6833333333
+667002373,train,W AFRICA,W AFRICA,W AFRICA,TEXT:W AFRICA,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,2,-128.244166667,49.8680555556,49.8680555556
+671500100,train,FOR ORD,FOR ORD,FOR ORD,TEXT:FOR ORD,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,2,101.826388889,49.8680555556,49.8680555556
+671562100,train,SHENGJIN,SHENGJIN,SHENGJIN,TEXT:SHENGJIN,,,,,,unresolved_text,0,False,False,False,m16b-canonical-destination-v1-20260921,4,40.6058333333,48.3297222222,48.3297222222
+672296000,train,TN BIZ,TN BIZ,TN BIZ,TNBIZ,TNBIZ,,TN,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,2,42.2341666667,49.8680555556,49.8680555556
+677089900,train,TR IST,TR IST,TR IST,TRIST,TRIST,,TR,,,unlocode_like_unverified,0.7,False,False,False,m16b-canonical-destination-v1-20260921,0,85.1122222222,50.8336111111,52.7094444444

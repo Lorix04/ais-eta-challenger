@@ -1,0 +1,21 @@
+{
+  "milestone": "M19",
+  "version": "m19-mmdec-fresh-external-holdout-v1-20260923",
+  "status": "IMPLEMENTATION_FROZEN_EXTERNAL_BYTES_NOT_OPENED",
+  "source_doi": "10.5281/zenodo.17491518",
+  "external_holdout_opened": false,
+  "m18g1_bundle_sha256": "682619085b60beed4ea25084e492fdd1516e30f230bcfd1c5e5bc12c73348078",
+  "artifact_sha256": {
+    "src/ais_eta/m19.py": "9a4b8efcce4dd39ff7fac3413d26b74bf653cc43260776d9b02f66e5b73ef110",
+    "scripts/112_m19_download_mmdec.py": "9c05a441b2cc0c05d81a7e0bd3f99a4c402fd1444adedb72da8441c6ffe56254",
+    "scripts/113_m19_prepare_mmdec_holdout.py": "b121f77dfa3b7e57911211bd891ca7671ab7f4cd6c800d8138f7e7de5d15219a",
+    "scripts/114_m19_reveal_mmdec_labels.py": "aba7940b1a90a5a3888f97039f711215328475548f8a2d77052631adf25fe8f0",
+    "scripts/115_m19_verify.py": "93afa1768b1e4866bc4c9fc0a75f06275b820efcf09cc2f2ac3a64ef148ac3f0",
+    "tests/test_m19.py": "962271bfe13b0d61edd3c4863f181f0c4f4bd449b21e8a4c5a0fc498a032e57b",
+    "docs/M19_FRESH_EXTERNAL_HOLDOUT.md": "cc8d1f89ebd04b4ecf7357c0b57cba8dd05b366a6430e856cff9bdd11ce31dce",
+    "reports/M19_SOURCE_REGISTRY.json": "30de8404b8203584f4b97e3a8dd63f4213125d151638449e43b0555c59bf5b74",
+    "reports/M19_STATUS.json": "c0a0399c8eab2ebe1ae4cb49a5acd4e31f7f66735f369b183675b9c770f90657",
+    "reports/M19_REPORT.md": "ea9215ade798880b32ea1fa307592878c64feae34a2e94c3415bf9556ce784b6",
+    "requirements-mmdec.txt": "036c3b1c463041d9a160d812782964105200f7597b58184806e3e6b00046e0b4"
+  }
+}

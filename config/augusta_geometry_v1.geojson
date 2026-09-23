@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "name": "augusta_research_geometry_v1",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LEVANTE",
+        "kind": "research_gate",
+        "provenance": "IIM light-list EF2844/EF2850 rounded positions",
+        "warning": "research target; not official ATA/PBP/port limit"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.2316666667,
+            37.1983333333
+          ],
+          [
+            15.2316666667,
+            37.195
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SCIROCCO",
+        "kind": "research_gate",
+        "provenance": "research proxy from official Diga Centrale/Diga meridionale references",
+        "warning": "research target; not official ATA/PBP/port limit"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.2169333333,
+            37.1742666667
+          ],
+          [
+            15.21,
+            37.1733333333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "INNER_MEGARESE_PROXY",
+        "kind": "analysis_only_stop_confirmation",
+        "warning": "not legal port limits"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.188,
+              37.176
+            ],
+            [
+              15.2095,
+              37.172
+            ],
+            [
+              15.218,
+              37.174
+            ],
+            [
+              15.2225,
+              37.1885
+            ],
+            [
+              15.2322,
+              37.1948
+            ],
+            [
+              15.2323,
+              37.1986
+            ],
+            [
+              15.22,
+              37.205
+            ],
+            [
+              15.2165,
+              37.2425
+            ],
+            [
+              15.192,
+              37.245
+            ],
+            [
+              15.188,
+              37.176
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

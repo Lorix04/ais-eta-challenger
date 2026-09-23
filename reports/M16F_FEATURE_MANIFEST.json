@@ -1,0 +1,185 @@
+{
+  "milestone": "M16F",
+  "version": "m16f-tabular-panel-v1-20260921",
+  "status": "TABULAR_PANEL_PREDECLARED",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "outer_fold_source": "M16A frozen balanced hash folds",
+  "inner_folds": 3,
+  "inner_salt": "M16F_INNER_V1_20260921",
+  "family_names": [
+    "catboost",
+    "extra_trees",
+    "hist_gb",
+    "random_forest",
+    "svr"
+  ],
+  "candidate_config_count": 10,
+  "candidate_configs": [
+    {
+      "family": "catboost",
+      "config_id": "cat_mae_d4",
+      "params": {
+        "loss_function": "MAE",
+        "iterations": 160,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0
+      }
+    },
+    {
+      "family": "catboost",
+      "config_id": "cat_huber24_d4",
+      "params": {
+        "loss_function": "Huber:delta=24",
+        "iterations": 160,
+        "depth": 4,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 10.0
+      }
+    },
+    {
+      "family": "extra_trees",
+      "config_id": "et_leaf2",
+      "params": {
+        "n_estimators": 80,
+        "criterion": "squared_error",
+        "min_samples_leaf": 2,
+        "max_features": 0.7
+      }
+    },
+    {
+      "family": "extra_trees",
+      "config_id": "et_leaf5",
+      "params": {
+        "n_estimators": 80,
+        "criterion": "squared_error",
+        "min_samples_leaf": 5,
+        "max_features": 1.0
+      }
+    },
+    {
+      "family": "random_forest",
+      "config_id": "rf_leaf3",
+      "params": {
+        "n_estimators": 80,
+        "criterion": "squared_error",
+        "min_samples_leaf": 3,
+        "max_features": 0.7
+      }
+    },
+    {
+      "family": "random_forest",
+      "config_id": "rf_leaf6",
+      "params": {
+        "n_estimators": 80,
+        "criterion": "squared_error",
+        "min_samples_leaf": 6,
+        "max_features": 1.0
+      }
+    },
+    {
+      "family": "hist_gb",
+      "config_id": "hgb_l1_leaf10",
+      "params": {
+        "loss": "absolute_error",
+        "learning_rate": 0.06,
+        "max_iter": 90,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 10,
+        "l2_regularization": 1.0
+      }
+    },
+    {
+      "family": "hist_gb",
+      "config_id": "hgb_quant50_leaf20",
+      "params": {
+        "loss": "quantile",
+        "quantile": 0.5,
+        "learning_rate": 0.06,
+        "max_iter": 90,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "l2_regularization": 5.0
+      }
+    },
+    {
+      "family": "svr",
+      "config_id": "svr_rbf_c10_e12",
+      "params": {
+        "kernel": "rbf",
+        "C": 10.0,
+        "epsilon": 12.0,
+        "gamma": "scale"
+      }
+    },
+    {
+      "family": "svr",
+      "config_id": "svr_linear_c1_e24",
+      "params": {
+        "kernel": "linear",
+        "C": 1.0,
+        "epsilon": 24.0
+      }
+    }
+  ],
+  "feature_policy": "target-free common representation; excludes all M16C/D/E expert predictions and reference_eta_status",
+  "numeric_features": [
+    "track_lat",
+    "track_lon",
+    "track_sog",
+    "track_cog",
+    "track_heading",
+    "track_draught",
+    "track_msg_count",
+    "last_hour_sin",
+    "last_hour_cos",
+    "last_dow",
+    "position_age_min",
+    "history_n",
+    "history_span_h",
+    "dynamic_state_age_min",
+    "hist_destination_unique",
+    "hist_destination_matches_track",
+    "track_vs_hist_position_gap_km",
+    "sog_median_180m",
+    "sog_std_180m",
+    "moving_fraction_180m",
+    "stopped_fraction_180m",
+    "turn_count_180m",
+    "distance_travelled_km_180m",
+    "net_displacement_km_180m",
+    "sog_median_360m",
+    "sog_std_360m",
+    "moving_fraction_360m",
+    "stopped_fraction_360m",
+    "turn_count_360m",
+    "distance_travelled_km_360m",
+    "net_displacement_km_360m",
+    "resolution_confidence",
+    "is_resolved_port",
+    "is_non_specific",
+    "is_route_expression",
+    "canonical_lat",
+    "canonical_lon",
+    "physics_distance_gc_nm",
+    "physics_bearing_to_port_deg",
+    "physics_course_alignment_deg",
+    "physics_recent_speed_max_kn",
+    "physics_local_sinuosity_180m",
+    "physics_local_sinuosity_360m",
+    "physics_eligible"
+  ],
+  "categorical_features": [
+    "destination_norm",
+    "canonical_destination",
+    "resolution_method",
+    "ship_type_cat",
+    "nav_status_cat",
+    "flag_cat",
+    "motion_state_cat",
+    "stale_risk_cat"
+  ],
+  "primary_metric": "pooled outer-OOF MAE hours; family config selected by inner OOF MAE only",
+  "final_test_used_for_selection": false
+}

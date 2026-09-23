@@ -1,0 +1,54 @@
+{
+  "milestone": "M16J",
+  "version": "m16j-v1",
+  "status": "SMART_CHALLENGER_FROZEN",
+  "promotion_decision": "PROMOTE_CHALLENGER_FOR_NEW_UNTOUCHED_HOLDOUT_ONLY",
+  "official_submission": "M14",
+  "m14_replaced": false,
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "old_final_used_for_m16_selection": false,
+  "fresh_untouched_holdout_required": true,
+  "m16_freeze_zip": "dist/ais_eta_m16_challenger_freeze.zip",
+  "m16_freeze_zip_sha256": "8a2653170d92540ad4a4225b9b1f200399398cf879d505fb0c3113fe29948343",
+  "content_manifest_sha256": "b506950973d0472761e99318c75113c115edea189304fbbba08d75b8f9482fca",
+  "prior_freeze_sha256": {
+    "M16A_BENCHMARK_FREEZE.json": "2d3b1cdbe0e9efe170180aa4f55bdb00862f38a84f80406f7e8b7bf9f5fdbe1d",
+    "M16B_RESOLVER_FREEZE.json": "eff1bb3fc559d5d32a10004aaf8dddc082934103c9876ef6c397d003108e578c",
+    "M16C_HIERARCHICAL_PRIOR_FREEZE.json": "fc1c6e5ddd74ba5668456c5a057095b25212dcb746e8110ee1f0f544e0c7b62a",
+    "M16D_ROUTE_ANALOGUE_FREEZE.json": "fdaa9d2541f9d3285da00f136d4fca1cfdf43287cb80744bd00ffe25fbc2d99b",
+    "M16E_MARITIME_PHYSICS_FREEZE.json": "e2dc2164918518232d8e83bec6954f5ef8d29f0bb8be224f69ca4330d02b1f75",
+    "M16F_TABULAR_PANEL_FREEZE.json": "02f922a651bcfe5525e48723bd63e2dbc7cfeb9c5afb09171a3ac87960096072",
+    "M16G_MIXTURE_FREEZE.json": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "M16H_PROBABILISTIC_FREEZE.json": "79526e72d72f71167598622f179fc83d6f3b463336dcfc275f91a5899e6d834c",
+    "M16I_RED_TEAM_FREEZE.json": "e921d115e7791127cbc909e8f5f6c0f5a3757f5f14355d2c95ca7c134693c1e8"
+  },
+  "immutable_pre_m16_sha256": {
+    "m14_submission": {
+      "path": "dist/ais_eta_takehome_submission_final.zip",
+      "sha256": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c"
+    },
+    "m10_model": {
+      "path": "models/m10_strict_reference_catboost.cbm",
+      "sha256": "efbb86375751e901c48c2f5724514828a10f9eb8ff08ffaabf2d875e369ef86a"
+    },
+    "m10_final_predictions": {
+      "path": "reports/m10_final_predictions.csv",
+      "sha256": "fc6334d82f0b3c382e40805dc1a325163001a363ff6a6329da33160734011ee1"
+    },
+    "m6_freeze": {
+      "path": "reports/M6_FREEZE.json",
+      "sha256": "b551c12da6d05fbea22c365f0b2167879669d948c4d790d46ccd28a9dc8e17de"
+    }
+  },
+  "headline": {
+    "m16g_mae_h": 185.882696516,
+    "best_single_mae_h": 192.925572125,
+    "gain_h": 7.0428756093655105,
+    "bootstrap_ci95_h": [
+      -2.022127315541719,
+      20.158356833621376
+    ],
+    "m16h_coverage": 0.8005181347150259
+  }
+}

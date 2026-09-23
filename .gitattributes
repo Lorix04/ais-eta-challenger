@@ -1,0 +1,20 @@
+﻿* text=auto
+
+*.py      text eol=lf
+*.md      text eol=lf
+*.json    text eol=lf
+*.csv     text eol=lf
+*.txt     text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.geojson text eol=lf
+*.sha256  text eol=lf
+
+*.zip     binary
+*.gz      binary
+*.pkl     binary
+*.npz     binary
+*.joblib  binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary

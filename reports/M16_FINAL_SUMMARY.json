@@ -1,0 +1,32 @@
+{
+  "milestone": "M16J",
+  "version": "m16j-v1",
+  "status": "DONE_SMART_CHALLENGER_FREEZE",
+  "promotion_decision": "PROMOTE_CHALLENGER_FOR_NEW_UNTOUCHED_HOLDOUT_ONLY",
+  "official_submission": "M14",
+  "development_rows": 386,
+  "blocked_old_final_rows": 53,
+  "old_final_used_for_m16_selection": false,
+  "baseline_destination_median_mae_h": 202.97087831,
+  "baseline_current_catboost_mae_h": 206.142298577,
+  "best_single_m16e_mae_h": 192.925572125,
+  "m16g_mae_h": 185.882696516,
+  "m16g_medae_h": 19.3415972222,
+  "m16g_p90_h": 290.680128898,
+  "gain_h_vs_best_single": 7.0428756093655105,
+  "gain_h_vs_destination_baseline": 17.08818179399998,
+  "fold_wins_vs_best_single": 4,
+  "leave_one_fold_positive": 5,
+  "bootstrap_positive_probability": 0.9218,
+  "bootstrap_gain_ci95_h": [
+    -2.022127315541719,
+    20.158356833621376
+  ],
+  "top5_positive_gain_share": 0.5102724226561652,
+  "m16h_nominal_coverage": 0.8,
+  "m16h_empirical_coverage": 0.8005181347150259,
+  "m16h_mean_width_h": 159.42426632624904,
+  "m16h_width_reduction_fraction": 0.27946760862714237,
+  "fresh_untouched_holdout_required_for_superiority_claim": true,
+  "m14_remains_official_submission": true
+}

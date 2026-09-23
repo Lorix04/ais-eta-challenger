@@ -1,0 +1,5 @@
+reference_eta_status,n,graph_mae_h,physics_mae_h,target_derived_diagnostic_only
+FUTURE_0_7D,16,1.77506102751,1.8488421817,True
+PAST_GT24H,7,1460.89638232,1461.15997789,True
+PAST_1_24H,1,3.81506039824,4.65959655775,True
+PAST_LT1H,1,3.37879215554,5.08436142486,True

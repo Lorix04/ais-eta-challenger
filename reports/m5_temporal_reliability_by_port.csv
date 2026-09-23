@@ -1,0 +1,7 @@
+port,reliability_tier,rows,calls,raw_voyage_balanced_mae_under24_h,stabilized_voyage_balanced_mae_under24_h,intent_supported_fraction,route_supported_fraction,source_fresh_fraction
+AUGUSTA,HIGH,132,14,0.2870869933981181,0.27199464968651327,1.0,1.0,1.0
+AUGUSTA,LOW,1,1,,,0.0,0.0,1.0
+AUGUSTA,MEDIUM,112,11,0.7179348957213056,0.7195801575188377,0.3125,0.38392857142857145,1.0
+CATANIA,HIGH,10,2,0.17825087227777775,0.19315049233333326,1.0,1.0,1.0
+CATANIA,LOW,4,1,,,0.0,0.0,1.0
+CATANIA,MEDIUM,20,1,,,0.0,0.25,1.0

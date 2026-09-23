@@ -1,0 +1,6 @@
+PASS project control files present
+PASS PROJECT_STATE.json parsed
+PASS current phase: M5 — Run port-specific/generalization stress tests for the retained M2 route-physics predictor plus M4 reliability/uncertainty layer; keep the locked final chronological calls untouched until final evaluation.
+PASS GO/NO-GO A status: GO_LIMITED
+PASS compiled 32 Python scripts
+PASS evidence policy requires 3 screenshots per material change

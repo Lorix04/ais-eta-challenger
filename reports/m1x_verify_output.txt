@@ -1,0 +1,17 @@
+PASS all 79 Augusta candidates audited
+PASS no unconfirmed-stop candidate retained
+PASS retained truth has A/B only
+PASS retained Scirocco capped at B
+PASS ETA cohort subset of truth
+PASS ETA cohort named
+PASS ETA cohort has long-range pre-entry observation
+PASS ETA cohort has >=30 pre-entry observations
+PASS panel unique session/decision
+PASS source observation <= decision
+PASS decision < ground truth
+PASS provider age nonnegative
+PASS 15-minute wall-clock grid
+PASS pre-specified gate result exists
+PASS combined gate passed
+PASS prefix invariance 10/10
+M1X verification PASS: 16 checks

@@ -1,0 +1,30 @@
+{
+  "milestone": "M18F",
+  "status": "SELECTIVE_ETA_ADVISORY_LAYER_FROZEN",
+  "version": "m18f-uncertainty-selective-eta-v1-20260923",
+  "gate": "PASS_SELECTIVE_ETA_ADVISORY_LAYER",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "fresh_holdout_opened": false,
+  "point_model_changed": false,
+  "uncertainty_model_changed": false,
+  "selection_uses_validation_target": false,
+  "m18a_baseline_freeze_sha256": "ea9219067beb818118a1895605069f28a8ee5023b807ca905b99f215fc2b8835",
+  "m18b_validation_freeze_sha256": "6c61f825ce2105577517dce9ee0422ece346a488eac9e9b0cb6ab25a409fbfb8",
+  "m18c_audit_freeze_sha256": "e2ede157d8d280560aabb16ae66820ae4ae3b446440c8d4c27f2b1272486dd8a",
+  "m18d_attribution_freeze_sha256": "a8778ee83a62e9f469629c13fc99c4ab76939c632f64345254971eb810a31dd8",
+  "m18e_ablation_freeze_sha256": "aedb57421bbc628c3d93db874c38f38ababc4cc007fdb8bc89704fcf1586761a",
+  "m16g_oof_sha256": "cd8128d27e3a3d4232ff1758b78f6b48e3f14238dee272f9192ef74aca8af684",
+  "m16h_oof_intervals_sha256": "c6e1083db4e593fe879c4bb2be00763979d424f7673d96e388f2196b9948c52d",
+  "artifact_sha256": {
+    "reports/M18F_SELECTIVE_ETA.json": "68447360317769011c23d422fc17c9c171cf5e5251d58afd20764974de424bdb",
+    "reports/m18f_selective_eta_ledger.csv": "19d752449ecd0cf45c3138a3d5159680f1d7daa4c2a3ffd3405a59eede7afd47",
+    "reports/m18f_risk_coverage_curve.csv": "d7b36139f26e6fcd8c091270d6c4d6838b709f963e6cfc1bbe771076a507ae29",
+    "reports/m18f_fold_risk_coverage.csv": "1f9ca64a4f7144deebf647d7b404bfbb6796cb4da0757132a0c37e1983c293bc",
+    "reports/m18f_confidence_tier_selectivity.csv": "3618b842942879b19e87cd2b1d4fd4503a7fda9027e225c6a0e277f9370340cf",
+    "reports/m18f_risk_coverage.png": "57399c96faab2c30ee337148add202002966e201065e5b9cb7442cae7753b52f",
+    "reports/m18f_interval_selected_coverage.png": "7fdb7c5be1552ec38642370db38a4fe655551e60d08f05a3e3549525bdfa974e",
+    "docs/M18F_SELECTIVE_ETA_POLICY.md": "2d6f67cf444be96a29377d0594cdee5d0bd1ae47466a93e184518a85241a2f55",
+    "reports/M18F_REPORT.md": "f302b462bcf7b78a61c66cc3df45f32f322eecdc65022d1cd00247b0071cf906"
+  }
+}

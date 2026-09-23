@@ -1,0 +1,9 @@
+{
+  "events": 136,
+  "candidate_sessions": 61,
+  "geometry_prefix_invariance_checks": 12,
+  "crossing_prefix_invariance_checks": 10,
+  "all_candidate_rows_require_manual_audit": true,
+  "final_ground_truth_rows": 0,
+  "status": "PASS"
+}

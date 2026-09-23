@@ -1,0 +1,3 @@
+candidate,mae_h,medae_h,p90_ae_h,gain_h_vs_m17a,fold_wins_vs_m17a,p90_ratio_vs_m17a,promotion_gate_passed
+moco_tcn64,188.286596143,19.9675,263.718472222,1.81859887737,3,0.953281130056,True
+masked_transformer_mae64,190.909833765,20.4573611112,278.125694444,-0.804638744964,2,1.00535989786,False

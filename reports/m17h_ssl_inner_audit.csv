@@ -1,0 +1,21 @@
+outer_fold,inner_fold,pretraining_windows,pretraining_owners,inner_valid_owners,inner_valid_used,outer_valid_used,loss_start,loss_end,objective
+0,0,1845,231,77,False,False,5.63431027394,4.12319024094,MoCo momentum-contrast InfoNCE
+0,1,1838,231,77,False,False,5.59466438636,4.17218365114,MoCo momentum-contrast InfoNCE
+0,2,1836,231,77,False,False,5.62233449899,4.22599347329,MoCo momentum-contrast InfoNCE
+0,3,1837,231,77,False,False,5.617508224,4.05180173577,MoCo momentum-contrast InfoNCE
+1,0,1846,231,78,False,False,5.62032397726,4.05204672028,MoCo momentum-contrast InfoNCE
+1,1,1854,232,77,False,False,5.64061580378,4.12966549615,MoCo momentum-contrast InfoNCE
+1,2,1855,232,77,False,False,5.62400129478,4.11314649325,MoCo momentum-contrast InfoNCE
+1,3,1855,232,77,False,False,5.62336269389,4.00298694832,MoCo momentum-contrast InfoNCE
+2,0,1846,231,78,False,False,5.62518232538,4.12100653426,MoCo momentum-contrast InfoNCE
+2,1,1847,232,77,False,False,5.6201626711,4.05845022356,MoCo momentum-contrast InfoNCE
+2,2,1845,232,77,False,False,5.61988744451,4.07416485112,MoCo momentum-contrast InfoNCE
+2,3,1845,232,77,False,False,5.63436101329,4.19464897476,MoCo momentum-contrast InfoNCE
+3,0,1842,231,78,False,False,5.63481208944,4.1868906368,MoCo momentum-contrast InfoNCE
+3,1,1844,232,77,False,False,5.61283298687,4.10818352255,MoCo momentum-contrast InfoNCE
+3,2,1850,232,77,False,False,5.6474919979,4.11178483138,MoCo momentum-contrast InfoNCE
+3,3,1844,232,77,False,False,5.62332292751,4.15857023583,MoCo momentum-contrast InfoNCE
+4,0,1837,231,78,False,False,5.63746123867,4.12170243821,MoCo momentum-contrast InfoNCE
+4,1,1845,232,77,False,False,5.62121092504,3.97859852941,MoCo momentum-contrast InfoNCE
+4,2,1851,232,77,False,False,5.61315704667,4.02674248475,MoCo momentum-contrast InfoNCE
+4,3,1850,232,77,False,False,5.62479158762,4.02381372735,MoCo momentum-contrast InfoNCE

@@ -1,0 +1,30 @@
+{
+  "milestone": "M16D",
+  "status": "ROUTE_ANALOGUE_FROZEN",
+  "version": "m16d-route-analogue-v1-20260921",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "selection_population_rule": "M10 train+calibration only; 53-row old final hard-blocked",
+  "outer_fold_source": "M16A frozen outer folds",
+  "inner_selection_only": true,
+  "final_test_used_for_selection": false,
+  "candidate_config_count": 12,
+  "primary_metric": "pooled OOF MAE hours",
+  "gate": "PASS_ROUTE_SIGNAL_COMPONENT",
+  "artifact_sha256": {
+    "m16d_oof_predictions.csv": "922efa48ccca9d340c528bf54cf574ae818964d55f2c8cca36dbd7532e259fc6",
+    "m16d_inner_search.csv": "f76d2b5ca427859bf2e9f37dc672364e7048982eea72e14fe1499deebf0d2a9c",
+    "m16d_outer_selected_configs.csv": "d4481381401f95f47d219528e93f670fdc689f2289b53201cc057dcbd541dde3",
+    "m16d_neighbour_details.csv": "459de894dc7c0930b81d053f39f37cd020971bfa239197b701ff8f3fff0a348c",
+    "m16d_model_metrics.csv": "bca01d5b80229d7db26788fe3bd1e1bca7ca03cba934c4b2eb2d32e503300e5f",
+    "m16d_fold_metrics.csv": "fc66d550dcefd56f7d32b53683e20ecd1dfb2d13335516c6eb3ff0840f2ab092",
+    "m16d_history_catboost_tree_counts.csv": "e678de6fafd3dcd868a7bd08bb79c71761ecc81fe6a5d68919c7df525ca07090",
+    "m16d_route_support.csv": "7908f813d157a122f8ececea4cdd09cfc54c46f16808630533845deedca9b76a",
+    "m16d_route_sequences.npz": "7c62045b421b8a00a3023e5516d89697e3173c93c4d6df1af434f0ec275ef7d6",
+    "m16d_route_distance_matrices.npz": "21a39063cd3a48d97daaea99ebbe1f0175241ff1a7927ae15a95557984b222fb",
+    "m16d_neighbour_audit.csv": "af5ef4ec248ed7529250a82b6e46e99eacb387807b9ed7ecddaeea419222af5a",
+    "m16d_neighbour_geometry_audit.png": "91c763375839106530ba599bf5e4b7ae867b4b465321552efbcef41577efef9e",
+    "m16d_route_analogue_comparison.png": "a0a4578e7347e69807e242c217c50df03cf3ad5bb8520fcb45ecd8f0c91637db",
+    "M16D_SUMMARY.json": "e8085c790513a8a6b6e02af8c2f82fdcf9ca5bfd1fd931f78a7696e4b9afa967"
+  }
+}

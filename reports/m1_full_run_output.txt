@@ -1,0 +1,120 @@
+{
+  "config": {
+    "decision_interval_min": 15,
+    "robust_speed_window_min": 30,
+    "max_provider_observation_age_s": 180.0,
+    "approach_max_distance_km": 120.0,
+    "approach_min_progress_kn": 0.5,
+    "final_chronological_test_calls": 6
+  },
+  "split_diagnostics": {
+    "calls_total": 28,
+    "unique_vessels_total": 13,
+    "development_calls": 22,
+    "development_unique_vessels": 13,
+    "final_test_calls": 6,
+    "final_test_unique_vessels": 5,
+    "final_test_unseen_vessels": 0,
+    "max_calls_single_vessel": 4,
+    "top5_vessel_call_share": 0.6428571428571429,
+    "singleton_vessels": 6,
+    "session_cv_fold_calls": {
+      "0": 6,
+      "1": 6,
+      "2": 5,
+      "3": 5
+    },
+    "vessel_cv_fold_calls": {
+      "0": 6,
+      "1": 6,
+      "2": 5,
+      "3": 5
+    },
+    "chronological_test_start": "2026-04-12T12:55:48.500000",
+    "chronological_test_end": "2026-04-16T10:14:07.500000"
+  },
+  "panel_rows": 5810,
+  "development_scope_coverage": [
+    {
+      "scope": "scope_conditional_target_known",
+      "decision_points": 534,
+      "calls_covered": 17,
+      "unique_vessels": 12,
+      "median_true_tta_h": 73.1823611111111,
+      "max_true_tta_h": 161.8073611111111,
+      "calls_<6h": 16,
+      "calls_6-12h": 1,
+      "calls_12-24h": 4,
+      "calls_24-48h": 3,
+      "calls_48-72h": 2,
+      "calls_>72h": 3
+    },
+    {
+      "scope": "scope_declared_destination",
+      "decision_points": 86,
+      "calls_covered": 17,
+      "unique_vessels": 12,
+      "median_true_tta_h": 2.285555555555556,
+      "max_true_tta_h": 103.85319444444444,
+      "calls_<6h": 16,
+      "calls_6-12h": 1,
+      "calls_12-24h": 2,
+      "calls_24-48h": 1,
+      "calls_48-72h": 0,
+      "calls_>72h": 1
+    },
+    {
+      "scope": "scope_inbound_approach",
+      "decision_points": 80,
+      "calls_covered": 16,
+      "unique_vessels": 12,
+      "median_true_tta_h": 2.2011111111111115,
+      "max_true_tta_h": 154.0573611111111,
+      "calls_<6h": 16,
+      "calls_6-12h": 0,
+      "calls_12-24h": 0,
+      "calls_24-48h": 2,
+      "calls_48-72h": 1,
+      "calls_>72h": 1
+    }
+  ],
+  "declared_destination_development_calls": 17,
+  "approach_development_calls": 16,
+  "approach_under6h_development_calls": 16,
+  "approach_over6h_development_calls": 2,
+  "under6h_robust_baseline": {
+    "mae_h": 0.2013949707186173,
+    "mae_min": 12.08369824311704,
+    "median_ae_min": 5.842232609247836,
+    "p90_ae_min": 25.884396323004655,
+    "within_30m": 0.9281250000000001,
+    "within_60m": 0.953125,
+    "within_120m": 1.0
+  },
+  "all_approach_robust_baseline": {
+    "mae_h": 5.6855639980800134,
+    "median_ae_h": 0.09737054348746393,
+    "p90_ae_h": 1.2957934713014359
+  },
+  "m1_gate": "EXPAND_GROUND_TRUTH_BEFORE_COMPLEXITY",
+  "next_action": "Augusta ground-truth expansion before route/residual ML",
+  "cadence_sensitivity": [
+    {
+      "decision_interval_min": 15,
+      "development_approach_calls": 16,
+      "development_approach_points": 80,
+      "under6h_calls": 16,
+      "under6h_mae_min": 12.08369824311704,
+      "under6h_p90_min": 25.884396323004655
+    },
+    {
+      "decision_interval_min": 30,
+      "development_approach_calls": 11,
+      "development_approach_points": 38,
+      "under6h_calls": 11,
+      "under6h_mae_min": 19.66386205402046,
+      "under6h_p90_min": 51.07429926883868
+    }
+  ],
+  "interpretation": "Final-approach physics is already strong, while long-horizon evidence is too sparse and dominated by a handful of loitering/multi-leg calls. Expand independent ground truth before adding route/residual model capacity."
+}

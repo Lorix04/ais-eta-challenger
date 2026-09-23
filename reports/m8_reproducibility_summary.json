@@ -1,0 +1,10 @@
+{
+  "cleanroom_package_tests_passed": 56,
+  "cleanroom_package_tests_failed": 0,
+  "cleanroom_compileall": "PASS",
+  "raw_data_smoke_rows": 5639,
+  "raw_data_smoke_mmsi": 89,
+  "raw_data_smoke": "PASS",
+  "full_cleanroom_replay_completed": false,
+  "full_replay_note": "Full 969k-row M0C replay exceeded the 180s interactive execution window; not claimed as completed."
+}

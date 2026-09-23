@@ -1,0 +1,81 @@
+{
+  "milestone": "M18C",
+  "version": "m18c-target-label-reliability-v1-20260923",
+  "decision": "TARGET_LABEL_RELIABILITY_AUDIT_FROZEN_NO_RELABELING",
+  "scope": {
+    "model_change": false,
+    "training": false,
+    "tuning": false,
+    "relabeling": false,
+    "row_filtering_for_primary_benchmark": false,
+    "fresh_holdout_opened": false,
+    "old_final_used_for_selection": false
+  },
+  "population": {
+    "development_rows": 386,
+    "development_unique_mmsi": 386,
+    "blocked_old_final_rows": 53,
+    "primary_label_source": "company-provided Tracks.eta reference",
+    "decision_time": "Tracks.last_update"
+  },
+  "findings": {
+    "status_counts": {
+      "FUTURE_0_7D": 279,
+      "FUTURE_14_30D": 14,
+      "FUTURE_7_14D": 29,
+      "FUTURE_GT30D": 7,
+      "PAST_1_24H": 10,
+      "PAST_GT24H": 44,
+      "PAST_LT1H": 3
+    },
+    "past_reference_rows": 57,
+    "past_reference_fraction": 0.14766839378238342,
+    "near_term_future_0_7d_rows": 279,
+    "near_term_future_0_7d_fraction": 0.7227979274611399,
+    "future_gt7d_rows": 50,
+    "future_gt30d_rows": 7,
+    "placeholder_like_rows": 5,
+    "year_assignment_margin_lt90d_rows": 4,
+    "year_assignment_margin_lt30d_rows": 2,
+    "abs_reference_gt90d_rows": 15,
+    "eta_exact_hour_fraction": 0.8575129533678757,
+    "eta_00_or_30_fraction": 0.9352331606217616,
+    "eta_5min_grid_fraction": 0.9585492227979274,
+    "unique_reference_timestamps": 276,
+    "repeated_reference_timestamp_values": 68,
+    "max_reference_timestamp_multiplicity": 6,
+    "strict_m16g_mae_h": 185.88269651559338,
+    "near_term_m16g_mae_h": 20.260697024124216,
+    "near_term_absolute_error_share": 0.0787829641621676,
+    "non_near_term_rows": 107,
+    "non_near_term_m16g_mae_h": 617.7381905167139,
+    "non_near_term_absolute_error_share": 0.9212170358378324,
+    "historical_ais_proxy_owner_overlap": 39,
+    "historical_ais_proxy_owners_with_future_event_after_decision": 0,
+    "historical_ais_proxy_closest_match_within_h": {
+      "1": 6,
+      "6": 15,
+      "12": 15,
+      "24": 16,
+      "48": 20,
+      "72": 21,
+      "168": 33
+    }
+  },
+  "policy": {
+    "strict_benchmark_rows_deleted": 0,
+    "strict_primary_contract_preserved": true,
+    "diagnostic_reliability_tiers_are_model_features": false,
+    "diagnostic_reliability_tiers_may_drive_training_weights": false,
+    "future_0_7d_slice_is_secondary_only": true,
+    "ais_proxy_replaces_company_target": false,
+    "ais_proxy_role": "historical temporal-alignment diagnostic only; not ATA/berth/all-fast truth",
+    "authoritative_port_call_ground_truth_still_missing": true
+  },
+  "next_step": "M18D_RESIDUAL_ERROR_ATTRIBUTION",
+  "research_basis": {
+    "ais_message_5_eta": "AIS Message 5 ETA is MMDDHHMM UTC and carries no year.",
+    "imo_event_semantics": "IMO JIT data model distinguishes planned/requested arrival timestamps by specified port location such as pilot boarding place or berth.",
+    "port_call_fusion": "Recent vessel-arrival research fuses AIS with port-call records and separately evaluates vessel-reported ETA accuracy."
+  }
+}

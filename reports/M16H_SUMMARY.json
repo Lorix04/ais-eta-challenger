@@ -1,0 +1,46 @@
+{
+  "milestone": "M16H",
+  "version": "m16h-probabilistic-eta-confidence-v1-20260921",
+  "gate": "PASS_PROBABILISTIC_CALIBRATION_CONFIDENCE",
+  "development_rows": 386,
+  "blocked_old_final_rows": 53,
+  "final_test_used_for_calibration": false,
+  "p50_source": "frozen M16G selected nested-OOF point prediction; unchanged",
+  "interval_interpretation": "development-only empirical central 80% residual/conformal-style interval; P10/P90 are interval endpoints, not separately fitted conditional quantile models",
+  "nominal_coverage": 0.8,
+  "candidate_interval_methods": [
+    "global_abs",
+    "adaptive_scale_12h",
+    "adaptive_scale_24h",
+    "adaptive_scale_48h",
+    "adaptive_scale_72h"
+  ],
+  "selected_candidate_by_outer_fold": {
+    "0": "adaptive_scale_24h",
+    "1": "adaptive_scale_24h",
+    "2": "adaptive_scale_24h",
+    "3": "adaptive_scale_12h",
+    "4": "adaptive_scale_12h"
+  },
+  "risk_model": "cross-fitted HistGradientBoostingRegressor on log1p absolute M16G OOF error using prediction-time-only expert/support features",
+  "target_derived_confidence_features_used": false,
+  "pooled_coverage": 0.8005181347150259,
+  "pooled_mean_width_h": 159.42426632624904,
+  "pooled_median_width_h": 107.15531084216738,
+  "global_baseline_coverage": 0.810880829015544,
+  "global_baseline_mean_width_h": 221.2589860429341,
+  "mean_width_reduction_fraction": 0.27946760862714237,
+  "stable_outer_folds_at_or_above_75pct_coverage": 4,
+  "m16g_point_mae_h": 185.88269651558392,
+  "confidence_medae_h": {
+    "HIGH": 3.3158864905550005,
+    "MEDIUM": 19.170972222200003,
+    "LOW": 84.4001388886
+  },
+  "confidence_p90_ae_h": {
+    "HIGH": 35.92877332920001,
+    "MEDIUM": 58.63555555556201,
+    "LOW": 649.9626762564999
+  },
+  "claim": "Development-only probabilistic calibration. Confidence is relative and empirical; conformal-style coverage is marginal, not a subgroup/conditional guarantee, and old M10 final remains blocked."
+}

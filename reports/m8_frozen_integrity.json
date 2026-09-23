@@ -1,0 +1,86 @@
+[
+  {
+    "artifact": "src/ais_eta/m2.py",
+    "expected_sha256": "b2e8e590b01fe3bd74f91f3447b42ea9a7b92b5c009a8cf5ee268862dd4184cd",
+    "actual_sha256": "b2e8e590b01fe3bd74f91f3447b42ea9a7b92b5c009a8cf5ee268862dd4184cd",
+    "status": "PASS"
+  },
+  {
+    "artifact": "src/ais_eta/m4.py",
+    "expected_sha256": "facc3cbc5948c153fe6697a4742c73d7722ee53dfc6c377de068b0560e233d86",
+    "actual_sha256": "facc3cbc5948c153fe6697a4742c73d7722ee53dfc6c377de068b0560e233d86",
+    "status": "PASS"
+  },
+  {
+    "artifact": "src/ais_eta/m6.py",
+    "expected_sha256": "2eeaa72ada6444e38125866cc070c81ffc6addce91fb3383df00e2b1843a2475",
+    "actual_sha256": "2eeaa72ada6444e38125866cc070c81ffc6addce91fb3383df00e2b1843a2475",
+    "status": "PASS"
+  },
+  {
+    "artifact": "scripts/33_m6_final_eval.py",
+    "expected_sha256": "047fa776d3acb1df0f3d8aa71a509c48ecced677a3aa792469b704710c754eec",
+    "actual_sha256": "047fa776d3acb1df0f3d8aa71a509c48ecced677a3aa792469b704710c754eec",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/m2_call_splits.csv",
+    "expected_sha256": "922e87970578a212ad6755bc43e1963de4a6036b4153c555c531aff5b5487a62",
+    "actual_sha256": "922e87970578a212ad6755bc43e1963de4a6036b4153c555c531aff5b5487a62",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/m2_oof_route_predictions.csv",
+    "expected_sha256": "05b9fff1cbac11f81aab02d8862206cb119da71759e4978c18e46fff8fa9b868",
+    "actual_sha256": "05b9fff1cbac11f81aab02d8862206cb119da71759e4978c18e46fff8fa9b868",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/m4_summary.json",
+    "expected_sha256": "f8b17ea645d7eb9b9212a578a68d3a304726b7c3d82045f8b18a7eaaa9a1e64f",
+    "actual_sha256": "f8b17ea645d7eb9b9212a578a68d3a304726b7c3d82045f8b18a7eaaa9a1e64f",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/m4_calibration_call_scores.csv",
+    "expected_sha256": "2e0664d1efcfad5d17ec485c33b0697234f240ba8b2643ffb5a0a0633ac221b2",
+    "actual_sha256": "2e0664d1efcfad5d17ec485c33b0697234f240ba8b2643ffb5a0a0633ac221b2",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/m5_claim_scope.csv",
+    "expected_sha256": "b975faf597c9686fe2485a99ab1321cb1fd8e9661c2ffb2b7692f6b48a98c64f",
+    "actual_sha256": "b975faf597c9686fe2485a99ab1321cb1fd8e9661c2ffb2b7692f6b48a98c64f",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/catania_m1_decision_panel.csv",
+    "expected_sha256": "457dd1308e01e43205da53317d77b1862ce60251f7ea369f798aa2d529965f94",
+    "actual_sha256": "457dd1308e01e43205da53317d77b1862ce60251f7ea369f798aa2d529965f94",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/augusta_m1x_decision_panel.csv",
+    "expected_sha256": "186e441831500bcb7af0682f1b17e7b0525c82e2a4ca83e7f49d1b6574d912a4",
+    "actual_sha256": "186e441831500bcb7af0682f1b17e7b0525c82e2a4ca83e7f49d1b6574d912a4",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/catania_m0e_eta_primary_cohort.csv",
+    "expected_sha256": "ad8943e5dd296f0a31fb7e44178b974491a706138c7bac219f05fbae2f788c70",
+    "actual_sha256": "ad8943e5dd296f0a31fb7e44178b974491a706138c7bac219f05fbae2f788c70",
+    "status": "PASS"
+  },
+  {
+    "artifact": "reports/augusta_m1x_eta_primary_cohort.csv",
+    "expected_sha256": "314650a7efde9a7af58a44b7efadaeafc879a89d426b0ee1ec2939f3eeca5937",
+    "actual_sha256": "314650a7efde9a7af58a44b7efadaeafc879a89d426b0ee1ec2939f3eeca5937",
+    "status": "PASS"
+  },
+  {
+    "artifact": "data/derived/m0c_ship_states.pkl.gz",
+    "expected_sha256": "7ba9cede9743a9b84f2d7067516d5a0cb918ddac0cb0b1ec68c0c917d2089060",
+    "actual_sha256": "7ba9cede9743a9b84f2d7067516d5a0cb918ddac0cb0b1ec68c0c917d2089060",
+    "status": "PASS"
+  }
+]

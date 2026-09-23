@@ -1,0 +1,9 @@
+check,passed_now,note
+gate_freeze,True,M18G thresholds/procedure frozen before labels
+fresh_holdout_received,False,No fresh external holdout supplied
+fresh_holdout_provenance_manifest,False,Must be supplied and hashed before opening
+prediction_ledger_sealed_before_labels,False,Must be generated without targets then SHA-256 sealed
+point_candidate_registered_pre_label,False,No M18E point candidate promoted/registered
+full_development_m16g_m16h_scoring_bundle_registered,False,"Current artifacts are development OOF evaluation artifacts, not a registered fresh-row scoring bundle"
+labels_observed,False,Must remain false until every prior item required for the chosen track passes
+one_time_evaluation_executed,False,Not executed in M18G build

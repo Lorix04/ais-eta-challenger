@@ -1,0 +1,15 @@
+{
+  "status": "SEALED_BEFORE_LABEL_REVEAL",
+  "gate_freeze_sha256": "a161f993b4dcd11701ca4d5a56c90c6a1c0b3a86745b45632abd9dacbc04be21",
+  "holdout_id": "MMDEC_V1_ENGLISH_CHANNEL_2023_M19",
+  "holdout_provenance_sha256": "cabb8a4a4d48b14aa67a2b9a24830136a23d02aa34756d7cb530cdc5576a7f84",
+  "prediction_ledger_sha256": "41466369f9e30ef5618d85cb69b106f05633bce3b78f5b553acaea3c526adf44",
+  "registered_scoring_bundle_sha256": "682619085b60beed4ea25084e492fdd1516e30f230bcfd1c5e5bc12c73348078",
+  "scoring_bundle_registration_sha256": "08867ed59b9560871775ee90db5ddcbb9327838d20074f224c778a27eb10299f",
+  "point_candidate_registered": false,
+  "point_candidate_bundle_sha256": null,
+  "labels_observed_when_prediction_ledger_sealed": false,
+  "opening_count_before_this_evaluation": 0,
+  "rows": 500,
+  "scoring_execution": "chunked_5x100_exact_same_frozen_bundle_due_runtime_command_limit"
+}

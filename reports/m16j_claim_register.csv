@@ -1,0 +1,7 @@
+claim,status,evidence,fresh_holdout_required
+M16 is development-only evidence,SUPPORTED,386 MMSIs; old 53-row M10 final hard-blocked,YES
+Nested MoE improves pooled OOF MAE vs best single expert,SUPPORTED_DEVELOPMENT_ONLY,185.88 h vs 192.93 h; +7.04 h,YES
+Gain is stable to fold omission / trimming / winsorisation,SUPPORTED_WITH_CAVEAT,LOFO 5/5; trimmed +9.66 h; winsor +4.07 h,YES
+M16 is proven superior on unseen company data,NOT_ESTABLISHED,"paired bootstrap 95% CI [-2.02, 20.16] h crosses zero",YES
+M16H central-80% uncertainty is calibrated marginally,SUPPORTED_DEVELOPMENT_ONLY,80.05% pooled coverage; mean width 159.42 h,YES
+M14 remains official frozen submission,LOCKED,M14 checksum unchanged; M16 not substituted,NO

@@ -1,0 +1,122 @@
+{
+  "geometry": {
+    "version": "augusta_research_geometry_v1",
+    "crs": "EPSG:4326",
+    "semantics": {
+      "LEVANTE": "research cross-section anchored to IIM light-list endpoints EF2844/EF2850; not official ATA/PBP",
+      "SCIROCCO": "research cross-section proxy anchored to official breakwater reference coordinates; not an official regulatory entrance line",
+      "inner_megarese_proxy": "analysis-only stop-confirmation envelope; not legal port limits"
+    },
+    "gates": [
+      {
+        "name": "LEVANTE",
+        "a": [
+          15.2316666667,
+          37.1983333333
+        ],
+        "b": [
+          15.2316666667,
+          37.195
+        ],
+        "inside_reference": [
+          15.215,
+          37.197
+        ],
+        "provenance": "IIM light-list EF2844/EF2850 rounded positions"
+      },
+      {
+        "name": "SCIROCCO",
+        "a": [
+          15.2169333333,
+          37.1742666667
+        ],
+        "b": [
+          15.21,
+          37.1733333333
+        ],
+        "inside_reference": [
+          15.207,
+          37.183
+        ],
+        "provenance": "research proxy from official Diga Centrale/Diga meridionale references"
+      }
+    ],
+    "inner_vertices": [
+      [
+        15.188,
+        37.176
+      ],
+      [
+        15.2095,
+        37.172
+      ],
+      [
+        15.218,
+        37.174
+      ],
+      [
+        15.2225,
+        37.1885
+      ],
+      [
+        15.2322,
+        37.1948
+      ],
+      [
+        15.2323,
+        37.1986
+      ],
+      [
+        15.22,
+        37.205
+      ],
+      [
+        15.2165,
+        37.2425
+      ],
+      [
+        15.192,
+        37.245
+      ],
+      [
+        15.188,
+        37.176
+      ]
+    ],
+    "analysis_bbox": [
+      15.15,
+      37.15,
+      15.31,
+      37.255
+    ]
+  },
+  "rows_in_analysis_envelope": 361191,
+  "vessels_in_analysis_envelope": 134,
+  "gate_events": 152,
+  "gate_event_vessels": 76,
+  "events_by_entrance_direction": {
+    "LEVANTE_INBOUND": 75,
+    "LEVANTE_OUTBOUND": 71,
+    "SCIROCCO_INBOUND": 4,
+    "SCIROCCO_OUTBOUND": 2
+  },
+  "candidate_sessions": 79,
+  "candidate_session_vessels": 62,
+  "sessions_by_inbound_entrance": {
+    "LEVANTE": 75,
+    "SCIROCCO": 4
+  },
+  "candidate_class": {
+    "STOP_CONFIRMED_CALL_CANDIDATE": 71,
+    "ENTRY_WITHOUT_CONFIRMED_STOP": 8
+  },
+  "candidate_quality": {
+    "A": 60,
+    "C": 16,
+    "B": 3
+  },
+  "right_censored": 13,
+  "unresolved_missing_outbound": 12,
+  "destination_support_augusta": 71,
+  "warning": "Candidate research-gate sessions only; manual audit required before ground truth."
+}

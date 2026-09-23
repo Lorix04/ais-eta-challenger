@@ -1,0 +1,44 @@
+# Raw/private/external input data: never commit these.
+/data/raw/
+/data/external/
+Dataset_AIS_*.parquet
+*.parquet
+vessel_positions_part*.csv
+vessel_tracks.csv
+*.mbz
+
+# The two compact derived artifacts below are intentionally tracked in the
+# private reproducibility repository. Do not add other raw/derived datasets.
+/data/*
+!/data/derived/
+/data/derived/*
+!/data/derived/m0c_ship_states.pkl.gz
+!/data/derived/m10_reference_rows.pkl.gz
+
+# Archives are ignored by default, except the frozen historical packages used
+# by integrity/verifier tests.
+*.zip
+!dist/ais_eta_takehome_submission_final.zip
+!dist/ais_eta_m16_challenger_freeze.zip
+
+# Internal evidence/scratch is intentionally excluded from the GitHub edition.
+evidence/
+.tmp/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

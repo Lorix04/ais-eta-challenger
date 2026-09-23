@@ -1,0 +1,47 @@
+{
+  "milestone": "M16A",
+  "status": "OOF_BENCHMARK_FROZEN_FOR_M16_CHALLENGER_COMPARISONS",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "outer_fold_salt": "M16A_OUTER_V1_20260921",
+  "outer_folds": 5,
+  "inner_es_salt": "M16A_INNER_ES_V1_20260921",
+  "inner_folds": 6,
+  "comparison_models": [
+    "global_train_median",
+    "train_destination_median",
+    "catboost_current_snapshot"
+  ],
+  "comparison_prediction_columns": {
+    "global_train_median": "pred_global_train_median_h",
+    "train_destination_median": "pred_train_destination_median_h",
+    "catboost_current_snapshot": "pred_catboost_current_snapshot_h"
+  },
+  "metric_schema": [
+    "n",
+    "mae_h",
+    "medae_h",
+    "rmse_h",
+    "p90_ae_h",
+    "p95_ae_h",
+    "within_24h",
+    "within_48h",
+    "within_72h",
+    "prediction_min_h",
+    "prediction_max_h",
+    "nonfinite_prediction_count",
+    "abs_gt_1y_prediction_count"
+  ],
+  "primary_metric": "mae_h",
+  "selection_population_rule": "M10 train+calibration only; old M10 final hard-blocked",
+  "artifact_sha256": {
+    "M16A_DEVELOPMENT_MANIFEST.json": "a33e80fcd0efb62bf6aefd61eed460013d04849355a721941f1bc1c8ddbf894d",
+    "m16a_oof_predictions.csv": "f631cd83e047b97991afc6e8263501610a8928a9c5607093633f24d9e6093e4b",
+    "m16a_oof_model_metrics.csv": "1e3b36b28feff20a9abe8c92c4553b3186b6494c8ca2b46a9db44c4b94a09f76",
+    "m16a_oof_fold_metrics.csv": "55fc4d223b868ef897924e411c3e59b071321eeda13bc844bccf95e956bc0576",
+    "m16a_oof_status_metrics.csv": "fb6f6e14653e1abf4bc576c010dcb16210941c28143090e3e2f29f879c3043ea",
+    "m16a_fold_gains.csv": "4e9602b7bbde2de170449ff836a658f111b42411026cf799cffe27f77aa8dc9c",
+    "m16a_catboost_tree_counts.csv": "ec85f65bb4eb74798948807a39b6d1911a69cb6aa598441dbf39433adb3742f4",
+    "m16a_summary.json": "36e2010ff76655257265faca129de227d3b304c78c7db83014e9b7da53b47802"
+  }
+}

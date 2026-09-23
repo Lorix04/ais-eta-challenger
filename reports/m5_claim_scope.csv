@@ -1,0 +1,9 @@
+claim,status,evidence
+Retained route-kNN improves <=24h ETA versus geodesic within Catania OOF,SUPPORTED_DEVELOPMENT_OOF,10 calls; improvement 26.3%
+Retained route-kNN improves <=24h ETA versus geodesic within Augusta OOF,SUPPORTED_DEVELOPMENT_OOF,30 calls; improvement 10.4%
+M4 pooled HIGH-reliability interval transfers to later Augusta calls,SUPPORTED_SMALL_TEMPORAL_SAMPLE,14 calls; whole-call coverage 100.0%
+M4 pooled HIGH-reliability interval transfers to later Catania calls,UNDERPOWERED,only 2 later HIGH-reliability calls
+Model generalizes to an unseen port,NOT_ESTABLISHED,retained route model is port/gate-specific; no scientifically valid leave-one-port-out route geometry
+Model generalizes across Augusta entrances,NOT_ESTABLISHED,primary ETA cohort contains Levante only; Scirocco has no ETA-eligible calls
+Model generalizes to Siracusa/Santa Panagia,NOT_ESTABLISHED,authoritative geometry/ground truth intentionally not promoted beyond exploratory status
+Locked final chronological holdout performance,NOT_YET_EVALUATED,16 final calls remain untouched until M6

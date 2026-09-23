@@ -1,0 +1,17 @@
+{
+  "status": "M7_DELIVERY_READY",
+  "predictor_changed_after_m6": false,
+  "final_locked_calls": 16,
+  "final_scorable_calls": 13,
+  "final_route_mae_min": 36.45088633521915,
+  "final_geodesic_mae_min": 37.74577189973942,
+  "final_route_gain_fraction": 0.03430544665929092,
+  "final_gain_statistically_resolved": false,
+  "high_reliability_final_calls": 12,
+  "high_whole_call_coverage": 0.9166666666666666,
+  "raw_p90_revision_min": 27.362231573931666,
+  "stabilized_p90_revision_min": 16.339325251413328,
+  "reported_eta_comparison_valid": false,
+  "clean_submission_excludes_company_data": true,
+  "next_action": "company discussion: align target, ground truth, provider timestamps and historical ETA before any new modelling"
+}

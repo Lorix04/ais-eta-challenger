@@ -1,0 +1,19 @@
+split,feature_group,features,mean_abs_group_shap_h,median_abs_group_shap_h,mean_signed_group_shap_h
+train,voyage_state,"destination_norm, nav_status_cat",13.201372683326987,8.845447314524694,-11.945702586944964
+train,location,"track_lat, track_lon",12.785417727109834,12.043591884714465,3.1109369712797723
+train,motion,"track_sog, track_cog, track_heading",11.470312284874241,8.135927135735864,-0.8331403558407644
+train,vessel_context,"track_draught, ship_type_cat, flag_cat",7.265117442160265,5.819360151991521,2.146666998481015
+train,time_context,"last_hour_sin, last_hour_cos, last_dow",2.9751790750013005,1.8376682168773766,-0.14780810360724858
+train,feed_context,track_msg_count,1.5040700049010154,0.7708811178459384,0.03105819724727871
+calibration,motion,"track_sog, track_cog, track_heading",13.405280238166426,9.323845475813037,-3.323140552080483
+calibration,voyage_state,"destination_norm, nav_status_cat",12.39455019539976,8.260527141187879,-4.225921038895564
+calibration,location,"track_lat, track_lon",11.968569596006132,9.427080873242645,0.411853010833705
+calibration,vessel_context,"track_draught, ship_type_cat, flag_cat",6.316957713656488,3.8908270642406424,1.651973276484798
+calibration,time_context,"last_hour_sin, last_hour_cos, last_dow",4.209374449035142,1.9680095939671416,-1.5629602350829093
+calibration,feed_context,track_msg_count,1.2010570743760614,0.7600012082670965,-0.1453079604378821
+final_test,voyage_state,"destination_norm, nav_status_cat",11.985688193758548,9.03790593230043,-0.70939224906014
+final_test,motion,"track_sog, track_cog, track_heading",11.85516513109154,7.264812555857275,-1.039630974655797
+final_test,location,"track_lat, track_lon",10.89942366856956,9.58959070346106,1.1653441991960263
+final_test,vessel_context,"track_draught, ship_type_cat, flag_cat",5.788852548396036,4.640302812000612,1.6861933141781815
+final_test,time_context,"last_hour_sin, last_hour_cos, last_dow",3.950820009916283,1.999015981486672,-0.1778311064470463
+final_test,feed_context,track_msg_count,1.6432519871964608,0.8466417835441963,-0.5367491013954222

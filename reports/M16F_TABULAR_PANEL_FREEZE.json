@@ -1,0 +1,35 @@
+{
+  "milestone": "M16F",
+  "status": "TABULAR_CHALLENGER_PANEL_FROZEN",
+  "version": "m16f-tabular-panel-v1-20260921",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "selection_population_rule": "M10 train+calibration only; old M10 final hard-blocked",
+  "outer_fold_source": "M16A frozen outer folds",
+  "inner_selection_only": true,
+  "final_test_used_for_selection": false,
+  "expert_predictions_used_as_features": false,
+  "candidate_config_count": 10,
+  "families": [
+    "catboost",
+    "extra_trees",
+    "hist_gb",
+    "random_forest",
+    "svr"
+  ],
+  "gate": "PASS_TABULAR_COMPLEMENT_FOR_M16G",
+  "best_family": "hist_gb",
+  "primary_metric": "pooled outer-OOF MAE hours",
+  "artifact_sha256": {
+    "M16F_FEATURE_MANIFEST.json": "2b98f813a579e5dd01891d31d34de92843b9a15086edbe6524d253f484802a2a",
+    "m16f_oof_predictions.csv": "382a1f5a52601a2014aa79fb12399124448809a373d52c8c2b2d19cdcd805e29",
+    "m16f_model_metrics.csv": "e261c7a3129d243c79c9a5774d73e7519479515e2282322bbca628391b8d787a",
+    "m16f_fold_metrics.csv": "c14fbbd7ec2650eaf18e0cadee510acaca9c59c0ed0aec478c0e97eae3bbea6f",
+    "m16f_inner_search.csv": "f1d70cb3053d844b72bbc830072e597e2a5633327ecde1b9b041648de5b04fa2",
+    "m16f_outer_selected_configs.csv": "aba0394541582b4a2f7b8da32203be7e1ef996be81d660e6b80dbb2d761800a2",
+    "m16f_best_fold_comparison.csv": "273947e91e080d5ffb2b9ffff2bf0f19d6e1b55073ead5c57253600f86fab4cf",
+    "m16f_tabular_panel_comparison.png": "c24020881a21d6150aed87edc8d24c9c59cd42079aac12fd80d6cdc2f0abf2e9",
+    "M16F_SUMMARY.json": "7509baa09e52d1d9eb4df7b5ea59a3b9d59392658a89e2dfc451d52050fd60a0",
+    "M16F_REPORT.md": "b48f36d8ef598fa739f03c8d99de2ac51ab0e073b392079a2b0b3c7a78ba450d"
+  }
+}

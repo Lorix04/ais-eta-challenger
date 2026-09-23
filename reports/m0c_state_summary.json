@@ -1,0 +1,142 @@
+{
+  "rows": 969084,
+  "mmsi": 1129,
+  "time_min": "2026-04-03 10:42:38",
+  "time_max": "2026-04-16 12:43:53",
+  "sentinels": {
+    "rows": 969084,
+    "sentinel_counts": {
+      "sog_unavailable_102_3": 48,
+      "sog_capped_102_2": 0,
+      "cog_unavailable_ge_360": 97059,
+      "heading_unavailable_511": 256354,
+      "draught_zero_or_negative": 24390,
+      "nav_status_undefined_15": 21107,
+      "lat_invalid_or_unavailable": 0,
+      "lon_invalid_or_unavailable": 0,
+      "destination_missing_or_blank": 228945
+    },
+    "sentinel_pct": {
+      "sog_unavailable_102_3": 4.953130997932068e-05,
+      "sog_capped_102_2": 0.0,
+      "cog_unavailable_ge_360": 0.10015540448506012,
+      "heading_unavailable_511": 0.2645322799674744,
+      "draught_zero_or_negative": 0.02516809688324232,
+      "nav_status_undefined_15": 0.021780361661115032,
+      "lat_invalid_or_unavailable": 0.0,
+      "lon_invalid_or_unavailable": 0.0,
+      "destination_missing_or_blank": 0.2362488700669911
+    },
+    "clean_valid_pct": {
+      "position": 1.0,
+      "sog": 0.9999504686900207,
+      "cog": 0.8998342764920275,
+      "heading": 0.7354481138889921,
+      "draught": 0.7719980930445658
+    }
+  },
+  "motion_state_counts": {
+    "STOPPED": 588700,
+    "MOVING": 237194,
+    "KINEMATIC_CONFLICT": 77372,
+    "SLOW_MOTION": 50533,
+    "UNKNOWN": 13967,
+    "POSITION_JUMP": 1318
+  },
+  "stale_risk_counts": {
+    "LOW": 856475,
+    "HIGH": 77446,
+    "MEDIUM": 35163
+  },
+  "event_counts": {
+    "stop_start": 11773,
+    "stop_end": 7765,
+    "slow_start": 5765,
+    "slow_end": 5528,
+    "turn_candidate": 3809,
+    "observation_gap_candidate": 7578,
+    "kinematic_conflict": 77372,
+    "position_jump_candidate": 1318
+  },
+  "dynamic_state_repeated_pct": 0.466476590264621,
+  "position_repeated_pct": 0.5482878677183814,
+  "state_age_s_quantiles": {
+    "0.5": 0.0,
+    "0.9": 245.0,
+    "0.95": 369.0,
+    "0.99": 552.0,
+    "1.0": 12829.0
+  },
+  "implied_speed_kn_quantiles_nonjump": {
+    "0.5": 0.013569290066702194,
+    "0.9": 12.144411977824175,
+    "0.95": 14.992252302331424,
+    "0.99": 25.4353420417073
+  },
+  "prefix_invariance_checks": [
+    {
+      "mmsi": 205481000,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 209550000,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 210515000,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 210627000,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 210688000,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 211108000,
+      "rows_checked": 37,
+      "pass": true
+    },
+    {
+      "mmsi": 211131900,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 211300760,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 211466980,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 211505880,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 211577730,
+      "rows_checked": 40,
+      "pass": true
+    },
+    {
+      "mmsi": 211687760,
+      "rows_checked": 40,
+      "pass": true
+    }
+  ],
+  "prefix_invariance_all_pass": true,
+  "representative_mmsi": 247428600,
+  "representative_name": "ORTIGIA",
+  "derived_file": "data/derived/m0c_ship_states.pkl.gz"
+}

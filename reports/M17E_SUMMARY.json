@@ -1,0 +1,44 @@
+{
+  "blocked_old_final_rows": 53,
+  "changed_row_win_share_vs_m16g": 0.5555555555555556,
+  "claim": "Development-only constrained binary router; no old-final use and no M16G/M17A freeze modification.",
+  "development_rows": 386,
+  "final_test_used_for_selection": false,
+  "fold_wins_vs_m16g": 3,
+  "gain_h_vs_m16g": 0.565814962655196,
+  "gate": "NO_M17E_PROMOTION",
+  "inner_folds": 4,
+  "m16g_frozen_mae_h": 185.88269651558392,
+  "m16g_reconstructed_nested": true,
+  "m17a_frozen_mae_h": 190.10519502010422,
+  "m17a_regenerated_inner_oof": true,
+  "m17e_mae_h": 185.31688155292872,
+  "m17e_medae_h": 19.30715277775,
+  "m17e_p90_ae_h": 279.8901388888,
+  "max_single_fold_regression_h": 0.0,
+  "milestone": "M17E",
+  "outer_folds": 5,
+  "p90_ratio_vs_m16g": 0.9628801939437356,
+  "promotion_gate": {
+    "max_p90_ratio": 1.0,
+    "max_single_fold_regression_h": 15.0,
+    "max_switch_share": 0.35,
+    "min_changed_row_win_share": 0.52,
+    "min_fold_wins": 3,
+    "min_mae_gain_h": 1.0
+  },
+  "router_actions": [
+    "KEEP_M16G",
+    "SWITCH_TO_M17A"
+  ],
+  "selected_router_by_outer_fold": {
+    "0": "always_m16g",
+    "1": "logit_c100_t080",
+    "2": "logit_c005_t070",
+    "3": "always_m16g",
+    "4": "logit_c100_t080"
+  },
+  "switch_share": 0.023316062176165803,
+  "target_derived_router_features_used": false,
+  "version": "m17e-constrained-selective-router-v1-20260922"
+}

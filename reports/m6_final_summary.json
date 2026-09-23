@@ -1,0 +1,68 @@
+{
+  "status": "M6_FINAL_HOLDOUT_OPENED_ONCE",
+  "locked_final_calls_scored": 13,
+  "final_unique_vessels": 12,
+  "final_rows": 151,
+  "final_calls_by_port": {
+    "AUGUSTA": 10,
+    "CATANIA": 3
+  },
+  "cold_final_calls": 9,
+  "primary_under24": {
+    "geodesic_mae_h": 0.6290961983289903,
+    "route_mae_h": 0.6075147722536525,
+    "route_improvement_fraction": 0.03430544665929092,
+    "calls": 13
+  },
+  "reliability": [
+    {
+      "reliability_tier": "HIGH",
+      "rows": 120,
+      "calls": 12,
+      "raw_mae_under24_h": 0.6265634702026813,
+      "stabilized_mae_under24_h": 0.681128392534386
+    },
+    {
+      "reliability_tier": "MEDIUM",
+      "rows": 31,
+      "calls": 5,
+      "raw_mae_under24_h": 1.281778331645427,
+      "stabilized_mae_under24_h": 1.1929508174083332
+    }
+  ],
+  "interval_high_reliability": {
+    "rows": 120,
+    "calls": 12,
+    "row_coverage": 0.8916666666666667,
+    "voyage_balanced_point_coverage": 0.9458333333333333,
+    "trajectory_coverage": 0.9166666666666666,
+    "mean_effective_width_h": 3.9071793186360066,
+    "median_effective_width_h": 3.9056361998817355
+  },
+  "stability": {
+    "raw": {
+      "updates": 138,
+      "calls": 12,
+      "median_revision_min": 3.2380815221666666,
+      "p90_revision_min": 27.362231573931666,
+      "p95_revision_min": 39.64737258439667,
+      "revision_gt15_fraction": 0.18115942028985507,
+      "revision_gt30_fraction": 0.07971014492753623,
+      "revision_gt60_fraction": 0.028985507246376812
+    },
+    "stabilized": {
+      "updates": 138,
+      "calls": 12,
+      "median_revision_min": 2.135939362133333,
+      "p90_revision_min": 16.339325251413328,
+      "p95_revision_min": 23.482215326506676,
+      "revision_gt15_fraction": 0.11594202898550725,
+      "revision_gt30_fraction": 0.043478260869565216,
+      "revision_gt60_fraction": 0.021739130434782608
+    },
+    "raw_under24_mae_h": 0.6075147722536528,
+    "stabilized_under24_mae_h": 0.6454580067862827
+  },
+  "freeze_sha256": "b551c12da6d05fbea22c365f0b2167879669d948c4d790d46ccd28a9dc8e17de",
+  "no_post_holdout_tuning": true
+}

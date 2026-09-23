@@ -1,0 +1,249 @@
+destination_norm,canonical_destination,resolution_method,n
+AUGUSTA,ITAUG,curated_alias,12
+FOR ORDERS,FOR_ORDERS,for_orders,10
+MTMLA,MTMLA,exact_unlocode,10
+GIGIB,GIGIB,exact_unlocode,9
+ITAUG,ITAUG,exact_unlocode,8
+EGPSD,EGPSD,exact_unlocode,6
+ITGOA,ITGOA,exact_unlocode,6
+MALTA,AMBIGUOUS:MALTA,ambiguous_geography,6
+ESALG,ESALG,exact_unlocode,5
+FOR ORDER,FOR_ORDERS,for_orders,5
+GIBRALTAR,GIGIB,curated_alias,5
+ITNAP,ITNAP,exact_unlocode,5
+UNKNOWN,UNKNOWN,unknown,5
+GI GIB,GIGIB,exact_unlocode,4
+IT AUG,ITAUG,exact_unlocode,4
+ITCTA,ITCTA,exact_unlocode,4
+ITSPA,ITSPA,exact_unlocode,4
+ESCAR,ESCAR,unlocode_like_unverified,3
+FRSET,FRSET,exact_unlocode,3
+IT SPA,ITSPA,exact_unlocode,3
+ITGIT,ITGIT,exact_unlocode,3
+ITRAN,ITRAN,exact_unlocode,3
+ITVCE,ITVCE,unlocode_like_unverified,3
+MTMAR,MTMAR,exact_unlocode,3
+BALTIC SEA FOR ORDER,FOR_ORDERS,for_orders,2
+EG EDK,EGEDK,unlocode_like_unverified,2
+EG PSD,EGPSD,exact_unlocode,2
+ES ALG,ESALG,exact_unlocode,2
+ESCAS,ESCAS,unlocode_like_unverified,2
+ESCEU,ESCEU,unlocode_like_unverified,2
+FRMRS,FRMRS,unlocode_like_unverified,2
+GBGIB,GIGIB,curated_alias,2
+GR STN,GRSTN,unlocode_like_unverified,2
+GRKLX,GRKLX,unlocode_like_unverified,2
+GRPIR,GRPIR,exact_unlocode,2
+IT NAP,ITNAP,exact_unlocode,2
+IT RAN,ITRAN,exact_unlocode,2
+IT TAR,ITTAR,exact_unlocode,2
+ITLIV,ITLIV,exact_unlocode,2
+ITMNP,ITMNP,unlocode_like_unverified,2
+ITPFX,ITPFX,unlocode_like_unverified,2
+ITTAR,ITTAR,exact_unlocode,2
+ITTRS,ITTRS,exact_unlocode,2
+MACAS,MACAS,unlocode_like_unverified,2
+MT MLA,MTMLA,exact_unlocode,2
+ORDER,FOR_ORDERS,for_orders,2
+PORT SAID,EGPSD,curated_alias,2
+ROCND,ROCND,unlocode_like_unverified,2
+ROTTERDAM,NLRTM,curated_alias,2
+SIKOP,SIKOP,unlocode_like_unverified,2
+TNLGN,TNLGN,unlocode_like_unverified,2
+TR ISK,TRISK,unlocode_like_unverified,2
+TRCKZ,TRCKZ,unlocode_like_unverified,2
+TRDRC,TRDRC,unlocode_like_unverified,2
+TRGEM,TRGEM,unlocode_like_unverified,2
+TRIST,TRIST,unlocode_like_unverified,2
+TRYAR,TRYAR,unlocode_like_unverified,2
+ABU QIR,TEXT:ABU QIR,unresolved_text,1
+AL DRZ,ALDRZ,unlocode_like_unverified,1
+AL ROM,ALROM,unlocode_like_unverified,1
+ALEXANDRIA,TEXT:ALEXANDRIA,unresolved_text,1
+ALGECIRAS,ESALG,curated_alias,1
+ALIAGA,TEXT:ALIAGA,unresolved_text,1
+ALIAGA TURKEY,TEXT:ALIAGA TURKEY,unresolved_text,1
+AR SLO,ARSLO,unlocode_like_unverified,1
+ATLANTIC OCEAN,NON_SPECIFIC,non_specific,1
+AUG,TEXT:AUG,unresolved_text,1
+BANDIRMA TR,TEXT:BANDIRMA TR,unresolved_text,1
+BEANR>ILHFA,ILHFA,unlocode_like_unverified,1
+BEGNE,BEGNE,unlocode_like_unverified,1
+BEJAIA,TEXT:BEJAIA,unresolved_text,1
+BG VAR,BGVAR,unlocode_like_unverified,1
+BRPMA>TRISK,TRISK,unlocode_like_unverified,1
+CATANIA SICILY,ITCTA,curated_alias,1
+CO CVE,COCVE,unlocode_like_unverified,1
+DAMIETTA,TEXT:DAMIETTA,unresolved_text,1
+DARDANELLES,TEXT:DARDANELLES,unresolved_text,1
+DZ AZW,DZAZW,unlocode_like_unverified,1
+DZ AZW>TR CKZ,TRCKZ,unlocode_like_unverified,1
+DZAZW,DZAZW,unlocode_like_unverified,1
+DZORN,DZORN,unlocode_like_unverified,1
+DZSKI,DZSKI,unlocode_like_unverified,1
+EG ALY,EGALY,unlocode_like_unverified,1
+EG DAM,EGDAM,unlocode_like_unverified,1
+EGAKI>ITCVV,ITCVV,unlocode_like_unverified,1
+EGALY,EGALY,unlocode_like_unverified,1
+EGDAM,EGDAM,unlocode_like_unverified,1
+EGDAM>>SGSIN,SGSIN,unlocode_like_unverified,1
+EGPSD>GBTBY,GBTBY,unlocode_like_unverified,1
+EGPSW,EGPSW,unlocode_like_unverified,1
+ES CAS,ESCAS,unlocode_like_unverified,1
+ES TAR,ESTAR,unlocode_like_unverified,1
+ES VLC,ESVLC,exact_unlocode,1
+ES VLC > ITTAR,ITTAR,route_terminal_unlocode,1
+ESBCN,ESBCN,unlocode_like_unverified,1
+ESTAR,ESTAR,unlocode_like_unverified,1
+ESVGO,ESVGO,unlocode_like_unverified,1
+ESVLC,ESVLC,exact_unlocode,1
+FIUMICINO ITALY,TEXT:FIUMICINO ITALY,unresolved_text,1
+FO,FOR_ORDERS,for_orders,1
+FOR ORD,TEXT:FOR ORD,unresolved_text,1
+FR FOS,FRFOS,unlocode_like_unverified,1
+FRLAV,FRLAV,unlocode_like_unverified,1
+GALVESTON FOR ORDER,FOR_ORDERS,for_orders,1
+GB PTB,GBPTB,unlocode_like_unverified,1
+GBBRS,GBBRS,unlocode_like_unverified,1
+GBFXT,GBFXT,unlocode_like_unverified,1
+GBPTI,GBPTI,unlocode_like_unverified,1
+GBPTL,GBPTL,unlocode_like_unverified,1
+GI GIB>TR CKZ,TRCKZ,unlocode_like_unverified,1
+GIBRALTAR FOR ORDER,FOR_ORDERS,for_orders,1
+GIBRALTAR FOR ORDERS,FOR_ORDERS,for_orders,1
+GIGIB 0004,TEXT:GIGIB 0004,unresolved_text,1
+GIOIA TAURO,ITGIT,curated_alias,1
+GN KMR,GNKMR,unlocode_like_unverified,1
+GR AST,GRAST,unlocode_like_unverified,1
+GR CHQ,GRCHQ,unlocode_like_unverified,1
+GR GPA,GRGPA,unlocode_like_unverified,1
+GRGPA,GRGPA,unlocode_like_unverified,1
+GRPIR>>>ITGOA,ITGOA,route_terminal_unlocode,1
+GRPIR>GIGIB,GIGIB,route_terminal_unlocode,1
+HR RJK,HRRJK,unlocode_like_unverified,1
+HRDBV>MTMLA,MTMLA,route_terminal_unlocode,1
+HRZAD,HRZAD,unlocode_like_unverified,1
+ILASH,ILASH,unlocode_like_unverified,1
+ILHFA,ILHFA,unlocode_like_unverified,1
+IMMINGHAM,TEXT:IMMINGHAM,unresolved_text,1
+IN PORT,NON_SPECIFIC,non_specific,1
+ISKENDERUN,TEXT:ISKENDERUN,unresolved_text,1
+IT AUG > TR DER,TRDER,unlocode_like_unverified,1
+IT CAG,ITCAG,unlocode_like_unverified,1
+IT CHI,ITCHI,unlocode_like_unverified,1
+IT CRV,ITCRV,unlocode_like_unverified,1
+IT GOA,ITGOA,exact_unlocode,1
+IT LIV,ITLIV,exact_unlocode,1
+IT LVN VIA MESSINA,TEXT:IT LVN VIA MESSINA,unresolved_text,1
+IT PALERMO,ITPMO,curated_alias,1
+IT PFX,ITPFX,unlocode_like_unverified,1
+IT PZL,ITPZL,unlocode_like_unverified,1
+IT TARANTO,TEXT:IT TARANTO,unresolved_text,1
+IT TRI,ITTRI,unlocode_like_unverified,1
+IT VVA,ITVVA,unlocode_like_unverified,1
+ITAOI,ITAOI,unlocode_like_unverified,1
+ITAUG>EGEDK,EGEDK,unlocode_like_unverified,1
+ITAUG>ESVLC,ESVLC,route_terminal_unlocode,1
+ITAUG>ITSPA,ITSPA,route_terminal_unlocode,1
+ITBDS,ITBDS,unlocode_like_unverified,1
+ITBRI,ITBRI,unlocode_like_unverified,1
+ITCHI,ITCHI,unlocode_like_unverified,1
+ITCTA>ITGOA,ITGOA,route_terminal_unlocode,1
+ITCTA>ITSAL,ITSAL,unlocode_like_unverified,1
+ITCVV,ITCVV,unlocode_like_unverified,1
+ITFCO,ITFCO,unlocode_like_unverified,1
+ITGEA,ITGEA,unlocode_like_unverified,1
+ITGIT>>>>>ITRAN,ITRAN,route_terminal_unlocode,1
+ITGIT>LYMRA,LYMRA,unlocode_like_unverified,1
+ITMEI,ITMEI,unlocode_like_unverified,1
+ITMFR,ITMFR,unlocode_like_unverified,1
+ITMLZ,ITMLZ,exact_unlocode,1
+ITMNF,ITMNF,unlocode_like_unverified,1
+ITMSN,ITMSN,unlocode_like_unverified,1
+ITPNG,ITPNG,unlocode_like_unverified,1
+ITSAL,ITSAL,unlocode_like_unverified,1
+ITSAL>ITCTA,ITCTA,route_terminal_unlocode,1
+ITSIR,ITSIR,exact_unlocode,1
+ITSPE,ITSPE,unlocode_like_unverified,1
+ITSVN,ITSVN,unlocode_like_unverified,1
+ITTOA,ITTOA,unlocode_like_unverified,1
+KOPER,KOPER,unlocode_like_unverified,1
+LB BEY,LBBEY,unlocode_like_unverified,1
+LB SEL,LBSEL,unlocode_like_unverified,1
+LBBEY,LBBEY,unlocode_like_unverified,1
+LYESI>HROMI,HROMI,unlocode_like_unverified,1
+LYTIP,LYTIP,unlocode_like_unverified,1
+MA VALLETTA,TEXT:MA VALLETTA,unresolved_text,1
+MAPTM,MAPTM,unlocode_like_unverified,1
+MAPTM EGPSE,TEXT:MAPTM EGPSE,unresolved_text,1
+MARE,NON_SPECIFIC,non_specific,1
+MARSAXLOKK,MTMAR,curated_alias,1
+MESSINA>MILAZZO,ITMLZ,route_terminal_alias,1
+MT MLA > GR GYT,GRGYT,unlocode_like_unverified,1
+MTMAR SIKOP,TEXT:MTMAR SIKOP,unresolved_text,1
+MTMLA>ITCTA,ITCTA,route_terminal_unlocode,1
+MYTPP>>EGPSD,EGPSD,route_terminal_unlocode,1
+MYTPP>EGPSE,EGPSE,unlocode_like_unverified,1
+NAPLES,ITNAP,curated_alias,1
+NL RTM,NLRTM,exact_unlocode,1
+NL TNZ,NLTNZ,unlocode_like_unverified,1
+NLMOE,NLMOE,unlocode_like_unverified,1
+NLRTM>EGSKT,EGSKT,unlocode_like_unverified,1
+OMSLV>>EGPSD,EGPSD,route_terminal_unlocode,1
+ORAN ALGERIA,TEXT:ORAN ALGERIA,unresolved_text,1
+P P URUGUAY,TEXT:P P URUGUAY,unresolved_text,1
+PALERMO,ITPMO,curated_alias,1
+PIRAEUS,GRPIR,curated_alias,1
+PLGDN,PLGDN,unlocode_like_unverified,1
+PLSZZ,PLSZZ,unlocode_like_unverified,1
+PORTSAID,EGPSD,conservative_fuzzy,1
+POZZUOLI S A F,TEXT:POZZUOLI S A F,unresolved_text,1
+PRIMORSK,TEXT:PRIMORSK,unresolved_text,1
+PT AVE,PTAVE,unlocode_like_unverified,1
+RAVENNA,ITRAN,curated_alias,1
+RO MID,ROMID,unlocode_like_unverified,1
+RU ULU,RUULU,unlocode_like_unverified,1
+RULED,RULED,unlocode_like_unverified,1
+RUMKK,RUMKK,unlocode_like_unverified,1
+S PANAGIA,ITSPA,curated_alias,1
+SANTA PANAGIA,ITSPA,curated_alias,1
+SGSIN,SGSIN,unlocode_like_unverified,1
+SGSIN PEBGA,TEXT:SGSIN PEBGA,unresolved_text,1
+SHENGJIN,TEXT:SHENGJIN,unresolved_text,1
+SI KOP,SIKOP,unlocode_like_unverified,1
+SIRACUSA,ITSIR,curated_alias,1
+SKAGEN,TEXT:SKAGEN,unresolved_text,1
+SKAW FOR ORDERS,FOR_ORDERS,for_orders,1
+SUEZ EG,TEXT:SUEZ EG,unresolved_text,1
+SUEZ FOR ORDER,FOR_ORDERS,for_orders,1
+TALLINN,TEXT:TALLINN,unresolved_text,1
+TANGER MED2,TEXT:TANGER MED2,unresolved_text,1
+TN BIZ,TNBIZ,unlocode_like_unverified,1
+TNSFA,TNSFA,unlocode_like_unverified,1
+TOROS GABRE,TEXT:TOROS GABRE,unresolved_text,1
+TR CEY,TRCEY,unlocode_like_unverified,1
+TR CKZ,TRCKZ,unlocode_like_unverified,1
+TR DRC,TRDRC,unlocode_like_unverified,1
+TR ERE,TRERE,unlocode_like_unverified,1
+TR GEB,TRGEB,unlocode_like_unverified,1
+TR IST,TRIST,unlocode_like_unverified,1
+TR IZT,TRIZT,unlocode_like_unverified,1
+TR TUT,TRTUT,unlocode_like_unverified,1
+TR ZON,TRZON,unlocode_like_unverified,1
+TRALI>MTMLA,MTMLA,route_terminal_unlocode,1
+TRAMR,TRAMR,unlocode_like_unverified,1
+TRCEY,TRCEY,unlocode_like_unverified,1
+TRHAY,TRHAY,unlocode_like_unverified,1
+TRIZM,TRIZM,unlocode_like_unverified,1
+TRIZT,TRIZT,unlocode_like_unverified,1
+TRMER,TRMER,unlocode_like_unverified,1
+TRTEK,TRTEK,unlocode_like_unverified,1
+TRTUZ,TRTUZ,unlocode_like_unverified,1
+TRYAL,TRYAL,unlocode_like_unverified,1
+US LCH,USLCH,unlocode_like_unverified,1
+US PEF > TR MRM,TRMRM,unlocode_like_unverified,1
+USCMU,USCMU,unlocode_like_unverified,1
+USNSS,USNSS,unlocode_like_unverified,1
+VALLETTA,MTMLA,curated_alias,1
+W AFRICA,TEXT:W AFRICA,unresolved_text,1
+WORKSITE,NON_SPECIFIC,non_specific,1

@@ -1,0 +1,31 @@
+{
+  "milestone": "M18A",
+  "version": "m18a-prediction-contract-frozen-baseline-v1-20260923",
+  "status": "FROZEN_BASELINE_AND_CONTRACT",
+  "model_change": false,
+  "prediction_artifact_rewrite": false,
+  "point_champion": "M16G",
+  "uncertainty_sidecar": "M16H",
+  "development_population": 386,
+  "blocked_old_final_population": 53,
+  "fresh_holdout_opened": false,
+  "immutable_baseline_sha256": {
+    "data/derived/m10_reference_rows.pkl.gz": "997e4220b46a4ab09abced1b1e7e5fc76d4424ea583cabe1d554a71a6536893e",
+    "reports/M16A_DEVELOPMENT_MANIFEST.json": "a33e80fcd0efb62bf6aefd61eed460013d04849355a721941f1bc1c8ddbf894d",
+    "reports/M16G_SUMMARY.json": "de1e47613ea5ec7a5bfea140db170d936a934f3ee62e388ad4a543a7cff1bdb5",
+    "reports/M16G_MIXTURE_FREEZE.json": "ca6ccc96327b9404964bfc7586bee2ceb7f29a8c9caa6fe14028cf69ee2fad1d",
+    "reports/m16g_oof_predictions.csv": "cd8128d27e3a3d4232ff1758b78f6b48e3f14238dee272f9192ef74aca8af684",
+    "reports/M16H_SUMMARY.json": "abfdb2ca99e3e9b0d3097566ffb029577ac285e7747b9cd222c14396e9306d0f",
+    "reports/M16H_PROBABILISTIC_FREEZE.json": "79526e72d72f71167598622f179fc83d6f3b463336dcfc275f91a5899e6d834c",
+    "reports/M16_FINAL_FREEZE.json": "c76c9af7316a6bd9ab803def9e97e5cb9bfbdfa2421cab290baa2d291ea2769b",
+    "reports/M17G_STRONG_SSL_FREEZE.json": "412091e411e4f4d3de875ecba940e1db722543b932ae8a9d2da27fe3eedf46d1",
+    "reports/M17H_CONSERVATIVE_INTEGRATION_FREEZE.json": "69fb966411cd83a267cb248bd864a7856f5bcbc8c7c3da2703d531e4bef9c17d",
+    "dist/ais_eta_takehome_submission_final.zip": "65684d016775deea6b111db1a3ad76fe442cf84f1ceb1ac17f4327ea145c553c"
+  },
+  "contract_artifact_sha256": {
+    "reports/M18A_PREDICTION_CONTRACT.json": "1863df5e5c34675edaf26a71d9bc1d444dc0880cd28eebefba39b6963b94eb63",
+    "reports/M18A_REPORT.md": "7b642baf2731b68be4616655f649c1507a8547cade59b5102999b3f8e91044c9",
+    "reports/m18a_frozen_baseline_metrics.csv": "a2c5347c8cc8989ecfb11a652b16c31618a3d2f5be5b060682539625cffbfd6d",
+    "docs/M18A_PREDICTION_CONTRACT.md": "75bde629d9027db3f4233164f9ba39c7fa8fabdec078bdab684fbd3da787388d"
+  }
+}

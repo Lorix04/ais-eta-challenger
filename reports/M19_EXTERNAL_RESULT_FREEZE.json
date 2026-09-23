@@ -1,0 +1,88 @@
+{
+  "milestone": "M19_EXTERNAL_OPENING",
+  "status": "ONE_SHOT_COMPLETED__NO_RETUNING_ON_MMDEC",
+  "source": "MMDEC v1 / 10.5281/zenodo.17491518",
+  "rows": 500,
+  "source_integrity": {
+    "Dataset_AIS_POS.parquet": {
+      "md5": "12b824d26488e381680b2de90090cc2c",
+      "sha256": "88998c43f7e152710c3b157cf47c8119cdef05554d2a6d32e980ce36101b5785",
+      "bytes": 450935970
+    },
+    "Dataset_AIS_SPEC.parquet": {
+      "md5": "f1dd53064868fa078c714986991c3941",
+      "sha256": "58324a031088b312f4c2e80cb6cdbc3c979fa14ff3c2164f48635833b0e4ac44",
+      "bytes": 209957042
+    }
+  },
+  "prelabel_prediction_ledger_sha256": "41466369f9e30ef5618d85cb69b106f05633bce3b78f5b553acaea3c526adf44",
+  "opening_manifest_sha256": "ecc3c4048bc96228004ca6932196a780d82f65a580456fa6fbffabf2a038680e",
+  "label_ledger_sha256": "a1a0c81bf14916c3cd790fe8dd456732bf9ce20a14d576b4570537d983687834",
+  "gate_freeze_sha256": "a161f993b4dcd11701ca4d5a56c90c6a1c0b3a86745b45632abd9dacbc04be21",
+  "scoring_bundle_sha256": "682619085b60beed4ea25084e492fdd1516e30f230bcfd1c5e5bc12c73348078",
+  "results": {
+    "milestone": "M18G_EXTERNAL_EVALUATION",
+    "gate_freeze_sha256": "a161f993b4dcd11701ca4d5a56c90c6a1c0b3a86745b45632abd9dacbc04be21",
+    "prediction_ledger_sha256": "41466369f9e30ef5618d85cb69b106f05633bce3b78f5b553acaea3c526adf44",
+    "label_ledger_sha256": "a1a0c81bf14916c3cd790fe8dd456732bf9ce20a14d576b4570537d983687834",
+    "rows": 500,
+    "point_model": {
+      "decision": "NOT_EVALUATED_NO_PRELABEL_POINT_CANDIDATE_REGISTERED"
+    },
+    "selective_eta": {
+      "decision": "DO_NOT_EXTERNALLY_VALIDATE_M18F_LAYER",
+      "frozen_risk_threshold_h": 61.116040125,
+      "n": 500,
+      "retained_rows": 76,
+      "deferred_rows": 424,
+      "realized_coverage": 0.152,
+      "full_mae_h": 550.4090836774562,
+      "retained_mae_h": 342.5452118163502,
+      "deferred_mae_h": 587.6677022185979,
+      "retained_interval_empirical_coverage": 0.6973684210526315,
+      "risk_abs_error_spearman": 0.32631597234898746,
+      "selection_conditional_conformal_guarantee_claimed": false
+    },
+    "no_retuning_on_same_holdout": true
+  },
+  "label_status_counts": {
+    "FUTURE_0_7D": 197,
+    "FUTURE_14_30D": 14,
+    "FUTURE_7_14D": 27,
+    "FUTURE_GT30D": 38,
+    "PAST_1_24H": 44,
+    "PAST_GT24H": 178,
+    "PAST_LT1H": 2
+  },
+  "interpretation": {
+    "official_external_full_mae_h": 550.4090836774562,
+    "m18f_selective_external_decision": "DO_NOT_EXTERNALLY_VALIDATE_M18F_LAYER",
+    "point_candidate_gate": "NOT_EVALUATED_NO_PRELABEL_POINT_CANDIDATE_REGISTERED",
+    "posthoc_future_0_7d_mae_h": 38.35989830960275,
+    "posthoc_future_0_7d_n": 197,
+    "posthoc_only": true
+  },
+  "no_retuning_on_same_holdout": true,
+  "invalidated_decoder_incident": "An earlier experimental fallback Parquet decode was invalidated before this sealed run because dictionary indices >8 bits were truncated. It is not used in any M19 metric or tuning decision.",
+  "post_seal_plumbing_fix": "Label reveal initially failed before reading ETA values because pandas itertuples renamed _decision_ns; accessor was fixed without changing the sealed prediction ledger or any frozen model/gate parameter.",
+  "artifact_sha256": {
+    "src/ais_eta/m19.py": "9a4b8efcce4dd39ff7fac3413d26b74bf653cc43260776d9b02f66e5b73ef110",
+    "src/ais_eta/m19_parquet_lite.py": "0b906e9e9becdc6c3e1c7126b61b7855ba168033715f14f127e5fd1a18a23f7c",
+    "src/ais_eta/m19_mmdec_stream.py": "1f6c4f149260aa5014c2731505b453741d564e12b2cfd5ff69f0b31a685b562f",
+    "scripts/109_m18g_evaluate_external_holdout.py": "f05e2c070940e24dbcb841eb36572f41448c8ef969dfba82d077affd15c6aa48",
+    "scripts/113_m19_prepare_mmdec_holdout.py": "cde2519507b2d918898ae03c3c35a81f082f9e29a4058c20f04432e44c5ddcbd",
+    "scripts/114_m19_reveal_mmdec_labels.py": "d7d40d26778a2d7a9da3ce8681cd51f76851436658b56e3b24d10172b931d794",
+    "tests/test_m19.py": "962271bfe13b0d61edd3c4863f181f0c4f4bd449b21e8a4c5a0fc498a032e57b",
+    "tests/test_m19_parquet_lite.py": "a19f697973ce50ff2c2f85815ffef5ed31a7f295cddf294cfe124a4255fff169",
+    "docs/M19_FRESH_EXTERNAL_HOLDOUT.md": "d59d1c2555f98485c204e95d66f230fc6009a8645b39439fc951e38fe7ec847d",
+    "reports/M19_STATUS.json": "de2257ee5e5740729fa0223f98a215f2716a9989c481dd3ffe8498baaeb35993",
+    "reports/M19_EXTERNAL_REPORT.md": "2e754808d11040ba7a09cc4c3cb96b45bb13c010085c5ab8112905841b001a8f",
+    "reports/M19_EXTERNAL_EVALUATION.json": "74ef6c0e00662bf6305d7e9aeab7733db9fd7e691c696a0470d29aa28f91d98d",
+    "reports/M19_EXTERNAL_OPENING_MANIFEST.json": "ecc3c4048bc96228004ca6932196a780d82f65a580456fa6fbffabf2a038680e",
+    "reports/M19_EXTERNAL_COHORT_PROVENANCE.json": "cabb8a4a4d48b14aa67a2b9a24830136a23d02aa34756d7cb530cdc5576a7f84",
+    "reports/M19_EXTERNAL_LABEL_AUDIT.json": "3547e96ce06ed336e7476d98b875c8acfdcf8192d7e78f0c7a17fb0276c7a4c1",
+    "reports/m19_external_blind_predictions.csv": "41466369f9e30ef5618d85cb69b106f05633bce3b78f5b553acaea3c526adf44",
+    "reports/m19_external_labels.csv": "a1a0c81bf14916c3cd790fe8dd456732bf9ce20a14d576b4570537d983687834",
+    "reports/M19_TESTS_FINAL.txt": "9ee981fcdeae4f6c4cbb85527d761681eca8fcae991d813def51c3eaca90b052"
+  }
+}

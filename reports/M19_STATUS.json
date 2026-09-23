@@ -1,0 +1,18 @@
+{
+  "milestone": "M19",
+  "status": "EXTERNAL_MMDEC_ONE_SHOT_COMPLETED__NO_RETUNING",
+  "external_holdout_opened": true,
+  "external_labels_revealed": true,
+  "external_score_computed": true,
+  "source_selected": "MMDEC v1 / 10.5281/zenodo.17491518",
+  "rows": 500,
+  "full_mae_h": 550.4090836774562,
+  "selective_decision": "DO_NOT_EXTERNALLY_VALIDATE_M18F_LAYER",
+  "selective_coverage": 0.152,
+  "selective_retained_mae_h": 342.5452118163502,
+  "selective_interval_empirical_coverage": 0.6973684210526315,
+  "risk_abs_error_spearman": 0.32631597234898746,
+  "point_model_gate": "NOT_EVALUATED_NO_PRELABEL_POINT_CANDIDATE_REGISTERED",
+  "no_retuning_on_same_holdout": true,
+  "next_action": "Do not tune on MMDEC. Treat this cohort as spent. Any revised model/data adaptation must be frozen on development or a separate adaptation corpus and evaluated on a new untouched external cohort."
+}

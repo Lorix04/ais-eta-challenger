@@ -1,0 +1,38 @@
+FULL PYTEST SUITE EXECUTED IN FOUR SHARDS (runtime limit):
+........................................................................ [ 75%]
+........................                                                 [100%]
+96 passed in 5.95s
+...................................................................      [100%]
+67 passed in 16.76s
+................................                                         [100%]
+32 passed in 11.51s
+......................................................                   [100%]
+54 passed in 5.57s
+TOTAL: 96 + 67 + 32 + 54 = 249 passed
+
+POST-FINAL-PATCH FOCUSED:
+............                                                             [100%]
+12 passed in 5.12s
+
+VERIFIERS:
+PASS M18G frozen external promotion gate and artifact hashes
+PASS historical M18G pre-opening freeze remains immutable (opened/labels/evaluation flags are frozen false by construction)
+PASS M19 records the later one-shot external opening separately; M18G gate freeze was not mutated
+PASS original 439 supervised sample keys frozen and excluded (53 old-final included)
+PASS point gate: paired bootstrap / P90 / four pre-label critical-slice guards frozen
+PASS M18F external selective threshold frozen at 61.116040125 h
+PASS M18G pre-opening readiness rules remain frozen and auditable
+PASS M18G1 bundle SHA-256: 682619085b60beed4ea25084e492fdd1516e30f230bcfd1c5e5bc12c73348078
+PASS development population: 386; old-final blocked: 53
+PASS synthetic blind smoke ledger: 5 rows, label-free
+PASS historical M18G gate freeze untouched
+PASS historical M18G1 registration is unchanged; later M19 opening is tracked separately
+PASS M19 source contract: 10.5281/zenodo.17491518
+PASS M19 current phase: M19_DONE_EXTERNAL_MMDEC_ONE_SHOT_NO_RETUNING
+PASS M19 real external holdout rows: 500
+PASS M19 external full MAE h: 550.4090836774562
+PASS M19 selective decision: DO_NOT_EXTERNALLY_VALIDATE_M18F_LAYER
+PASS MMDEC spent / no-retuning rule: True
+PASS registered M18G1 bundle SHA-256: 682619085b60beed4ea25084e492fdd1516e30f230bcfd1c5e5bc12c73348078
+PASS synthetic target-free adapter -> blind scorer rows: 3
+PASS compileall
